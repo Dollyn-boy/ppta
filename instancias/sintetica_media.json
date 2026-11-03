@@ -1,0 +1,1248 @@
+{
+  "id": "sintetica_media",
+  "descricao": "Instancia sintetica gerada para testes controlados do PAPT.",
+  "criterios_geracao": {
+    "semente": 42,
+    "professores": 6,
+    "disciplinas": 4,
+    "turmas_por_disciplina": 3,
+    "horas_por_turma": 4.0,
+    "slots_por_turma": 2,
+    "significado_slots_por_turma": "quantidade de encontros semanais originais",
+    "duracao_encontro_minutos": 120,
+    "granularidade_minutos": 30,
+    "representacao_horarios": "slots_atomicos",
+    "convencao_intervalos": "[inicio, fim)",
+    "densidade_qualificacao": 0.6,
+    "disponibilidade": 0.8,
+    "perfil_preferencia": "uniforme",
+    "modo_carga": "fixa",
+    "carga_minima": 6.0,
+    "carga_maxima": 12.0,
+    "conflitos": "medio"
+  },
+  "turnos_semanais": [
+    "Seg-mat",
+    "Seg-vesp",
+    "Ter-mat",
+    "Ter-vesp",
+    "Qua-mat",
+    "Qua-vesp",
+    "Qui-mat",
+    "Qui-vesp",
+    "Sex-mat",
+    "Sex-vesp"
+  ],
+  "professores": [
+    {
+      "id": "P01",
+      "nome": "Professor 01",
+      "carga_min": 6.0,
+      "carga_max": 12.0,
+      "afastado": false
+    },
+    {
+      "id": "P02",
+      "nome": "Professor 02",
+      "carga_min": 6.0,
+      "carga_max": 12.0,
+      "afastado": false
+    },
+    {
+      "id": "P03",
+      "nome": "Professor 03",
+      "carga_min": 6.0,
+      "carga_max": 12.0,
+      "afastado": false
+    },
+    {
+      "id": "P04",
+      "nome": "Professor 04",
+      "carga_min": 6.0,
+      "carga_max": 12.0,
+      "afastado": false
+    },
+    {
+      "id": "P05",
+      "nome": "Professor 05",
+      "carga_min": 6.0,
+      "carga_max": 12.0,
+      "afastado": false
+    },
+    {
+      "id": "P06",
+      "nome": "Professor 06",
+      "carga_min": 6.0,
+      "carga_max": 12.0,
+      "afastado": false
+    }
+  ],
+  "turmas": [
+    {
+      "id": "DISC01-T01",
+      "disciplina": "DISC01",
+      "horas": 4.0,
+      "slots": [
+        {
+          "dia": "Ter",
+          "horario": "15:30",
+          "horario_fim": "16:00",
+          "turno": "Ter-vesp"
+        },
+        {
+          "dia": "Ter",
+          "horario": "16:00",
+          "horario_fim": "16:30",
+          "turno": "Ter-vesp"
+        },
+        {
+          "dia": "Ter",
+          "horario": "16:30",
+          "horario_fim": "17:00",
+          "turno": "Ter-vesp"
+        },
+        {
+          "dia": "Ter",
+          "horario": "17:00",
+          "horario_fim": "17:30",
+          "turno": "Ter-vesp"
+        },
+        {
+          "dia": "Qua",
+          "horario": "09:30",
+          "horario_fim": "10:00",
+          "turno": "Qua-mat"
+        },
+        {
+          "dia": "Qua",
+          "horario": "10:00",
+          "horario_fim": "10:30",
+          "turno": "Qua-mat"
+        },
+        {
+          "dia": "Qua",
+          "horario": "10:30",
+          "horario_fim": "11:00",
+          "turno": "Qua-mat"
+        },
+        {
+          "dia": "Qua",
+          "horario": "11:00",
+          "horario_fim": "11:30",
+          "turno": "Qua-mat"
+        }
+      ]
+    },
+    {
+      "id": "DISC01-T02",
+      "disciplina": "DISC01",
+      "horas": 4.0,
+      "slots": [
+        {
+          "dia": "Seg",
+          "horario": "15:30",
+          "horario_fim": "16:00",
+          "turno": "Seg-vesp"
+        },
+        {
+          "dia": "Seg",
+          "horario": "16:00",
+          "horario_fim": "16:30",
+          "turno": "Seg-vesp"
+        },
+        {
+          "dia": "Seg",
+          "horario": "16:30",
+          "horario_fim": "17:00",
+          "turno": "Seg-vesp"
+        },
+        {
+          "dia": "Seg",
+          "horario": "17:00",
+          "horario_fim": "17:30",
+          "turno": "Seg-vesp"
+        },
+        {
+          "dia": "Sex",
+          "horario": "11:30",
+          "horario_fim": "12:00",
+          "turno": "Sex-mat"
+        },
+        {
+          "dia": "Sex",
+          "horario": "12:00",
+          "horario_fim": "12:30",
+          "turno": "Sex-mat"
+        },
+        {
+          "dia": "Sex",
+          "horario": "12:30",
+          "horario_fim": "13:00",
+          "turno": "Sex-mat"
+        },
+        {
+          "dia": "Sex",
+          "horario": "13:00",
+          "horario_fim": "13:30",
+          "turno": "Sex-mat"
+        }
+      ]
+    },
+    {
+      "id": "DISC01-T03",
+      "disciplina": "DISC01",
+      "horas": 4.0,
+      "slots": [
+        {
+          "dia": "Seg",
+          "horario": "13:30",
+          "horario_fim": "14:00",
+          "turno": "Seg-vesp"
+        },
+        {
+          "dia": "Seg",
+          "horario": "14:00",
+          "horario_fim": "14:30",
+          "turno": "Seg-vesp"
+        },
+        {
+          "dia": "Seg",
+          "horario": "14:30",
+          "horario_fim": "15:00",
+          "turno": "Seg-vesp"
+        },
+        {
+          "dia": "Seg",
+          "horario": "15:00",
+          "horario_fim": "15:30",
+          "turno": "Seg-vesp"
+        },
+        {
+          "dia": "Sex",
+          "horario": "13:30",
+          "horario_fim": "14:00",
+          "turno": "Sex-vesp"
+        },
+        {
+          "dia": "Sex",
+          "horario": "14:00",
+          "horario_fim": "14:30",
+          "turno": "Sex-vesp"
+        },
+        {
+          "dia": "Sex",
+          "horario": "14:30",
+          "horario_fim": "15:00",
+          "turno": "Sex-vesp"
+        },
+        {
+          "dia": "Sex",
+          "horario": "15:00",
+          "horario_fim": "15:30",
+          "turno": "Sex-vesp"
+        }
+      ]
+    },
+    {
+      "id": "DISC02-T01",
+      "disciplina": "DISC02",
+      "horas": 4.0,
+      "slots": [
+        {
+          "dia": "Seg",
+          "horario": "11:30",
+          "horario_fim": "12:00",
+          "turno": "Seg-mat"
+        },
+        {
+          "dia": "Seg",
+          "horario": "12:00",
+          "horario_fim": "12:30",
+          "turno": "Seg-mat"
+        },
+        {
+          "dia": "Seg",
+          "horario": "12:30",
+          "horario_fim": "13:00",
+          "turno": "Seg-mat"
+        },
+        {
+          "dia": "Seg",
+          "horario": "13:00",
+          "horario_fim": "13:30",
+          "turno": "Seg-mat"
+        },
+        {
+          "dia": "Qui",
+          "horario": "11:30",
+          "horario_fim": "12:00",
+          "turno": "Qui-mat"
+        },
+        {
+          "dia": "Qui",
+          "horario": "12:00",
+          "horario_fim": "12:30",
+          "turno": "Qui-mat"
+        },
+        {
+          "dia": "Qui",
+          "horario": "12:30",
+          "horario_fim": "13:00",
+          "turno": "Qui-mat"
+        },
+        {
+          "dia": "Qui",
+          "horario": "13:00",
+          "horario_fim": "13:30",
+          "turno": "Qui-mat"
+        }
+      ]
+    },
+    {
+      "id": "DISC02-T02",
+      "disciplina": "DISC02",
+      "horas": 4.0,
+      "slots": [
+        {
+          "dia": "Seg",
+          "horario": "09:30",
+          "horario_fim": "10:00",
+          "turno": "Seg-mat"
+        },
+        {
+          "dia": "Seg",
+          "horario": "10:00",
+          "horario_fim": "10:30",
+          "turno": "Seg-mat"
+        },
+        {
+          "dia": "Seg",
+          "horario": "10:30",
+          "horario_fim": "11:00",
+          "turno": "Seg-mat"
+        },
+        {
+          "dia": "Seg",
+          "horario": "11:00",
+          "horario_fim": "11:30",
+          "turno": "Seg-mat"
+        },
+        {
+          "dia": "Sex",
+          "horario": "09:30",
+          "horario_fim": "10:00",
+          "turno": "Sex-mat"
+        },
+        {
+          "dia": "Sex",
+          "horario": "10:00",
+          "horario_fim": "10:30",
+          "turno": "Sex-mat"
+        },
+        {
+          "dia": "Sex",
+          "horario": "10:30",
+          "horario_fim": "11:00",
+          "turno": "Sex-mat"
+        },
+        {
+          "dia": "Sex",
+          "horario": "11:00",
+          "horario_fim": "11:30",
+          "turno": "Sex-mat"
+        }
+      ]
+    },
+    {
+      "id": "DISC02-T03",
+      "disciplina": "DISC02",
+      "horas": 4.0,
+      "slots": [
+        {
+          "dia": "Ter",
+          "horario": "13:30",
+          "horario_fim": "14:00",
+          "turno": "Ter-vesp"
+        },
+        {
+          "dia": "Ter",
+          "horario": "14:00",
+          "horario_fim": "14:30",
+          "turno": "Ter-vesp"
+        },
+        {
+          "dia": "Ter",
+          "horario": "14:30",
+          "horario_fim": "15:00",
+          "turno": "Ter-vesp"
+        },
+        {
+          "dia": "Ter",
+          "horario": "15:00",
+          "horario_fim": "15:30",
+          "turno": "Ter-vesp"
+        },
+        {
+          "dia": "Sex",
+          "horario": "11:30",
+          "horario_fim": "12:00",
+          "turno": "Sex-mat"
+        },
+        {
+          "dia": "Sex",
+          "horario": "12:00",
+          "horario_fim": "12:30",
+          "turno": "Sex-mat"
+        },
+        {
+          "dia": "Sex",
+          "horario": "12:30",
+          "horario_fim": "13:00",
+          "turno": "Sex-mat"
+        },
+        {
+          "dia": "Sex",
+          "horario": "13:00",
+          "horario_fim": "13:30",
+          "turno": "Sex-mat"
+        }
+      ]
+    },
+    {
+      "id": "DISC03-T01",
+      "disciplina": "DISC03",
+      "horas": 4.0,
+      "slots": [
+        {
+          "dia": "Qui",
+          "horario": "11:30",
+          "horario_fim": "12:00",
+          "turno": "Qui-mat"
+        },
+        {
+          "dia": "Qui",
+          "horario": "12:00",
+          "horario_fim": "12:30",
+          "turno": "Qui-mat"
+        },
+        {
+          "dia": "Qui",
+          "horario": "12:30",
+          "horario_fim": "13:00",
+          "turno": "Qui-mat"
+        },
+        {
+          "dia": "Qui",
+          "horario": "13:00",
+          "horario_fim": "13:30",
+          "turno": "Qui-mat"
+        },
+        {
+          "dia": "Sex",
+          "horario": "11:30",
+          "horario_fim": "12:00",
+          "turno": "Sex-mat"
+        },
+        {
+          "dia": "Sex",
+          "horario": "12:00",
+          "horario_fim": "12:30",
+          "turno": "Sex-mat"
+        },
+        {
+          "dia": "Sex",
+          "horario": "12:30",
+          "horario_fim": "13:00",
+          "turno": "Sex-mat"
+        },
+        {
+          "dia": "Sex",
+          "horario": "13:00",
+          "horario_fim": "13:30",
+          "turno": "Sex-mat"
+        }
+      ]
+    },
+    {
+      "id": "DISC03-T02",
+      "disciplina": "DISC03",
+      "horas": 4.0,
+      "slots": [
+        {
+          "dia": "Ter",
+          "horario": "15:30",
+          "horario_fim": "16:00",
+          "turno": "Ter-vesp"
+        },
+        {
+          "dia": "Ter",
+          "horario": "16:00",
+          "horario_fim": "16:30",
+          "turno": "Ter-vesp"
+        },
+        {
+          "dia": "Ter",
+          "horario": "16:30",
+          "horario_fim": "17:00",
+          "turno": "Ter-vesp"
+        },
+        {
+          "dia": "Ter",
+          "horario": "17:00",
+          "horario_fim": "17:30",
+          "turno": "Ter-vesp"
+        },
+        {
+          "dia": "Qui",
+          "horario": "13:30",
+          "horario_fim": "14:00",
+          "turno": "Qui-vesp"
+        },
+        {
+          "dia": "Qui",
+          "horario": "14:00",
+          "horario_fim": "14:30",
+          "turno": "Qui-vesp"
+        },
+        {
+          "dia": "Qui",
+          "horario": "14:30",
+          "horario_fim": "15:00",
+          "turno": "Qui-vesp"
+        },
+        {
+          "dia": "Qui",
+          "horario": "15:00",
+          "horario_fim": "15:30",
+          "turno": "Qui-vesp"
+        }
+      ]
+    },
+    {
+      "id": "DISC03-T03",
+      "disciplina": "DISC03",
+      "horas": 4.0,
+      "slots": [
+        {
+          "dia": "Seg",
+          "horario": "09:30",
+          "horario_fim": "10:00",
+          "turno": "Seg-mat"
+        },
+        {
+          "dia": "Seg",
+          "horario": "10:00",
+          "horario_fim": "10:30",
+          "turno": "Seg-mat"
+        },
+        {
+          "dia": "Seg",
+          "horario": "10:30",
+          "horario_fim": "11:00",
+          "turno": "Seg-mat"
+        },
+        {
+          "dia": "Seg",
+          "horario": "11:00",
+          "horario_fim": "11:30",
+          "turno": "Seg-mat"
+        },
+        {
+          "dia": "Ter",
+          "horario": "11:30",
+          "horario_fim": "12:00",
+          "turno": "Ter-mat"
+        },
+        {
+          "dia": "Ter",
+          "horario": "12:00",
+          "horario_fim": "12:30",
+          "turno": "Ter-mat"
+        },
+        {
+          "dia": "Ter",
+          "horario": "12:30",
+          "horario_fim": "13:00",
+          "turno": "Ter-mat"
+        },
+        {
+          "dia": "Ter",
+          "horario": "13:00",
+          "horario_fim": "13:30",
+          "turno": "Ter-mat"
+        }
+      ]
+    },
+    {
+      "id": "DISC04-T01",
+      "disciplina": "DISC04",
+      "horas": 4.0,
+      "slots": [
+        {
+          "dia": "Ter",
+          "horario": "09:30",
+          "horario_fim": "10:00",
+          "turno": "Ter-mat"
+        },
+        {
+          "dia": "Ter",
+          "horario": "10:00",
+          "horario_fim": "10:30",
+          "turno": "Ter-mat"
+        },
+        {
+          "dia": "Ter",
+          "horario": "10:30",
+          "horario_fim": "11:00",
+          "turno": "Ter-mat"
+        },
+        {
+          "dia": "Ter",
+          "horario": "11:00",
+          "horario_fim": "11:30",
+          "turno": "Ter-mat"
+        },
+        {
+          "dia": "Qua",
+          "horario": "09:30",
+          "horario_fim": "10:00",
+          "turno": "Qua-mat"
+        },
+        {
+          "dia": "Qua",
+          "horario": "10:00",
+          "horario_fim": "10:30",
+          "turno": "Qua-mat"
+        },
+        {
+          "dia": "Qua",
+          "horario": "10:30",
+          "horario_fim": "11:00",
+          "turno": "Qua-mat"
+        },
+        {
+          "dia": "Qua",
+          "horario": "11:00",
+          "horario_fim": "11:30",
+          "turno": "Qua-mat"
+        }
+      ]
+    },
+    {
+      "id": "DISC04-T02",
+      "disciplina": "DISC04",
+      "horas": 4.0,
+      "slots": [
+        {
+          "dia": "Ter",
+          "horario": "13:30",
+          "horario_fim": "14:00",
+          "turno": "Ter-vesp"
+        },
+        {
+          "dia": "Ter",
+          "horario": "14:00",
+          "horario_fim": "14:30",
+          "turno": "Ter-vesp"
+        },
+        {
+          "dia": "Ter",
+          "horario": "14:30",
+          "horario_fim": "15:00",
+          "turno": "Ter-vesp"
+        },
+        {
+          "dia": "Ter",
+          "horario": "15:00",
+          "horario_fim": "15:30",
+          "turno": "Ter-vesp"
+        },
+        {
+          "dia": "Qua",
+          "horario": "13:30",
+          "horario_fim": "14:00",
+          "turno": "Qua-vesp"
+        },
+        {
+          "dia": "Qua",
+          "horario": "14:00",
+          "horario_fim": "14:30",
+          "turno": "Qua-vesp"
+        },
+        {
+          "dia": "Qua",
+          "horario": "14:30",
+          "horario_fim": "15:00",
+          "turno": "Qua-vesp"
+        },
+        {
+          "dia": "Qua",
+          "horario": "15:00",
+          "horario_fim": "15:30",
+          "turno": "Qua-vesp"
+        }
+      ]
+    },
+    {
+      "id": "DISC04-T03",
+      "disciplina": "DISC04",
+      "horas": 4.0,
+      "slots": [
+        {
+          "dia": "Seg",
+          "horario": "15:30",
+          "horario_fim": "16:00",
+          "turno": "Seg-vesp"
+        },
+        {
+          "dia": "Seg",
+          "horario": "16:00",
+          "horario_fim": "16:30",
+          "turno": "Seg-vesp"
+        },
+        {
+          "dia": "Seg",
+          "horario": "16:30",
+          "horario_fim": "17:00",
+          "turno": "Seg-vesp"
+        },
+        {
+          "dia": "Seg",
+          "horario": "17:00",
+          "horario_fim": "17:30",
+          "turno": "Seg-vesp"
+        },
+        {
+          "dia": "Qui",
+          "horario": "09:30",
+          "horario_fim": "10:00",
+          "turno": "Qui-mat"
+        },
+        {
+          "dia": "Qui",
+          "horario": "10:00",
+          "horario_fim": "10:30",
+          "turno": "Qui-mat"
+        },
+        {
+          "dia": "Qui",
+          "horario": "10:30",
+          "horario_fim": "11:00",
+          "turno": "Qui-mat"
+        },
+        {
+          "dia": "Qui",
+          "horario": "11:00",
+          "horario_fim": "11:30",
+          "turno": "Qui-mat"
+        }
+      ]
+    }
+  ],
+  "pares_professor_turma": [
+    {
+      "professor": "P01",
+      "turma": "DISC01-T01",
+      "qualificado": true,
+      "disponivel": true,
+      "preferencia": 2
+    },
+    {
+      "professor": "P01",
+      "turma": "DISC01-T02",
+      "qualificado": false,
+      "disponivel": true,
+      "preferencia": 0
+    },
+    {
+      "professor": "P01",
+      "turma": "DISC01-T03",
+      "qualificado": false,
+      "disponivel": true,
+      "preferencia": 0
+    },
+    {
+      "professor": "P01",
+      "turma": "DISC02-T01",
+      "qualificado": true,
+      "disponivel": true,
+      "preferencia": 5
+    },
+    {
+      "professor": "P01",
+      "turma": "DISC02-T02",
+      "qualificado": false,
+      "disponivel": false,
+      "preferencia": 0
+    },
+    {
+      "professor": "P01",
+      "turma": "DISC02-T03",
+      "qualificado": true,
+      "disponivel": true,
+      "preferencia": 5
+    },
+    {
+      "professor": "P01",
+      "turma": "DISC03-T01",
+      "qualificado": true,
+      "disponivel": true,
+      "preferencia": 1
+    },
+    {
+      "professor": "P01",
+      "turma": "DISC03-T02",
+      "qualificado": false,
+      "disponivel": false,
+      "preferencia": 0
+    },
+    {
+      "professor": "P01",
+      "turma": "DISC03-T03",
+      "qualificado": false,
+      "disponivel": true,
+      "preferencia": 0
+    },
+    {
+      "professor": "P01",
+      "turma": "DISC04-T01",
+      "qualificado": false,
+      "disponivel": true,
+      "preferencia": 0
+    },
+    {
+      "professor": "P01",
+      "turma": "DISC04-T02",
+      "qualificado": true,
+      "disponivel": true,
+      "preferencia": 5
+    },
+    {
+      "professor": "P01",
+      "turma": "DISC04-T03",
+      "qualificado": false,
+      "disponivel": true,
+      "preferencia": 0
+    },
+    {
+      "professor": "P02",
+      "turma": "DISC01-T01",
+      "qualificado": false,
+      "disponivel": true,
+      "preferencia": 0
+    },
+    {
+      "professor": "P02",
+      "turma": "DISC01-T02",
+      "qualificado": true,
+      "disponivel": true,
+      "preferencia": 1
+    },
+    {
+      "professor": "P02",
+      "turma": "DISC01-T03",
+      "qualificado": true,
+      "disponivel": true,
+      "preferencia": 5
+    },
+    {
+      "professor": "P02",
+      "turma": "DISC02-T01",
+      "qualificado": false,
+      "disponivel": true,
+      "preferencia": 0
+    },
+    {
+      "professor": "P02",
+      "turma": "DISC02-T02",
+      "qualificado": false,
+      "disponivel": true,
+      "preferencia": 0
+    },
+    {
+      "professor": "P02",
+      "turma": "DISC02-T03",
+      "qualificado": false,
+      "disponivel": false,
+      "preferencia": 0
+    },
+    {
+      "professor": "P02",
+      "turma": "DISC03-T01",
+      "qualificado": true,
+      "disponivel": true,
+      "preferencia": 4
+    },
+    {
+      "professor": "P02",
+      "turma": "DISC03-T02",
+      "qualificado": true,
+      "disponivel": true,
+      "preferencia": 5
+    },
+    {
+      "professor": "P02",
+      "turma": "DISC03-T03",
+      "qualificado": true,
+      "disponivel": true,
+      "preferencia": 3
+    },
+    {
+      "professor": "P02",
+      "turma": "DISC04-T01",
+      "qualificado": false,
+      "disponivel": true,
+      "preferencia": 0
+    },
+    {
+      "professor": "P02",
+      "turma": "DISC04-T02",
+      "qualificado": true,
+      "disponivel": true,
+      "preferencia": 4
+    },
+    {
+      "professor": "P02",
+      "turma": "DISC04-T03",
+      "qualificado": true,
+      "disponivel": true,
+      "preferencia": 3
+    },
+    {
+      "professor": "P03",
+      "turma": "DISC01-T01",
+      "qualificado": false,
+      "disponivel": true,
+      "preferencia": 0
+    },
+    {
+      "professor": "P03",
+      "turma": "DISC01-T02",
+      "qualificado": false,
+      "disponivel": true,
+      "preferencia": 0
+    },
+    {
+      "professor": "P03",
+      "turma": "DISC01-T03",
+      "qualificado": true,
+      "disponivel": true,
+      "preferencia": 0
+    },
+    {
+      "professor": "P03",
+      "turma": "DISC02-T01",
+      "qualificado": false,
+      "disponivel": false,
+      "preferencia": 0
+    },
+    {
+      "professor": "P03",
+      "turma": "DISC02-T02",
+      "qualificado": false,
+      "disponivel": true,
+      "preferencia": 0
+    },
+    {
+      "professor": "P03",
+      "turma": "DISC02-T03",
+      "qualificado": true,
+      "disponivel": true,
+      "preferencia": 4
+    },
+    {
+      "professor": "P03",
+      "turma": "DISC03-T01",
+      "qualificado": false,
+      "disponivel": true,
+      "preferencia": 0
+    },
+    {
+      "professor": "P03",
+      "turma": "DISC03-T02",
+      "qualificado": false,
+      "disponivel": true,
+      "preferencia": 0
+    },
+    {
+      "professor": "P03",
+      "turma": "DISC03-T03",
+      "qualificado": true,
+      "disponivel": true,
+      "preferencia": 0
+    },
+    {
+      "professor": "P03",
+      "turma": "DISC04-T01",
+      "qualificado": false,
+      "disponivel": true,
+      "preferencia": 0
+    },
+    {
+      "professor": "P03",
+      "turma": "DISC04-T02",
+      "qualificado": false,
+      "disponivel": true,
+      "preferencia": 0
+    },
+    {
+      "professor": "P03",
+      "turma": "DISC04-T03",
+      "qualificado": true,
+      "disponivel": true,
+      "preferencia": 5
+    },
+    {
+      "professor": "P04",
+      "turma": "DISC01-T01",
+      "qualificado": false,
+      "disponivel": true,
+      "preferencia": 0
+    },
+    {
+      "professor": "P04",
+      "turma": "DISC01-T02",
+      "qualificado": false,
+      "disponivel": true,
+      "preferencia": 0
+    },
+    {
+      "professor": "P04",
+      "turma": "DISC01-T03",
+      "qualificado": false,
+      "disponivel": true,
+      "preferencia": 0
+    },
+    {
+      "professor": "P04",
+      "turma": "DISC02-T01",
+      "qualificado": true,
+      "disponivel": true,
+      "preferencia": 4
+    },
+    {
+      "professor": "P04",
+      "turma": "DISC02-T02",
+      "qualificado": false,
+      "disponivel": true,
+      "preferencia": 0
+    },
+    {
+      "professor": "P04",
+      "turma": "DISC02-T03",
+      "qualificado": true,
+      "disponivel": true,
+      "preferencia": 4
+    },
+    {
+      "professor": "P04",
+      "turma": "DISC03-T01",
+      "qualificado": false,
+      "disponivel": true,
+      "preferencia": 0
+    },
+    {
+      "professor": "P04",
+      "turma": "DISC03-T02",
+      "qualificado": true,
+      "disponivel": false,
+      "preferencia": 0
+    },
+    {
+      "professor": "P04",
+      "turma": "DISC03-T03",
+      "qualificado": true,
+      "disponivel": true,
+      "preferencia": 4
+    },
+    {
+      "professor": "P04",
+      "turma": "DISC04-T01",
+      "qualificado": true,
+      "disponivel": true,
+      "preferencia": 0
+    },
+    {
+      "professor": "P04",
+      "turma": "DISC04-T02",
+      "qualificado": true,
+      "disponivel": true,
+      "preferencia": 0
+    },
+    {
+      "professor": "P04",
+      "turma": "DISC04-T03",
+      "qualificado": false,
+      "disponivel": true,
+      "preferencia": 0
+    },
+    {
+      "professor": "P05",
+      "turma": "DISC01-T01",
+      "qualificado": true,
+      "disponivel": true,
+      "preferencia": 4
+    },
+    {
+      "professor": "P05",
+      "turma": "DISC01-T02",
+      "qualificado": true,
+      "disponivel": true,
+      "preferencia": 4
+    },
+    {
+      "professor": "P05",
+      "turma": "DISC01-T03",
+      "qualificado": true,
+      "disponivel": true,
+      "preferencia": 4
+    },
+    {
+      "professor": "P05",
+      "turma": "DISC02-T01",
+      "qualificado": false,
+      "disponivel": true,
+      "preferencia": 0
+    },
+    {
+      "professor": "P05",
+      "turma": "DISC02-T02",
+      "qualificado": true,
+      "disponivel": true,
+      "preferencia": 2
+    },
+    {
+      "professor": "P05",
+      "turma": "DISC02-T03",
+      "qualificado": true,
+      "disponivel": true,
+      "preferencia": 2
+    },
+    {
+      "professor": "P05",
+      "turma": "DISC03-T01",
+      "qualificado": true,
+      "disponivel": true,
+      "preferencia": 0
+    },
+    {
+      "professor": "P05",
+      "turma": "DISC03-T02",
+      "qualificado": true,
+      "disponivel": true,
+      "preferencia": 0
+    },
+    {
+      "professor": "P05",
+      "turma": "DISC03-T03",
+      "qualificado": true,
+      "disponivel": true,
+      "preferencia": 1
+    },
+    {
+      "professor": "P05",
+      "turma": "DISC04-T01",
+      "qualificado": true,
+      "disponivel": true,
+      "preferencia": 0
+    },
+    {
+      "professor": "P05",
+      "turma": "DISC04-T02",
+      "qualificado": true,
+      "disponivel": true,
+      "preferencia": 1
+    },
+    {
+      "professor": "P05",
+      "turma": "DISC04-T03",
+      "qualificado": true,
+      "disponivel": true,
+      "preferencia": 2
+    },
+    {
+      "professor": "P06",
+      "turma": "DISC01-T01",
+      "qualificado": true,
+      "disponivel": true,
+      "preferencia": 5
+    },
+    {
+      "professor": "P06",
+      "turma": "DISC01-T02",
+      "qualificado": true,
+      "disponivel": true,
+      "preferencia": 5
+    },
+    {
+      "professor": "P06",
+      "turma": "DISC01-T03",
+      "qualificado": false,
+      "disponivel": true,
+      "preferencia": 0
+    },
+    {
+      "professor": "P06",
+      "turma": "DISC02-T01",
+      "qualificado": true,
+      "disponivel": true,
+      "preferencia": 3
+    },
+    {
+      "professor": "P06",
+      "turma": "DISC02-T02",
+      "qualificado": true,
+      "disponivel": true,
+      "preferencia": 3
+    },
+    {
+      "professor": "P06",
+      "turma": "DISC02-T03",
+      "qualificado": true,
+      "disponivel": true,
+      "preferencia": 2
+    },
+    {
+      "professor": "P06",
+      "turma": "DISC03-T01",
+      "qualificado": true,
+      "disponivel": true,
+      "preferencia": 5
+    },
+    {
+      "professor": "P06",
+      "turma": "DISC03-T02",
+      "qualificado": true,
+      "disponivel": true,
+      "preferencia": 5
+    },
+    {
+      "professor": "P06",
+      "turma": "DISC03-T03",
+      "qualificado": true,
+      "disponivel": true,
+      "preferencia": 2
+    },
+    {
+      "professor": "P06",
+      "turma": "DISC04-T01",
+      "qualificado": false,
+      "disponivel": true,
+      "preferencia": 0
+    },
+    {
+      "professor": "P06",
+      "turma": "DISC04-T02",
+      "qualificado": true,
+      "disponivel": true,
+      "preferencia": 3
+    },
+    {
+      "professor": "P06",
+      "turma": "DISC04-T03",
+      "qualificado": true,
+      "disponivel": true,
+      "preferencia": 1
+    }
+  ]
+}

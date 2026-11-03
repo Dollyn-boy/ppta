@@ -1,0 +1,33 @@
+{
+  "alocacoes": {
+    "EXA806-T01": "P01",
+    "EXA806-T02": "P01",
+    "TEC217-TP01": "P03",
+    "TEC217-TP02": "P02"
+  },
+  "arquivo": "referencia_v001.json",
+  "bound_objetivo": 9.900000000000002,
+  "gap_relativo_alvo": 0.0,
+  "gap_relativo_final": 0.0,
+  "instancia": "referencia_v001",
+  "numero_disciplinas": 2,
+  "numero_pares_conflito": 0,
+  "numero_professores": 3,
+  "numero_slots": 32,
+  "numero_turmas": 4,
+  "objetivo": 9.900000000000002,
+  "piso_satisfacao": 3.0,
+  "preferencia_total_F": 17.0,
+  "slots_sem_hora_fim": 0,
+  "status": "OPTIMAL",
+  "tempo_carregamento_s": 1.2124167,
+  "tempo_construcao_s": 4.3977913,
+  "tempo_exportacao_lp_s": 7.5756834,
+  "tempo_limite_configurado_s": 3600.0,
+  "tempo_otimizacao_parede_s": 1.2890301,
+  "tempo_otimizacao_solver_s": 0.015000104904174805,
+  "tempo_total_s": 14.474921499999999,
+  "teto_disciplinas_g": 1.0,
+  "threads": 1,
+  "turnos_ocupados_C": 8.0
+}

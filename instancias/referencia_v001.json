@@ -1,0 +1,343 @@
+{
+  "id": "referencia_v001",
+  "descricao": "Instância de referência usada para testar se a modelagem é consistente",
+  "turnos_semanais": [
+    "Seg-vesp",
+    "Ter-mat",
+    "Ter-vesp",
+    "Qua-vesp",
+    "Qui-mat",
+    "Qui-vesp"
+  ],
+  "professores": [
+    {
+      "id": "P01",
+      "nome": "Ana Lucia",
+      "carga_min": 4,
+      "carga_max": 12,
+      "afastado": false
+    },
+    {
+      "id": "P02",
+      "nome": "Pamela",
+      "carga_min": 4,
+      "carga_max": 12,
+      "afastado": false
+    },
+    {
+      "id": "P03",
+      "nome": "Elinaldo",
+      "carga_min": 4,
+      "carga_max": 12,
+      "afastado": false
+    }
+  ],
+  "turmas": [
+    {
+      "id": "EXA806-T01",
+      "disciplina": "EXA806",
+      "horas": 4,
+      "slots": [
+        {
+          "dia": "Seg",
+          "horario": "17:30",
+          "horario_fim": "18:00",
+          "turno": "Seg-vesp"
+        },
+        {
+          "dia": "Seg",
+          "horario": "18:00",
+          "horario_fim": "18:30",
+          "turno": "Seg-vesp"
+        },
+        {
+          "dia": "Seg",
+          "horario": "18:30",
+          "horario_fim": "19:00",
+          "turno": "Seg-vesp"
+        },
+        {
+          "dia": "Seg",
+          "horario": "19:00",
+          "horario_fim": "19:30",
+          "turno": "Seg-vesp"
+        },
+        {
+          "dia": "Qua",
+          "horario": "17:30",
+          "horario_fim": "18:00",
+          "turno": "Qua-vesp"
+        },
+        {
+          "dia": "Qua",
+          "horario": "18:00",
+          "horario_fim": "18:30",
+          "turno": "Qua-vesp"
+        },
+        {
+          "dia": "Qua",
+          "horario": "18:30",
+          "horario_fim": "19:00",
+          "turno": "Qua-vesp"
+        },
+        {
+          "dia": "Qua",
+          "horario": "19:00",
+          "horario_fim": "19:30",
+          "turno": "Qua-vesp"
+        }
+      ]
+    },
+    {
+      "id": "EXA806-T02",
+      "disciplina": "EXA806",
+      "horas": 4,
+      "slots": [
+        {
+          "dia": "Ter",
+          "horario": "09:30",
+          "horario_fim": "10:00",
+          "turno": "Ter-mat"
+        },
+        {
+          "dia": "Ter",
+          "horario": "10:00",
+          "horario_fim": "10:30",
+          "turno": "Ter-mat"
+        },
+        {
+          "dia": "Ter",
+          "horario": "10:30",
+          "horario_fim": "11:00",
+          "turno": "Ter-mat"
+        },
+        {
+          "dia": "Ter",
+          "horario": "11:00",
+          "horario_fim": "11:30",
+          "turno": "Ter-mat"
+        },
+        {
+          "dia": "Qui",
+          "horario": "09:30",
+          "horario_fim": "10:00",
+          "turno": "Qui-mat"
+        },
+        {
+          "dia": "Qui",
+          "horario": "10:00",
+          "horario_fim": "10:30",
+          "turno": "Qui-mat"
+        },
+        {
+          "dia": "Qui",
+          "horario": "10:30",
+          "horario_fim": "11:00",
+          "turno": "Qui-mat"
+        },
+        {
+          "dia": "Qui",
+          "horario": "11:00",
+          "horario_fim": "11:30",
+          "turno": "Qui-mat"
+        }
+      ]
+    },
+    {
+      "id": "TEC217-TP01",
+      "disciplina": "TEC217",
+      "horas": 4,
+      "slots": [
+        {
+          "dia": "Seg",
+          "horario": "13:30",
+          "horario_fim": "14:00",
+          "turno": "Seg-vesp"
+        },
+        {
+          "dia": "Seg",
+          "horario": "14:00",
+          "horario_fim": "14:30",
+          "turno": "Seg-vesp"
+        },
+        {
+          "dia": "Seg",
+          "horario": "14:30",
+          "horario_fim": "15:00",
+          "turno": "Seg-vesp"
+        },
+        {
+          "dia": "Seg",
+          "horario": "15:00",
+          "horario_fim": "15:30",
+          "turno": "Seg-vesp"
+        },
+        {
+          "dia": "Qua",
+          "horario": "13:30",
+          "horario_fim": "14:00",
+          "turno": "Qua-vesp"
+        },
+        {
+          "dia": "Qua",
+          "horario": "14:00",
+          "horario_fim": "14:30",
+          "turno": "Qua-vesp"
+        },
+        {
+          "dia": "Qua",
+          "horario": "14:30",
+          "horario_fim": "15:00",
+          "turno": "Qua-vesp"
+        },
+        {
+          "dia": "Qua",
+          "horario": "15:00",
+          "horario_fim": "15:30",
+          "turno": "Qua-vesp"
+        }
+      ]
+    },
+    {
+      "id": "TEC217-TP02",
+      "disciplina": "TEC217",
+      "horas": 4,
+      "slots": [
+        {
+          "dia": "Ter",
+          "horario": "15:30",
+          "horario_fim": "16:00",
+          "turno": "Ter-vesp"
+        },
+        {
+          "dia": "Ter",
+          "horario": "16:00",
+          "horario_fim": "16:30",
+          "turno": "Ter-vesp"
+        },
+        {
+          "dia": "Ter",
+          "horario": "16:30",
+          "horario_fim": "17:00",
+          "turno": "Ter-vesp"
+        },
+        {
+          "dia": "Ter",
+          "horario": "17:00",
+          "horario_fim": "17:30",
+          "turno": "Ter-vesp"
+        },
+        {
+          "dia": "Qui",
+          "horario": "15:30",
+          "horario_fim": "16:00",
+          "turno": "Qui-vesp"
+        },
+        {
+          "dia": "Qui",
+          "horario": "16:00",
+          "horario_fim": "16:30",
+          "turno": "Qui-vesp"
+        },
+        {
+          "dia": "Qui",
+          "horario": "16:30",
+          "horario_fim": "17:00",
+          "turno": "Qui-vesp"
+        },
+        {
+          "dia": "Qui",
+          "horario": "17:00",
+          "horario_fim": "17:30",
+          "turno": "Qui-vesp"
+        }
+      ]
+    }
+  ],
+  "pares_professor_turma": [
+    {
+      "professor": "P01",
+      "turma": "EXA806-T01",
+      "qualificado": true,
+      "disponivel": true,
+      "preferencia": 4
+    },
+    {
+      "professor": "P01",
+      "turma": "EXA806-T02",
+      "qualificado": true,
+      "disponivel": true,
+      "preferencia": 5
+    },
+    {
+      "professor": "P01",
+      "turma": "TEC217-TP01",
+      "qualificado": false,
+      "disponivel": true,
+      "preferencia": 0
+    },
+    {
+      "professor": "P01",
+      "turma": "TEC217-TP02",
+      "qualificado": false,
+      "disponivel": true,
+      "preferencia": 0
+    },
+    {
+      "professor": "P02",
+      "turma": "EXA806-T01",
+      "qualificado": true,
+      "disponivel": false,
+      "preferencia": 0
+    },
+    {
+      "professor": "P02",
+      "turma": "EXA806-T02",
+      "qualificado": true,
+      "disponivel": true,
+      "preferencia": 4
+    },
+    {
+      "professor": "P02",
+      "turma": "TEC217-TP01",
+      "qualificado": true,
+      "disponivel": false,
+      "preferencia": 0
+    },
+    {
+      "professor": "P02",
+      "turma": "TEC217-TP02",
+      "qualificado": true,
+      "disponivel": true,
+      "preferencia": 3
+    },
+    {
+      "professor": "P03",
+      "turma": "EXA806-T01",
+      "qualificado": false,
+      "disponivel": false,
+      "preferencia": 0
+    },
+    {
+      "professor": "P03",
+      "turma": "EXA806-T02",
+      "qualificado": true,
+      "disponivel": false,
+      "preferencia": 0
+    },
+    {
+      "professor": "P03",
+      "turma": "TEC217-TP01",
+      "qualificado": true,
+      "disponivel": true,
+      "preferencia": 5
+    },
+    {
+      "professor": "P03",
+      "turma": "TEC217-TP02",
+      "qualificado": true,
+      "disponivel": true,
+      "preferencia": 1
+    }
+  ]
+}
