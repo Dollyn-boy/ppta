@@ -1,0 +1,16 @@
+{
+  "csv_oferta": "oferta_turmas.csv",
+  "csv_respostas": "respostas_formulario_ppta_teste.csv",
+  "instancia": "uefs_ec_2026_2_forms",
+  "numero_disciplinas": 81,
+  "numero_professores": 1,
+  "numero_slots": 142,
+  "numero_turmas": 124,
+  "objetivo": null,
+  "piso_satisfacao": null,
+  "preferencia_total_F": null,
+  "status": "INFEASIBLE",
+  "tempo_s": 1.3177372,
+  "teto_disciplinas_g": null,
+  "turnos_ocupados_C": null
+}

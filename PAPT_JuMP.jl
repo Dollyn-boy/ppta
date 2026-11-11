@@ -87,28 +87,60 @@ function carregar_instancia(caminho::AbstractString)
     turnos_usados = Set{String}()
     slots_sem_hora_fim = 0
 
+    # slots[j] = [(dia, horario), ...] para a turma j
+    # intervalos_slots[j] = [(dia, inicio_em_minutos, fim_em_minutos_ou_nothing), ...] para a turma j
+
     for j in T
-        slots[j] = Tuple{String,String}[]
-        intervalos_slots[j] = Tuple{String,Int,Union{Nothing,Int}}[]
-        turnos[j] = String[]
-        slots_turma_vistos = Set{Tuple{String,String}}()
+        slots[j] = Tuple{String,String}[] # guarda (dia, horario) inicial 
+        intervalos_slots[j] = Tuple{String,Int,Union{Nothing,Int}}[] # guarda os intervalos completos em minutos
+        turnos[j] = String[] # guarda os turnos semanais 
+        slots_turma_vistos = Set{Tuple{String,String}}() # evita que um mesmo horário inicial apareça duas vezes na turma.
+
+        # Cada slot da turma deve ter os campos obrigatorios: dia, horario, turno. 
+        # slots[j] = {
+        #   "dia": "Segunda",
+        #  "horario": "08:00",
+        #  "horario_fim": "08:30",
+        #  "turno": "Segunda-matutino"
+        # } 
+        # 
+        # intervalos_slots[j] = {
+        #   "dia": "Segunda",
+        #   "inicio_em_minutos": 480,
+        #   "fim_em_minutos": 510
+        # }
+        # turna[j] = {
+        #   "Segunda-matutino"
+        # }
         for s in turma_por_id[j]["slots"]
+            # Validacao de campos obrigatorios e consistencia do slot.
             for campo in ("dia", "horario", "turno")
                 haskey(s, campo) || error("Slot incompleto da turma $(j): campo '$(campo)' ausente.")
             end
+
+            # Extrai os campos do slot e valida o formato do horario e a consistencia com o turno.
             dia = String(s["dia"])
             horario = String(s["horario"])
             turno = String(s["turno"])
+
             hora_valida(horario) || error("Horario deve estar no formato HH:MM em $(j): $(horario).")
             turno in R || error("Turno '$(turno)' da turma $(j) nao esta em 'turnos_semanais'.")
+            
+            # Garante que o turno do slot corresponde ao dia do slot, e que o turno tem o formato esperado.  
             occursin("-", turno) || error("Turno invalido '$(turno)' na turma $(j).")
             first(split(turno, "-")) == dia || error("Dia do slot difere do dia do turno em $(j): $(dia), $(turno).")
+
+            # chave_slot = (Segunda, 08:00)
             chave_slot = (dia, horario)
             chave_slot in slots_turma_vistos && error("Slot duplicado $(dia) $(horario) na turma $(j).")
             push!(slots_turma_vistos, chave_slot)
             push!(slots[j], chave_slot)
+
+            # Converte o horario inicial em minutos e, se houver horario_fim, converte tambem.
             inicio_min = minutos_do_dia(horario)
+            # inicio_min = 480 para horario "08:00"
             fim_min = nothing
+            # Se houver horario_fim, valida o formato e a consistencia com o horario inicial.
             if haskey(s, "horario_fim") && s["horario_fim"] !== nothing && !isempty(String(s["horario_fim"]))
                 horario_fim = String(s["horario_fim"])
                 hora_valida(horario_fim) || error("Horario final deve usar HH:MM em $(j): $(horario_fim).")
@@ -117,6 +149,8 @@ function carregar_instancia(caminho::AbstractString)
             else
                 slots_sem_hora_fim += 1
             end
+            # Adiciona o intervalo completo em minutos e o turno correspondente.
+            # intervalos_slots[j] = ("Segunda", 480, 510)
             push!(intervalos_slots[j], (dia, inicio_min, fim_min))
             push!(turnos[j], turno)
             push!(turnos_usados, turno)
@@ -128,6 +162,8 @@ function carregar_instancia(caminho::AbstractString)
         "'turnos_semanais' precisa corresponder exatamente aos turnos usados nas turmas. " *
         "Usados=$(sort(collect(turnos_usados))); informados=$(R)."
     )
+    
+    # S = conjunto de slots distintos (dia, horario) em todas as turmas.
     S = unique([slot for j in T for slot in slots[j]])
 
     # Pares de turmas com encontros que se sobrepoem. Para JSONs antigos sem

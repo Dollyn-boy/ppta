@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Agenda semanal por professor</title>
+<style>
+:root{box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px);
+--bg:#f6f7f9;--surface:#fff;--ink:#1d2430;--muted:#667085;--line:#e1e5ea;--sat:42%;--lum:88%;--txt-l:24%}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#14181f;--surface:#1c222b;--ink:#e8ecf2;--muted:#9aa4b2;--line:#2c3541;--sat:35%;--lum:26%;--txt-l:90%}}
+:root[data-theme="dark"]{--bg:#14181f;--surface:#1c222b;--ink:#e8ecf2;--muted:#9aa4b2;--line:#2c3541;--sat:35%;--lum:26%;--txt-l:90%}
+*,*::before,*::after{box-sizing:inherit}
+html{scroll-padding-top:env(safe-area-inset-top,0px)}
+body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.4 "Segoe UI",system-ui,-apple-system,Roboto,sans-serif}
+main{max-width:1100px;margin:0 auto;padding:20px 16px 40px}
+h1{font-size:1.25rem;margin:0 0 14px;font-weight:650}
+.topo{display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin-bottom:12px}
+select,button{font:inherit;color:var(--ink);background:var(--surface);border:1px solid var(--line);border-radius:6px;padding:7px 10px}
+select{min-width:min(100%,340px)}
+button{cursor:pointer}button:focus-visible,select:focus-visible{outline:2px solid #3b82f6;outline-offset:2px}
+.resumo{color:var(--muted);font-size:.9rem;margin:0 0 12px}
+.aviso{background:var(--surface);border:1px solid var(--line);border-left:4px solid #d9a21b;padding:8px 12px;border-radius:6px;margin-bottom:12px;font-size:.9rem}
+.scroll{overflow-x:auto;border:1px solid var(--line);border-radius:8px;background:var(--surface)}
+.grade{display:grid;grid-template-columns:52px repeat(6,minmax(120px,1fr));min-width:800px}
+.cab{padding:8px 6px;text-align:center;font-weight:600;border-bottom:1px solid var(--line);position:sticky;top:0;background:var(--surface);z-index:2}
+.horas{position:relative}
+.horas span{position:absolute;right:6px;font-size:.72rem;color:var(--muted);transform:translateY(-50%)}
+.col{position:relative;border-left:1px solid var(--line);
+background-image:repeating-linear-gradient(to bottom,transparent 0,transparent calc(var(--h)*2 - 1px),var(--line) calc(var(--h)*2 - 1px),var(--line) calc(var(--h)*2))}
+.bloco{position:absolute;left:3px;right:3px;border-radius:5px;padding:4px 6px;overflow:hidden;font-size:.78rem;line-height:1.25;
+background:hsl(var(--hue) var(--sat) var(--lum));color:hsl(var(--hue) 45% var(--txt-l));border-left:4px solid hsl(var(--hue) 55% 50%)}
+.bloco b{display:block;font-size:.8rem}
+.vazio{padding:40px;text-align:center;color:var(--muted)}
+</style>
+</head>
+<body>
+<main>
+  <h1>Agenda semanal por professor</h1>
+  <div class="topo">
+    <button id="ant" aria-label="Professor anterior">‹</button>
+    <select id="prof" aria-label="Professor"></select>
+    <button id="prox" aria-label="Próximo professor">›</button>
+  </div>
+  <p class="resumo" id="resumo"></p>
+  <div id="aviso"></div>
+  <div class="scroll"><div class="grade" id="grade"></div></div>
+</main>
+<script>
+const D = /*DADOS*/null;
+const DIAS = ["Seg","Ter","Qua","Qui","Sex","Sáb"];
+const INI = 7*60+30, FIM = 23*60, PX = 22;           // PX = altura de 30 min
+const $ = id => document.getElementById(id);
+const hm = m => String(Math.floor(m/60)).padStart(2,"0")+":"+String(m%60).padStart(2,"0");
+const toMin = s => { const [h,m] = s.split(":"); return +h*60 + +m; };
+const hue = s => { let h = 0; for (const c of s) h = (h*31 + c.charCodeAt(0)) % 360; return h; };
+
+const ids = Object.keys(D.professores).sort((a,b) => D.professores[a].nome.localeCompare(D.professores[b].nome, "pt"));
+ids.forEach(id => $("prof").add(new Option(D.professores[id].nome + "  (" + id + ")", id)));
+
+function desenhar(id){
+  const p = D.professores[id];
+  const grade = $("grade"); grade.innerHTML = "";
+  grade.style.setProperty("--h", PX+"px");
+  const altura = (FIM-INI)/30*PX;
+
+  grade.append(Object.assign(document.createElement("div"), {className:"cab"}));
+  DIAS.forEach(d => grade.append(Object.assign(document.createElement("div"), {className:"cab", textContent:d})));
+
+  const horas = document.createElement("div"); horas.className = "horas"; horas.style.height = altura+"px";
+  for (let m = INI + 30; m < FIM; m += 60){
+    const s = document.createElement("span"); s.style.top = (m-INI)/30*PX+"px"; s.textContent = hm(m); horas.append(s);
+  }
+  grade.append(horas);
+
+  const cols = DIAS.map(() => { const c = document.createElement("div"); c.className = "col"; c.style.height = altura+"px"; grade.append(c); return c; });
+  let total = 0;
+  p.blocos.forEach(([turma, cod, nome, dia, ini, fim, local]) => {
+    const a = toMin(ini), b = toMin(fim); total += (b-a)/60;
+    const el = document.createElement("div"); el.className = "bloco";
+    el.style.setProperty("--hue", hue(cod));
+    el.style.top = (a-INI)/30*PX+"px"; el.style.height = (b-a)/30*PX-2+"px";
+    el.title = `${turma} · ${nome}\n${ini}–${fim}${local ? "\n"+local : ""}`;
+    el.innerHTML = `<b>${turma}</b>${nome}${b-a >= 90 && local ? "<br>"+local : ""}`;
+    cols[dia].append(el);
+  });
+
+  const turmas = new Set([...p.blocos.map(b => b[0]), ...p.sem_horario.map(s => s[0])]);
+  $("resumo").textContent = `${turmas.size} turma(s) · ${total.toLocaleString("pt-BR")} h semanais na grade`;
+  $("aviso").innerHTML = p.sem_horario.length
+    ? `<div class="aviso">Sem horário na oferta: ${p.sem_horario.map(s => s[0]+" ("+s[1]+")").join("; ")}</div>` : "";
+  if (!p.blocos.length) grade.insertAdjacentHTML("afterend", '<div class="vazio">Nenhum bloco de horário para este professor.</div>');
+  else document.querySelectorAll(".vazio").forEach(e => e.remove());
+}
+
+const ir = d => { const i = (ids.indexOf($("prof").value) + d + ids.length) % ids.length; $("prof").value = ids[i]; desenhar(ids[i]); };
+$("prof").onchange = () => desenhar($("prof").value);
+$("ant").onclick = () => ir(-1); $("prox").onclick = () => ir(1);
+document.addEventListener("keydown", e => { if (e.target.tagName !== "SELECT" && (e.key === "ArrowLeft" || e.key === "ArrowRight")) ir(e.key === "ArrowLeft" ? -1 : 1); });
+$("prof").value = ids[0]; desenhar(ids[0]);
+</script>
+</body>
+</html>

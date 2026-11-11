@@ -1,0 +1,7419 @@
+{
+  "id": "papt_forms_oferta",
+  "descricao": "Instância PAPT construída a partir das respostas do Google Forms e da oferta institucional em CSV.",
+  "turnos_semanais": [
+    "Qua-mat",
+    "Qua-vesp",
+    "Sex-vesp",
+    "Seg-vesp",
+    "Qua-not",
+    "Ter-not",
+    "Sex-not",
+    "Sab-mat",
+    "Seg-not",
+    "Qui-not",
+    "Ter-vesp",
+    "Ter-mat",
+    "Qui-mat",
+    "Sex-mat",
+    "Qui-vesp",
+    "Sab-vesp",
+    "Seg-mat"
+  ],
+  "professores": [
+    {
+      "id": "P001",
+      "nome": "Vitor Gabriel",
+      "carga_min": 0.0,
+      "carga_max": 12.0,
+      "afastado": false,
+      "email": "vitordoreahdx11@gmail.com"
+    }
+  ],
+  "turmas": [
+    {
+      "id": "BIO606-TP01",
+      "disciplina": "BIO606",
+      "nome_disciplina": "EDUCAÇÃO AMBIENTAL",
+      "horas": 3.0,
+      "slots": [
+        {
+          "dia": "Qua",
+          "horario": "09:30",
+          "horario_fim": "10:00",
+          "turno": "Qua-mat"
+        },
+        {
+          "dia": "Qua",
+          "horario": "10:00",
+          "horario_fim": "10:30",
+          "turno": "Qua-mat"
+        },
+        {
+          "dia": "Qua",
+          "horario": "10:30",
+          "horario_fim": "11:00",
+          "turno": "Qua-mat"
+        },
+        {
+          "dia": "Qua",
+          "horario": "11:00",
+          "horario_fim": "11:30",
+          "turno": "Qua-mat"
+        },
+        {
+          "dia": "Qua",
+          "horario": "11:30",
+          "horario_fim": "12:00",
+          "turno": "Qua-mat"
+        },
+        {
+          "dia": "Qua",
+          "horario": "12:00",
+          "horario_fim": "12:30",
+          "turno": "Qua-mat"
+        }
+      ],
+      "classe_origem": "TP01",
+      "local": "PAT17 / UEFS",
+      "departamento": "DEPARTAMENTO DE CIÊNCIAS BIOLÓGICAS",
+      "pagina_origem": "1"
+    },
+    {
+      "id": "CHF400-T03",
+      "disciplina": "CHF400",
+      "nome_disciplina": "CIÊNCIA POLÍTICA",
+      "horas": 4.0,
+      "slots": [
+        {
+          "dia": "Qua",
+          "horario": "13:30",
+          "horario_fim": "14:00",
+          "turno": "Qua-vesp"
+        },
+        {
+          "dia": "Qua",
+          "horario": "14:00",
+          "horario_fim": "14:30",
+          "turno": "Qua-vesp"
+        },
+        {
+          "dia": "Qua",
+          "horario": "14:30",
+          "horario_fim": "15:00",
+          "turno": "Qua-vesp"
+        },
+        {
+          "dia": "Qua",
+          "horario": "15:00",
+          "horario_fim": "15:30",
+          "turno": "Qua-vesp"
+        },
+        {
+          "dia": "Sex",
+          "horario": "13:30",
+          "horario_fim": "14:00",
+          "turno": "Sex-vesp"
+        },
+        {
+          "dia": "Sex",
+          "horario": "14:00",
+          "horario_fim": "14:30",
+          "turno": "Sex-vesp"
+        },
+        {
+          "dia": "Sex",
+          "horario": "14:30",
+          "horario_fim": "15:00",
+          "turno": "Sex-vesp"
+        },
+        {
+          "dia": "Sex",
+          "horario": "15:00",
+          "horario_fim": "15:30",
+          "turno": "Sex-vesp"
+        }
+      ],
+      "classe_origem": "T03",
+      "departamento": "DEPT. DE CIÊNCIAS HUMANAS E FILOSOFIA",
+      "pagina_origem": "1"
+    },
+    {
+      "id": "CHF510-T01",
+      "disciplina": "CHF510",
+      "nome_disciplina": "HISTÓRIA E FILOSOFIA DA CIÊNCIA",
+      "horas": 3.0,
+      "slots": [
+        {
+          "dia": "Qua",
+          "horario": "15:30",
+          "horario_fim": "16:00",
+          "turno": "Qua-vesp"
+        },
+        {
+          "dia": "Qua",
+          "horario": "16:00",
+          "horario_fim": "16:30",
+          "turno": "Qua-vesp"
+        },
+        {
+          "dia": "Qua",
+          "horario": "16:30",
+          "horario_fim": "17:00",
+          "turno": "Qua-vesp"
+        },
+        {
+          "dia": "Qua",
+          "horario": "17:00",
+          "horario_fim": "17:30",
+          "turno": "Qua-vesp"
+        },
+        {
+          "dia": "Qua",
+          "horario": "17:30",
+          "horario_fim": "18:00",
+          "turno": "Qua-vesp"
+        },
+        {
+          "dia": "Qua",
+          "horario": "18:00",
+          "horario_fim": "18:30",
+          "turno": "Qua-vesp"
+        }
+      ],
+      "classe_origem": "T01",
+      "departamento": "DEPT. DE CIÊNCIAS HUMANAS E FILOSOFIA",
+      "pagina_origem": "1"
+    },
+    {
+      "id": "CIS107-T02",
+      "disciplina": "CIS107",
+      "nome_disciplina": "FUNDAMENTOS DIREITO PUBLICO E PRIVADO",
+      "horas": 4.0,
+      "slots": [
+        {
+          "dia": "Seg",
+          "horario": "16:30",
+          "horario_fim": "17:00",
+          "turno": "Seg-vesp"
+        },
+        {
+          "dia": "Seg",
+          "horario": "17:00",
+          "horario_fim": "17:30",
+          "turno": "Seg-vesp"
+        },
+        {
+          "dia": "Seg",
+          "horario": "17:30",
+          "horario_fim": "18:00",
+          "turno": "Seg-vesp"
+        },
+        {
+          "dia": "Seg",
+          "horario": "18:00",
+          "horario_fim": "18:30",
+          "turno": "Seg-vesp"
+        },
+        {
+          "dia": "Qua",
+          "horario": "16:30",
+          "horario_fim": "17:00",
+          "turno": "Qua-vesp"
+        },
+        {
+          "dia": "Qua",
+          "horario": "17:00",
+          "horario_fim": "17:30",
+          "turno": "Qua-vesp"
+        },
+        {
+          "dia": "Qua",
+          "horario": "17:30",
+          "horario_fim": "18:00",
+          "turno": "Qua-vesp"
+        },
+        {
+          "dia": "Qua",
+          "horario": "18:00",
+          "horario_fim": "18:30",
+          "turno": "Qua-vesp"
+        }
+      ],
+      "classe_origem": "T02",
+      "departamento": "DEPT. DE CIÊNCIAS SOCIAIS APLICADAS",
+      "pagina_origem": "1"
+    },
+    {
+      "id": "CIS186-TP02",
+      "disciplina": "CIS186",
+      "nome_disciplina": "PLANEJAMENTO E ORÇAMENTO PÚBLICO",
+      "horas": 4.0,
+      "slots": [
+        {
+          "dia": "Seg",
+          "horario": "16:30",
+          "horario_fim": "17:00",
+          "turno": "Seg-vesp"
+        },
+        {
+          "dia": "Seg",
+          "horario": "17:00",
+          "horario_fim": "17:30",
+          "turno": "Seg-vesp"
+        },
+        {
+          "dia": "Seg",
+          "horario": "17:30",
+          "horario_fim": "18:00",
+          "turno": "Seg-vesp"
+        },
+        {
+          "dia": "Seg",
+          "horario": "18:00",
+          "horario_fim": "18:30",
+          "turno": "Seg-vesp"
+        },
+        {
+          "dia": "Qua",
+          "horario": "19:00",
+          "horario_fim": "19:30",
+          "turno": "Qua-not"
+        },
+        {
+          "dia": "Qua",
+          "horario": "19:30",
+          "horario_fim": "20:00",
+          "turno": "Qua-not"
+        },
+        {
+          "dia": "Qua",
+          "horario": "20:00",
+          "horario_fim": "20:30",
+          "turno": "Qua-not"
+        },
+        {
+          "dia": "Qua",
+          "horario": "20:30",
+          "horario_fim": "21:00",
+          "turno": "Qua-not"
+        }
+      ],
+      "classe_origem": "TP02",
+      "local": "PAT39 / UEFS",
+      "departamento": "DEPT. DE CIÊNCIAS SOCIAIS APLICADAS",
+      "pagina_origem": "1"
+    },
+    {
+      "id": "CIS199-TP02",
+      "disciplina": "CIS199",
+      "nome_disciplina": "PROJETOS ECONÔMICOS E FINANCEIROS",
+      "horas": 2.0,
+      "slots": [
+        {
+          "dia": "Qua",
+          "horario": "19:00",
+          "horario_fim": "19:30",
+          "turno": "Qua-not"
+        },
+        {
+          "dia": "Qua",
+          "horario": "19:30",
+          "horario_fim": "20:00",
+          "turno": "Qua-not"
+        },
+        {
+          "dia": "Qua",
+          "horario": "20:00",
+          "horario_fim": "20:30",
+          "turno": "Qua-not"
+        },
+        {
+          "dia": "Qua",
+          "horario": "20:30",
+          "horario_fim": "21:00",
+          "turno": "Qua-not"
+        }
+      ],
+      "classe_origem": "TP02",
+      "local": "PAT31 / UEFS",
+      "departamento": "DEPT. DE CIÊNCIAS SOCIAIS APLICADAS",
+      "pagina_origem": "2"
+    },
+    {
+      "id": "CIS248-T02",
+      "disciplina": "CIS248",
+      "nome_disciplina": "MERCADO DE CAPITAIS - A",
+      "horas": 2.0,
+      "slots": [
+        {
+          "dia": "Ter",
+          "horario": "21:00",
+          "horario_fim": "21:30",
+          "turno": "Ter-not"
+        },
+        {
+          "dia": "Ter",
+          "horario": "21:30",
+          "horario_fim": "22:00",
+          "turno": "Ter-not"
+        },
+        {
+          "dia": "Ter",
+          "horario": "22:00",
+          "horario_fim": "22:30",
+          "turno": "Ter-not"
+        },
+        {
+          "dia": "Ter",
+          "horario": "22:30",
+          "horario_fim": "23:00",
+          "turno": "Ter-not"
+        }
+      ],
+      "classe_origem": "T02",
+      "local": "PAT31 / UEFS",
+      "departamento": "DEPT. DE CIÊNCIAS SOCIAIS APLICADAS",
+      "pagina_origem": "2"
+    },
+    {
+      "id": "CIS301-T02",
+      "disciplina": "CIS301",
+      "nome_disciplina": "INTRODUÇÃO À ADMINISTRAÇÃO",
+      "horas": 4.0,
+      "slots": [
+        {
+          "dia": "Sex",
+          "horario": "21:00",
+          "horario_fim": "21:30",
+          "turno": "Sex-not"
+        },
+        {
+          "dia": "Sex",
+          "horario": "21:30",
+          "horario_fim": "22:00",
+          "turno": "Sex-not"
+        },
+        {
+          "dia": "Sex",
+          "horario": "22:00",
+          "horario_fim": "22:30",
+          "turno": "Sex-not"
+        },
+        {
+          "dia": "Sex",
+          "horario": "22:30",
+          "horario_fim": "23:00",
+          "turno": "Sex-not"
+        },
+        {
+          "dia": "Sab",
+          "horario": "07:30",
+          "horario_fim": "08:00",
+          "turno": "Sab-mat"
+        },
+        {
+          "dia": "Sab",
+          "horario": "08:00",
+          "horario_fim": "08:30",
+          "turno": "Sab-mat"
+        },
+        {
+          "dia": "Sab",
+          "horario": "08:30",
+          "horario_fim": "09:00",
+          "turno": "Sab-mat"
+        },
+        {
+          "dia": "Sab",
+          "horario": "09:00",
+          "horario_fim": "09:30",
+          "turno": "Sab-mat"
+        }
+      ],
+      "classe_origem": "T02",
+      "local": "PAT20 / UEFS",
+      "departamento": "DEPT. DE CIÊNCIAS SOCIAIS APLICADAS",
+      "pagina_origem": "2"
+    },
+    {
+      "id": "CIS301-T03",
+      "disciplina": "CIS301",
+      "nome_disciplina": "INTRODUÇÃO À ADMINISTRAÇÃO",
+      "horas": 4.0,
+      "slots": [
+        {
+          "dia": "Ter",
+          "horario": "19:00",
+          "horario_fim": "19:30",
+          "turno": "Ter-not"
+        },
+        {
+          "dia": "Ter",
+          "horario": "19:30",
+          "horario_fim": "20:00",
+          "turno": "Ter-not"
+        },
+        {
+          "dia": "Ter",
+          "horario": "20:00",
+          "horario_fim": "20:30",
+          "turno": "Ter-not"
+        },
+        {
+          "dia": "Ter",
+          "horario": "20:30",
+          "horario_fim": "21:00",
+          "turno": "Ter-not"
+        },
+        {
+          "dia": "Qua",
+          "horario": "21:00",
+          "horario_fim": "21:30",
+          "turno": "Qua-not"
+        },
+        {
+          "dia": "Qua",
+          "horario": "21:30",
+          "horario_fim": "22:00",
+          "turno": "Qua-not"
+        },
+        {
+          "dia": "Qua",
+          "horario": "22:00",
+          "horario_fim": "22:30",
+          "turno": "Qua-not"
+        },
+        {
+          "dia": "Qua",
+          "horario": "22:30",
+          "horario_fim": "23:00",
+          "turno": "Qua-not"
+        }
+      ],
+      "classe_origem": "T03",
+      "local": "PAT34 / UEFS",
+      "departamento": "DEPT. DE CIÊNCIAS SOCIAIS APLICADAS",
+      "pagina_origem": "2"
+    },
+    {
+      "id": "CIS381-02",
+      "disciplina": "CIS381",
+      "nome_disciplina": "CONTABILIDADE GERAL I",
+      "horas": 4.0,
+      "slots": [
+        {
+          "dia": "Sex",
+          "horario": "19:00",
+          "horario_fim": "19:30",
+          "turno": "Sex-not"
+        },
+        {
+          "dia": "Sex",
+          "horario": "19:30",
+          "horario_fim": "20:00",
+          "turno": "Sex-not"
+        },
+        {
+          "dia": "Sex",
+          "horario": "20:00",
+          "horario_fim": "20:30",
+          "turno": "Sex-not"
+        },
+        {
+          "dia": "Sex",
+          "horario": "20:30",
+          "horario_fim": "21:00",
+          "turno": "Sex-not"
+        },
+        {
+          "dia": "Sab",
+          "horario": "09:30",
+          "horario_fim": "10:00",
+          "turno": "Sab-mat"
+        },
+        {
+          "dia": "Sab",
+          "horario": "10:00",
+          "horario_fim": "10:30",
+          "turno": "Sab-mat"
+        },
+        {
+          "dia": "Sab",
+          "horario": "10:30",
+          "horario_fim": "11:00",
+          "turno": "Sab-mat"
+        },
+        {
+          "dia": "Sab",
+          "horario": "11:00",
+          "horario_fim": "11:30",
+          "turno": "Sab-mat"
+        }
+      ],
+      "classe_origem": "02",
+      "local": "PAT32 / UEFS",
+      "departamento": "DEPT. DE CIÊNCIAS SOCIAIS APLICADAS",
+      "pagina_origem": "2"
+    },
+    {
+      "id": "CIS382-T01",
+      "disciplina": "CIS382",
+      "nome_disciplina": "INTRODUÇÃO À MACROECONOMIA",
+      "horas": 4.0,
+      "slots": [
+        {
+          "dia": "Seg",
+          "horario": "19:00",
+          "horario_fim": "19:30",
+          "turno": "Seg-not"
+        },
+        {
+          "dia": "Seg",
+          "horario": "19:30",
+          "horario_fim": "20:00",
+          "turno": "Seg-not"
+        },
+        {
+          "dia": "Seg",
+          "horario": "20:00",
+          "horario_fim": "20:30",
+          "turno": "Seg-not"
+        },
+        {
+          "dia": "Seg",
+          "horario": "20:30",
+          "horario_fim": "21:00",
+          "turno": "Seg-not"
+        },
+        {
+          "dia": "Qua",
+          "horario": "21:00",
+          "horario_fim": "21:30",
+          "turno": "Qua-not"
+        },
+        {
+          "dia": "Qua",
+          "horario": "21:30",
+          "horario_fim": "22:00",
+          "turno": "Qua-not"
+        },
+        {
+          "dia": "Qua",
+          "horario": "22:00",
+          "horario_fim": "22:30",
+          "turno": "Qua-not"
+        },
+        {
+          "dia": "Qua",
+          "horario": "22:30",
+          "horario_fim": "23:00",
+          "turno": "Qua-not"
+        }
+      ],
+      "classe_origem": "T01",
+      "local": "PAT10 / UEFS",
+      "departamento": "DEPT. DE CIÊNCIAS SOCIAIS APLICADAS",
+      "pagina_origem": "3"
+    },
+    {
+      "id": "CIS385-T01",
+      "disciplina": "CIS385",
+      "nome_disciplina": "INTRODUÇÃO À MICROECONOMIA",
+      "horas": 4.0,
+      "slots": [
+        {
+          "dia": "Ter",
+          "horario": "19:00",
+          "horario_fim": "19:30",
+          "turno": "Ter-not"
+        },
+        {
+          "dia": "Ter",
+          "horario": "19:30",
+          "horario_fim": "20:00",
+          "turno": "Ter-not"
+        },
+        {
+          "dia": "Ter",
+          "horario": "20:00",
+          "horario_fim": "20:30",
+          "turno": "Ter-not"
+        },
+        {
+          "dia": "Ter",
+          "horario": "20:30",
+          "horario_fim": "21:00",
+          "turno": "Ter-not"
+        },
+        {
+          "dia": "Qui",
+          "horario": "21:00",
+          "horario_fim": "21:30",
+          "turno": "Qui-not"
+        },
+        {
+          "dia": "Qui",
+          "horario": "21:30",
+          "horario_fim": "22:00",
+          "turno": "Qui-not"
+        },
+        {
+          "dia": "Qui",
+          "horario": "22:00",
+          "horario_fim": "22:30",
+          "turno": "Qui-not"
+        },
+        {
+          "dia": "Qui",
+          "horario": "22:30",
+          "horario_fim": "23:00",
+          "turno": "Qui-not"
+        }
+      ],
+      "classe_origem": "T01",
+      "local": "PAT19 / UEFS",
+      "departamento": "DEPT. DE CIÊNCIAS SOCIAIS APLICADAS",
+      "pagina_origem": "3"
+    },
+    {
+      "id": "CIS425-TP01",
+      "disciplina": "CIS425",
+      "nome_disciplina": "PRINCÍPIO DE CONTAB. GERAL",
+      "horas": 4.0,
+      "slots": [
+        {
+          "dia": "Qua",
+          "horario": "21:00",
+          "horario_fim": "21:30",
+          "turno": "Qua-not"
+        },
+        {
+          "dia": "Qua",
+          "horario": "21:30",
+          "horario_fim": "22:00",
+          "turno": "Qua-not"
+        },
+        {
+          "dia": "Qua",
+          "horario": "22:00",
+          "horario_fim": "22:30",
+          "turno": "Qua-not"
+        },
+        {
+          "dia": "Qua",
+          "horario": "22:30",
+          "horario_fim": "23:00",
+          "turno": "Qua-not"
+        },
+        {
+          "dia": "Sex",
+          "horario": "19:00",
+          "horario_fim": "19:30",
+          "turno": "Sex-not"
+        },
+        {
+          "dia": "Sex",
+          "horario": "19:30",
+          "horario_fim": "20:00",
+          "turno": "Sex-not"
+        },
+        {
+          "dia": "Sex",
+          "horario": "20:00",
+          "horario_fim": "20:30",
+          "turno": "Sex-not"
+        },
+        {
+          "dia": "Sex",
+          "horario": "20:30",
+          "horario_fim": "21:00",
+          "turno": "Sex-not"
+        }
+      ],
+      "classe_origem": "TP01",
+      "local": "PAT28 / UEFS",
+      "departamento": "DEPT. DE CIÊNCIAS SOCIAIS APLICADAS",
+      "pagina_origem": "3"
+    },
+    {
+      "id": "CIS457-T01",
+      "disciplina": "CIS457",
+      "nome_disciplina": "PRINCÍPIOS DE ADMINISTRAÇÃO",
+      "horas": 4.0,
+      "slots": [
+        {
+          "dia": "Seg",
+          "horario": "16:30",
+          "horario_fim": "17:00",
+          "turno": "Seg-vesp"
+        },
+        {
+          "dia": "Seg",
+          "horario": "17:00",
+          "horario_fim": "17:30",
+          "turno": "Seg-vesp"
+        },
+        {
+          "dia": "Seg",
+          "horario": "17:30",
+          "horario_fim": "18:00",
+          "turno": "Seg-vesp"
+        },
+        {
+          "dia": "Seg",
+          "horario": "18:00",
+          "horario_fim": "18:30",
+          "turno": "Seg-vesp"
+        },
+        {
+          "dia": "Ter",
+          "horario": "16:30",
+          "horario_fim": "17:00",
+          "turno": "Ter-vesp"
+        },
+        {
+          "dia": "Ter",
+          "horario": "17:00",
+          "horario_fim": "17:30",
+          "turno": "Ter-vesp"
+        },
+        {
+          "dia": "Ter",
+          "horario": "17:30",
+          "horario_fim": "18:00",
+          "turno": "Ter-vesp"
+        },
+        {
+          "dia": "Ter",
+          "horario": "18:00",
+          "horario_fim": "18:30",
+          "turno": "Ter-vesp"
+        }
+      ],
+      "classe_origem": "T01",
+      "departamento": "DEPT. DE CIÊNCIAS SOCIAIS APLICADAS",
+      "pagina_origem": "3"
+    },
+    {
+      "id": "EDU113-TP05",
+      "disciplina": "EDU113",
+      "nome_disciplina": "EDUCAÇÃO ESPECIAL E POLÍTICAS EDUCACIONAIS INCLUSIVAS",
+      "horas": 4.0,
+      "slots": [
+        {
+          "dia": "Ter",
+          "horario": "13:30",
+          "horario_fim": "14:00",
+          "turno": "Ter-vesp"
+        },
+        {
+          "dia": "Ter",
+          "horario": "14:00",
+          "horario_fim": "14:30",
+          "turno": "Ter-vesp"
+        },
+        {
+          "dia": "Ter",
+          "horario": "14:30",
+          "horario_fim": "15:00",
+          "turno": "Ter-vesp"
+        },
+        {
+          "dia": "Ter",
+          "horario": "15:00",
+          "horario_fim": "15:30",
+          "turno": "Ter-vesp"
+        },
+        {
+          "dia": "Ter",
+          "horario": "15:30",
+          "horario_fim": "16:00",
+          "turno": "Ter-vesp"
+        },
+        {
+          "dia": "Ter",
+          "horario": "16:00",
+          "horario_fim": "16:30",
+          "turno": "Ter-vesp"
+        },
+        {
+          "dia": "Ter",
+          "horario": "16:30",
+          "horario_fim": "17:00",
+          "turno": "Ter-vesp"
+        },
+        {
+          "dia": "Ter",
+          "horario": "17:00",
+          "horario_fim": "17:30",
+          "turno": "Ter-vesp"
+        }
+      ],
+      "classe_origem": "TP05",
+      "departamento": "DEPARTAMENTO DE EDUCAÇÃO",
+      "pagina_origem": "4"
+    },
+    {
+      "id": "EDU311-TP03",
+      "disciplina": "EDU311",
+      "nome_disciplina": "RELAÇÕES ÉTNICO-RACIAIS NA ESCOLA",
+      "horas": 4.0,
+      "slots": [
+        {
+          "dia": "Qua",
+          "horario": "17:30",
+          "horario_fim": "18:00",
+          "turno": "Qua-vesp"
+        },
+        {
+          "dia": "Qua",
+          "horario": "18:00",
+          "horario_fim": "18:30",
+          "turno": "Qua-vesp"
+        },
+        {
+          "dia": "Sex",
+          "horario": "15:30",
+          "horario_fim": "16:00",
+          "turno": "Sex-vesp"
+        },
+        {
+          "dia": "Sex",
+          "horario": "16:00",
+          "horario_fim": "16:30",
+          "turno": "Sex-vesp"
+        },
+        {
+          "dia": "Sex",
+          "horario": "16:30",
+          "horario_fim": "17:00",
+          "turno": "Sex-vesp"
+        },
+        {
+          "dia": "Sex",
+          "horario": "17:00",
+          "horario_fim": "17:30",
+          "turno": "Sex-vesp"
+        },
+        {
+          "dia": "Sex",
+          "horario": "17:30",
+          "horario_fim": "18:00",
+          "turno": "Sex-vesp"
+        },
+        {
+          "dia": "Sex",
+          "horario": "18:00",
+          "horario_fim": "18:30",
+          "turno": "Sex-vesp"
+        }
+      ],
+      "classe_origem": "TP03",
+      "departamento": "DEPARTAMENTO DE EDUCAÇÃO",
+      "pagina_origem": "4"
+    },
+    {
+      "id": "EXA085-TP01",
+      "disciplina": "EXA085",
+      "nome_disciplina": "INTELIGÊNCIA ARTIFICIAL GENERATIVA NA EDUCAÇÃO",
+      "horas": 4.0,
+      "slots": [
+        {
+          "dia": "Ter",
+          "horario": "07:30",
+          "horario_fim": "08:00",
+          "turno": "Ter-mat"
+        },
+        {
+          "dia": "Ter",
+          "horario": "08:00",
+          "horario_fim": "08:30",
+          "turno": "Ter-mat"
+        },
+        {
+          "dia": "Ter",
+          "horario": "08:30",
+          "horario_fim": "09:00",
+          "turno": "Ter-mat"
+        },
+        {
+          "dia": "Ter",
+          "horario": "09:00",
+          "horario_fim": "09:30",
+          "turno": "Ter-mat"
+        },
+        {
+          "dia": "Qui",
+          "horario": "07:30",
+          "horario_fim": "08:00",
+          "turno": "Qui-mat"
+        },
+        {
+          "dia": "Qui",
+          "horario": "08:00",
+          "horario_fim": "08:30",
+          "turno": "Qui-mat"
+        },
+        {
+          "dia": "Qui",
+          "horario": "08:30",
+          "horario_fim": "09:00",
+          "turno": "Qui-mat"
+        },
+        {
+          "dia": "Qui",
+          "horario": "09:00",
+          "horario_fim": "09:30",
+          "turno": "Qui-mat"
+        }
+      ],
+      "classe_origem": "TP01",
+      "departamento": "DEPARTAMENTO DE CIÊNCIAS EXATAS",
+      "pagina_origem": "4"
+    },
+    {
+      "id": "EXA417-T0P01",
+      "disciplina": "EXA417",
+      "nome_disciplina": "QUÍMICA GERAL E DE MATERIAIS",
+      "horas": 3.0,
+      "slots": [
+        {
+          "dia": "Qua",
+          "horario": "09:30",
+          "horario_fim": "10:00",
+          "turno": "Qua-mat"
+        },
+        {
+          "dia": "Qua",
+          "horario": "10:00",
+          "horario_fim": "10:30",
+          "turno": "Qua-mat"
+        },
+        {
+          "dia": "Qua",
+          "horario": "10:30",
+          "horario_fim": "11:00",
+          "turno": "Qua-mat"
+        },
+        {
+          "dia": "Qua",
+          "horario": "11:00",
+          "horario_fim": "11:30",
+          "turno": "Qua-mat"
+        },
+        {
+          "dia": "Qua",
+          "horario": "11:30",
+          "horario_fim": "12:00",
+          "turno": "Qua-mat"
+        },
+        {
+          "dia": "Qua",
+          "horario": "12:00",
+          "horario_fim": "12:30",
+          "turno": "Qua-mat"
+        }
+      ],
+      "classe_origem": "T0P01",
+      "local": "PAT59 / UEFS",
+      "departamento": "DEPARTAMENTO DE CIÊNCIAS EXATAS",
+      "pagina_origem": "4"
+    },
+    {
+      "id": "EXA543-T01",
+      "disciplina": "EXA543",
+      "nome_disciplina": "INTRODUÇÃO AO CÁLCULO",
+      "horas": 4.0,
+      "slots": [
+        {
+          "dia": "Qua",
+          "horario": "09:30",
+          "horario_fim": "10:00",
+          "turno": "Qua-mat"
+        },
+        {
+          "dia": "Qua",
+          "horario": "10:00",
+          "horario_fim": "10:30",
+          "turno": "Qua-mat"
+        },
+        {
+          "dia": "Qua",
+          "horario": "10:30",
+          "horario_fim": "11:00",
+          "turno": "Qua-mat"
+        },
+        {
+          "dia": "Qua",
+          "horario": "11:00",
+          "horario_fim": "11:30",
+          "turno": "Qua-mat"
+        },
+        {
+          "dia": "Sex",
+          "horario": "09:30",
+          "horario_fim": "10:00",
+          "turno": "Sex-mat"
+        },
+        {
+          "dia": "Sex",
+          "horario": "10:00",
+          "horario_fim": "10:30",
+          "turno": "Sex-mat"
+        },
+        {
+          "dia": "Sex",
+          "horario": "10:30",
+          "horario_fim": "11:00",
+          "turno": "Sex-mat"
+        },
+        {
+          "dia": "Sex",
+          "horario": "11:00",
+          "horario_fim": "11:30",
+          "turno": "Sex-mat"
+        }
+      ],
+      "classe_origem": "T01",
+      "local": "PA212 / UEFS",
+      "departamento": "DEPARTAMENTO DE CIÊNCIAS EXATAS",
+      "pagina_origem": "4"
+    },
+    {
+      "id": "EXA544-T01",
+      "disciplina": "EXA544",
+      "nome_disciplina": "LINGUAGENS FORMAIS E COMPILADORES",
+      "horas": 4.0,
+      "slots": [
+        {
+          "dia": "Ter",
+          "horario": "13:30",
+          "horario_fim": "14:00",
+          "turno": "Ter-vesp"
+        },
+        {
+          "dia": "Ter",
+          "horario": "14:00",
+          "horario_fim": "14:30",
+          "turno": "Ter-vesp"
+        },
+        {
+          "dia": "Ter",
+          "horario": "14:30",
+          "horario_fim": "15:00",
+          "turno": "Ter-vesp"
+        },
+        {
+          "dia": "Ter",
+          "horario": "15:00",
+          "horario_fim": "15:30",
+          "turno": "Ter-vesp"
+        },
+        {
+          "dia": "Qui",
+          "horario": "13:30",
+          "horario_fim": "14:00",
+          "turno": "Qui-vesp"
+        },
+        {
+          "dia": "Qui",
+          "horario": "14:00",
+          "horario_fim": "14:30",
+          "turno": "Qui-vesp"
+        },
+        {
+          "dia": "Qui",
+          "horario": "14:30",
+          "horario_fim": "15:00",
+          "turno": "Qui-vesp"
+        },
+        {
+          "dia": "Qui",
+          "horario": "15:00",
+          "horario_fim": "15:30",
+          "turno": "Qui-vesp"
+        }
+      ],
+      "classe_origem": "T01",
+      "departamento": "DEPARTAMENTO DE CIÊNCIAS EXATAS",
+      "pagina_origem": "5"
+    },
+    {
+      "id": "EXA545-TP01",
+      "disciplina": "EXA545",
+      "nome_disciplina": "TEORIA DA COMPUTAÇÃO",
+      "horas": 4.0,
+      "slots": [
+        {
+          "dia": "Qua",
+          "horario": "13:30",
+          "horario_fim": "14:00",
+          "turno": "Qua-vesp"
+        },
+        {
+          "dia": "Qua",
+          "horario": "14:00",
+          "horario_fim": "14:30",
+          "turno": "Qua-vesp"
+        },
+        {
+          "dia": "Qua",
+          "horario": "14:30",
+          "horario_fim": "15:00",
+          "turno": "Qua-vesp"
+        },
+        {
+          "dia": "Qua",
+          "horario": "15:00",
+          "horario_fim": "15:30",
+          "turno": "Qua-vesp"
+        },
+        {
+          "dia": "Sex",
+          "horario": "13:30",
+          "horario_fim": "14:00",
+          "turno": "Sex-vesp"
+        },
+        {
+          "dia": "Sex",
+          "horario": "14:00",
+          "horario_fim": "14:30",
+          "turno": "Sex-vesp"
+        },
+        {
+          "dia": "Sex",
+          "horario": "14:30",
+          "horario_fim": "15:00",
+          "turno": "Sex-vesp"
+        },
+        {
+          "dia": "Sex",
+          "horario": "15:00",
+          "horario_fim": "15:30",
+          "turno": "Sex-vesp"
+        }
+      ],
+      "classe_origem": "TP01",
+      "departamento": "DEPARTAMENTO DE CIÊNCIAS EXATAS",
+      "pagina_origem": "5"
+    },
+    {
+      "id": "EXA612-E01",
+      "disciplina": "EXA612",
+      "nome_disciplina": "ESTÁGIO",
+      "horas": 2.0,
+      "slots": [
+        {
+          "dia": "Sab",
+          "horario": "13:30",
+          "horario_fim": "14:00",
+          "turno": "Sab-vesp"
+        },
+        {
+          "dia": "Sab",
+          "horario": "14:00",
+          "horario_fim": "14:30",
+          "turno": "Sab-vesp"
+        },
+        {
+          "dia": "Sab",
+          "horario": "14:30",
+          "horario_fim": "15:00",
+          "turno": "Sab-vesp"
+        },
+        {
+          "dia": "Sab",
+          "horario": "15:00",
+          "horario_fim": "15:30",
+          "turno": "Sab-vesp"
+        }
+      ],
+      "classe_origem": "E01",
+      "departamento": "DEPARTAMENTO DE CIÊNCIAS EXATAS",
+      "pagina_origem": "5"
+    },
+    {
+      "id": "EXA613-TP01",
+      "disciplina": "EXA613",
+      "nome_disciplina": "MI ENGENHARIA DE SOFTWARE",
+      "horas": 4.0,
+      "slots": [
+        {
+          "dia": "Qua",
+          "horario": "15:30",
+          "horario_fim": "16:00",
+          "turno": "Qua-vesp"
+        },
+        {
+          "dia": "Qua",
+          "horario": "16:00",
+          "horario_fim": "16:30",
+          "turno": "Qua-vesp"
+        },
+        {
+          "dia": "Qua",
+          "horario": "16:30",
+          "horario_fim": "17:00",
+          "turno": "Qua-vesp"
+        },
+        {
+          "dia": "Qua",
+          "horario": "17:00",
+          "horario_fim": "17:30",
+          "turno": "Qua-vesp"
+        },
+        {
+          "dia": "Sex",
+          "horario": "15:30",
+          "horario_fim": "16:00",
+          "turno": "Sex-vesp"
+        },
+        {
+          "dia": "Sex",
+          "horario": "16:00",
+          "horario_fim": "16:30",
+          "turno": "Sex-vesp"
+        },
+        {
+          "dia": "Sex",
+          "horario": "16:30",
+          "horario_fim": "17:00",
+          "turno": "Sex-vesp"
+        },
+        {
+          "dia": "Sex",
+          "horario": "17:00",
+          "horario_fim": "17:30",
+          "turno": "Sex-vesp"
+        }
+      ],
+      "classe_origem": "TP01",
+      "departamento": "DEPARTAMENTO DE CIÊNCIAS EXATAS",
+      "pagina_origem": "5"
+    },
+    {
+      "id": "EXA613-TP02",
+      "disciplina": "EXA613",
+      "nome_disciplina": "MI ENGENHARIA DE SOFTWARE",
+      "horas": 4.0,
+      "slots": [
+        {
+          "dia": "Qua",
+          "horario": "15:30",
+          "horario_fim": "16:00",
+          "turno": "Qua-vesp"
+        },
+        {
+          "dia": "Qua",
+          "horario": "16:00",
+          "horario_fim": "16:30",
+          "turno": "Qua-vesp"
+        },
+        {
+          "dia": "Qua",
+          "horario": "16:30",
+          "horario_fim": "17:00",
+          "turno": "Qua-vesp"
+        },
+        {
+          "dia": "Qua",
+          "horario": "17:00",
+          "horario_fim": "17:30",
+          "turno": "Qua-vesp"
+        },
+        {
+          "dia": "Sex",
+          "horario": "15:30",
+          "horario_fim": "16:00",
+          "turno": "Sex-vesp"
+        },
+        {
+          "dia": "Sex",
+          "horario": "16:00",
+          "horario_fim": "16:30",
+          "turno": "Sex-vesp"
+        },
+        {
+          "dia": "Sex",
+          "horario": "16:30",
+          "horario_fim": "17:00",
+          "turno": "Sex-vesp"
+        },
+        {
+          "dia": "Sex",
+          "horario": "17:00",
+          "horario_fim": "17:30",
+          "turno": "Sex-vesp"
+        }
+      ],
+      "classe_origem": "TP02",
+      "departamento": "DEPARTAMENTO DE CIÊNCIAS EXATAS",
+      "pagina_origem": "5"
+    },
+    {
+      "id": "EXA613-TP03",
+      "disciplina": "EXA613",
+      "nome_disciplina": "MI ENGENHARIA DE SOFTWARE",
+      "horas": 4.0,
+      "slots": [
+        {
+          "dia": "Qua",
+          "horario": "15:30",
+          "horario_fim": "16:00",
+          "turno": "Qua-vesp"
+        },
+        {
+          "dia": "Qua",
+          "horario": "16:00",
+          "horario_fim": "16:30",
+          "turno": "Qua-vesp"
+        },
+        {
+          "dia": "Qua",
+          "horario": "16:30",
+          "horario_fim": "17:00",
+          "turno": "Qua-vesp"
+        },
+        {
+          "dia": "Qua",
+          "horario": "17:00",
+          "horario_fim": "17:30",
+          "turno": "Qua-vesp"
+        },
+        {
+          "dia": "Sex",
+          "horario": "15:30",
+          "horario_fim": "16:00",
+          "turno": "Sex-vesp"
+        },
+        {
+          "dia": "Sex",
+          "horario": "16:00",
+          "horario_fim": "16:30",
+          "turno": "Sex-vesp"
+        },
+        {
+          "dia": "Sex",
+          "horario": "16:30",
+          "horario_fim": "17:00",
+          "turno": "Sex-vesp"
+        },
+        {
+          "dia": "Sex",
+          "horario": "17:00",
+          "horario_fim": "17:30",
+          "turno": "Sex-vesp"
+        }
+      ],
+      "classe_origem": "TP03",
+      "departamento": "DEPARTAMENTO DE CIÊNCIAS EXATAS",
+      "pagina_origem": "5"
+    },
+    {
+      "id": "EXA613-TP04",
+      "disciplina": "EXA613",
+      "nome_disciplina": "MI ENGENHARIA DE SOFTWARE",
+      "horas": 4.0,
+      "slots": [
+        {
+          "dia": "Qua",
+          "horario": "15:30",
+          "horario_fim": "16:00",
+          "turno": "Qua-vesp"
+        },
+        {
+          "dia": "Qua",
+          "horario": "16:00",
+          "horario_fim": "16:30",
+          "turno": "Qua-vesp"
+        },
+        {
+          "dia": "Qua",
+          "horario": "16:30",
+          "horario_fim": "17:00",
+          "turno": "Qua-vesp"
+        },
+        {
+          "dia": "Qua",
+          "horario": "17:00",
+          "horario_fim": "17:30",
+          "turno": "Qua-vesp"
+        },
+        {
+          "dia": "Sex",
+          "horario": "15:30",
+          "horario_fim": "16:00",
+          "turno": "Sex-vesp"
+        },
+        {
+          "dia": "Sex",
+          "horario": "16:00",
+          "horario_fim": "16:30",
+          "turno": "Sex-vesp"
+        },
+        {
+          "dia": "Sex",
+          "horario": "16:30",
+          "horario_fim": "17:00",
+          "turno": "Sex-vesp"
+        },
+        {
+          "dia": "Sex",
+          "horario": "17:00",
+          "horario_fim": "17:30",
+          "turno": "Sex-vesp"
+        }
+      ],
+      "classe_origem": "TP04",
+      "departamento": "DEPARTAMENTO DE CIÊNCIAS EXATAS",
+      "pagina_origem": "6"
+    },
+    {
+      "id": "EXA614-TP01",
+      "disciplina": "EXA614",
+      "nome_disciplina": "TÓPICOS DE FORMAÇÃO HUMANÍSTICA",
+      "horas": 4.0,
+      "slots": [
+        {
+          "dia": "Ter",
+          "horario": "09:30",
+          "horario_fim": "10:00",
+          "turno": "Ter-mat"
+        },
+        {
+          "dia": "Ter",
+          "horario": "10:00",
+          "horario_fim": "10:30",
+          "turno": "Ter-mat"
+        },
+        {
+          "dia": "Ter",
+          "horario": "10:30",
+          "horario_fim": "11:00",
+          "turno": "Ter-mat"
+        },
+        {
+          "dia": "Ter",
+          "horario": "11:00",
+          "horario_fim": "11:30",
+          "turno": "Ter-mat"
+        },
+        {
+          "dia": "Qui",
+          "horario": "09:30",
+          "horario_fim": "10:00",
+          "turno": "Qui-mat"
+        },
+        {
+          "dia": "Qui",
+          "horario": "10:00",
+          "horario_fim": "10:30",
+          "turno": "Qui-mat"
+        },
+        {
+          "dia": "Qui",
+          "horario": "10:30",
+          "horario_fim": "11:00",
+          "turno": "Qui-mat"
+        },
+        {
+          "dia": "Qui",
+          "horario": "11:00",
+          "horario_fim": "11:30",
+          "turno": "Qui-mat"
+        }
+      ],
+      "classe_origem": "TP01",
+      "local": "PAT45 / UEFS",
+      "departamento": "DEPARTAMENTO DE CIÊNCIAS EXATAS",
+      "pagina_origem": "6"
+    },
+    {
+      "id": "EXA615-TP01",
+      "disciplina": "EXA615",
+      "nome_disciplina": "ÉTICA EM COMPUTAÇÃO",
+      "horas": 4.0,
+      "slots": [
+        {
+          "dia": "Ter",
+          "horario": "09:30",
+          "horario_fim": "10:00",
+          "turno": "Ter-mat"
+        },
+        {
+          "dia": "Ter",
+          "horario": "10:00",
+          "horario_fim": "10:30",
+          "turno": "Ter-mat"
+        },
+        {
+          "dia": "Ter",
+          "horario": "10:30",
+          "horario_fim": "11:00",
+          "turno": "Ter-mat"
+        },
+        {
+          "dia": "Ter",
+          "horario": "11:00",
+          "horario_fim": "11:30",
+          "turno": "Ter-mat"
+        },
+        {
+          "dia": "Qui",
+          "horario": "09:30",
+          "horario_fim": "10:00",
+          "turno": "Qui-mat"
+        },
+        {
+          "dia": "Qui",
+          "horario": "10:00",
+          "horario_fim": "10:30",
+          "turno": "Qui-mat"
+        },
+        {
+          "dia": "Qui",
+          "horario": "10:30",
+          "horario_fim": "11:00",
+          "turno": "Qui-mat"
+        },
+        {
+          "dia": "Qui",
+          "horario": "11:00",
+          "horario_fim": "11:30",
+          "turno": "Qui-mat"
+        }
+      ],
+      "classe_origem": "TP01",
+      "departamento": "DEPARTAMENTO DE CIÊNCIAS EXATAS",
+      "pagina_origem": "6"
+    },
+    {
+      "id": "EXA616-TP01",
+      "disciplina": "EXA616",
+      "nome_disciplina": "EMPREENDEDORISMO I",
+      "horas": 4.0,
+      "slots": [
+        {
+          "dia": "Ter",
+          "horario": "09:30",
+          "horario_fim": "10:00",
+          "turno": "Ter-mat"
+        },
+        {
+          "dia": "Ter",
+          "horario": "10:00",
+          "horario_fim": "10:30",
+          "turno": "Ter-mat"
+        },
+        {
+          "dia": "Ter",
+          "horario": "10:30",
+          "horario_fim": "11:00",
+          "turno": "Ter-mat"
+        },
+        {
+          "dia": "Ter",
+          "horario": "11:00",
+          "horario_fim": "11:30",
+          "turno": "Ter-mat"
+        },
+        {
+          "dia": "Qui",
+          "horario": "09:30",
+          "horario_fim": "10:00",
+          "turno": "Qui-mat"
+        },
+        {
+          "dia": "Qui",
+          "horario": "10:00",
+          "horario_fim": "10:30",
+          "turno": "Qui-mat"
+        },
+        {
+          "dia": "Qui",
+          "horario": "10:30",
+          "horario_fim": "11:00",
+          "turno": "Qui-mat"
+        },
+        {
+          "dia": "Qui",
+          "horario": "11:00",
+          "horario_fim": "11:30",
+          "turno": "Qui-mat"
+        }
+      ],
+      "classe_origem": "TP01",
+      "departamento": "DEPARTAMENTO DE CIÊNCIAS EXATAS",
+      "pagina_origem": "6"
+    },
+    {
+      "id": "EXA619-TP01",
+      "disciplina": "EXA619",
+      "nome_disciplina": "INFORMÁTICA NA EDUCAÇÃO",
+      "horas": 4.0,
+      "slots": [
+        {
+          "dia": "Ter",
+          "horario": "15:30",
+          "horario_fim": "16:00",
+          "turno": "Ter-vesp"
+        },
+        {
+          "dia": "Ter",
+          "horario": "16:00",
+          "horario_fim": "16:30",
+          "turno": "Ter-vesp"
+        },
+        {
+          "dia": "Ter",
+          "horario": "16:30",
+          "horario_fim": "17:00",
+          "turno": "Ter-vesp"
+        },
+        {
+          "dia": "Ter",
+          "horario": "17:00",
+          "horario_fim": "17:30",
+          "turno": "Ter-vesp"
+        },
+        {
+          "dia": "Qui",
+          "horario": "15:30",
+          "horario_fim": "16:00",
+          "turno": "Qui-vesp"
+        },
+        {
+          "dia": "Qui",
+          "horario": "16:00",
+          "horario_fim": "16:30",
+          "turno": "Qui-vesp"
+        },
+        {
+          "dia": "Qui",
+          "horario": "16:30",
+          "horario_fim": "17:00",
+          "turno": "Qui-vesp"
+        },
+        {
+          "dia": "Qui",
+          "horario": "17:00",
+          "horario_fim": "17:30",
+          "turno": "Qui-vesp"
+        }
+      ],
+      "classe_origem": "TP01",
+      "departamento": "DEPARTAMENTO DE CIÊNCIAS EXATAS",
+      "pagina_origem": "7"
+    },
+    {
+      "id": "EXA620-TP01",
+      "disciplina": "EXA620",
+      "nome_disciplina": "JOGOS DIGITAIS",
+      "horas": 4.0,
+      "slots": [
+        {
+          "dia": "Ter",
+          "horario": "09:30",
+          "horario_fim": "10:00",
+          "turno": "Ter-mat"
+        },
+        {
+          "dia": "Ter",
+          "horario": "10:00",
+          "horario_fim": "10:30",
+          "turno": "Ter-mat"
+        },
+        {
+          "dia": "Ter",
+          "horario": "10:30",
+          "horario_fim": "11:00",
+          "turno": "Ter-mat"
+        },
+        {
+          "dia": "Ter",
+          "horario": "11:00",
+          "horario_fim": "11:30",
+          "turno": "Ter-mat"
+        },
+        {
+          "dia": "Qui",
+          "horario": "09:30",
+          "horario_fim": "10:00",
+          "turno": "Qui-mat"
+        },
+        {
+          "dia": "Qui",
+          "horario": "10:00",
+          "horario_fim": "10:30",
+          "turno": "Qui-mat"
+        },
+        {
+          "dia": "Qui",
+          "horario": "10:30",
+          "horario_fim": "11:00",
+          "turno": "Qui-mat"
+        },
+        {
+          "dia": "Qui",
+          "horario": "11:00",
+          "horario_fim": "11:30",
+          "turno": "Qui-mat"
+        }
+      ],
+      "classe_origem": "TP01",
+      "departamento": "DEPARTAMENTO DE CIÊNCIAS EXATAS",
+      "pagina_origem": "7"
+    },
+    {
+      "id": "EXA622-TP01",
+      "disciplina": "EXA622",
+      "nome_disciplina": "EXTENSÃO EM COMPUTAÇÃO I",
+      "horas": 6.0,
+      "slots": [
+        {
+          "dia": "Seg",
+          "horario": "09:30",
+          "horario_fim": "10:00",
+          "turno": "Seg-mat"
+        },
+        {
+          "dia": "Seg",
+          "horario": "10:00",
+          "horario_fim": "10:30",
+          "turno": "Seg-mat"
+        },
+        {
+          "dia": "Seg",
+          "horario": "10:30",
+          "horario_fim": "11:00",
+          "turno": "Seg-mat"
+        },
+        {
+          "dia": "Seg",
+          "horario": "11:00",
+          "horario_fim": "11:30",
+          "turno": "Seg-mat"
+        },
+        {
+          "dia": "Seg",
+          "horario": "11:30",
+          "horario_fim": "12:00",
+          "turno": "Seg-mat"
+        },
+        {
+          "dia": "Seg",
+          "horario": "12:00",
+          "horario_fim": "12:30",
+          "turno": "Seg-mat"
+        },
+        {
+          "dia": "Qua",
+          "horario": "09:30",
+          "horario_fim": "10:00",
+          "turno": "Qua-mat"
+        },
+        {
+          "dia": "Qua",
+          "horario": "10:00",
+          "horario_fim": "10:30",
+          "turno": "Qua-mat"
+        },
+        {
+          "dia": "Qua",
+          "horario": "10:30",
+          "horario_fim": "11:00",
+          "turno": "Qua-mat"
+        },
+        {
+          "dia": "Qua",
+          "horario": "11:00",
+          "horario_fim": "11:30",
+          "turno": "Qua-mat"
+        },
+        {
+          "dia": "Qua",
+          "horario": "11:30",
+          "horario_fim": "12:00",
+          "turno": "Qua-mat"
+        },
+        {
+          "dia": "Qua",
+          "horario": "12:00",
+          "horario_fim": "12:30",
+          "turno": "Qua-mat"
+        }
+      ],
+      "classe_origem": "TP01",
+      "departamento": "DEPARTAMENTO DE CIÊNCIAS EXATAS",
+      "pagina_origem": "7"
+    },
+    {
+      "id": "EXA623-TP01",
+      "disciplina": "EXA623",
+      "nome_disciplina": "FINANÇAS COMPUTACIONAIS",
+      "horas": 4.0,
+      "slots": [
+        {
+          "dia": "Ter",
+          "horario": "13:30",
+          "horario_fim": "14:00",
+          "turno": "Ter-vesp"
+        },
+        {
+          "dia": "Ter",
+          "horario": "14:00",
+          "horario_fim": "14:30",
+          "turno": "Ter-vesp"
+        },
+        {
+          "dia": "Ter",
+          "horario": "14:30",
+          "horario_fim": "15:00",
+          "turno": "Ter-vesp"
+        },
+        {
+          "dia": "Ter",
+          "horario": "15:00",
+          "horario_fim": "15:30",
+          "turno": "Ter-vesp"
+        },
+        {
+          "dia": "Qui",
+          "horario": "13:30",
+          "horario_fim": "14:00",
+          "turno": "Qui-vesp"
+        },
+        {
+          "dia": "Qui",
+          "horario": "14:00",
+          "horario_fim": "14:30",
+          "turno": "Qui-vesp"
+        },
+        {
+          "dia": "Qui",
+          "horario": "14:30",
+          "horario_fim": "15:00",
+          "turno": "Qui-vesp"
+        },
+        {
+          "dia": "Qui",
+          "horario": "15:00",
+          "horario_fim": "15:30",
+          "turno": "Qui-vesp"
+        }
+      ],
+      "classe_origem": "TP01",
+      "departamento": "DEPARTAMENTO DE CIÊNCIAS EXATAS",
+      "pagina_origem": "7"
+    },
+    {
+      "id": "EXA702-T03",
+      "disciplina": "EXA702",
+      "nome_disciplina": "ÁLGEBRA VETORIAL E GEOMETRIA ANALÍTICA",
+      "horas": 4.0,
+      "slots": [
+        {
+          "dia": "Qua",
+          "horario": "07:30",
+          "horario_fim": "08:00",
+          "turno": "Qua-mat"
+        },
+        {
+          "dia": "Qua",
+          "horario": "08:00",
+          "horario_fim": "08:30",
+          "turno": "Qua-mat"
+        },
+        {
+          "dia": "Qua",
+          "horario": "08:30",
+          "horario_fim": "09:00",
+          "turno": "Qua-mat"
+        },
+        {
+          "dia": "Qua",
+          "horario": "09:00",
+          "horario_fim": "09:30",
+          "turno": "Qua-mat"
+        },
+        {
+          "dia": "Sex",
+          "horario": "07:30",
+          "horario_fim": "08:00",
+          "turno": "Sex-mat"
+        },
+        {
+          "dia": "Sex",
+          "horario": "08:00",
+          "horario_fim": "08:30",
+          "turno": "Sex-mat"
+        },
+        {
+          "dia": "Sex",
+          "horario": "08:30",
+          "horario_fim": "09:00",
+          "turno": "Sex-mat"
+        },
+        {
+          "dia": "Sex",
+          "horario": "09:00",
+          "horario_fim": "09:30",
+          "turno": "Sex-mat"
+        }
+      ],
+      "classe_origem": "T03",
+      "local": "PAT49 / UEFS",
+      "departamento": "DEPARTAMENTO DE CIÊNCIAS EXATAS",
+      "pagina_origem": "8"
+    },
+    {
+      "id": "EXA702-T04",
+      "disciplina": "EXA702",
+      "nome_disciplina": "ÁLGEBRA VETORIAL E GEOMETRIA ANALÍTICA",
+      "horas": 4.0,
+      "slots": [
+        {
+          "dia": "Qua",
+          "horario": "13:30",
+          "horario_fim": "14:00",
+          "turno": "Qua-vesp"
+        },
+        {
+          "dia": "Qua",
+          "horario": "14:00",
+          "horario_fim": "14:30",
+          "turno": "Qua-vesp"
+        },
+        {
+          "dia": "Qua",
+          "horario": "14:30",
+          "horario_fim": "15:00",
+          "turno": "Qua-vesp"
+        },
+        {
+          "dia": "Qua",
+          "horario": "15:00",
+          "horario_fim": "15:30",
+          "turno": "Qua-vesp"
+        },
+        {
+          "dia": "Sex",
+          "horario": "13:30",
+          "horario_fim": "14:00",
+          "turno": "Sex-vesp"
+        },
+        {
+          "dia": "Sex",
+          "horario": "14:00",
+          "horario_fim": "14:30",
+          "turno": "Sex-vesp"
+        },
+        {
+          "dia": "Sex",
+          "horario": "14:30",
+          "horario_fim": "15:00",
+          "turno": "Sex-vesp"
+        },
+        {
+          "dia": "Sex",
+          "horario": "15:00",
+          "horario_fim": "15:30",
+          "turno": "Sex-vesp"
+        }
+      ],
+      "classe_origem": "T04",
+      "local": "PAT54 / UEFS",
+      "departamento": "DEPARTAMENTO DE CIÊNCIAS EXATAS",
+      "pagina_origem": "8"
+    },
+    {
+      "id": "EXA703-T03",
+      "disciplina": "EXA703",
+      "nome_disciplina": "ÁLGEBRA LINEAR I E",
+      "horas": 4.0,
+      "slots": [
+        {
+          "dia": "Ter",
+          "horario": "09:30",
+          "horario_fim": "10:00",
+          "turno": "Ter-mat"
+        },
+        {
+          "dia": "Ter",
+          "horario": "10:00",
+          "horario_fim": "10:30",
+          "turno": "Ter-mat"
+        },
+        {
+          "dia": "Ter",
+          "horario": "10:30",
+          "horario_fim": "11:00",
+          "turno": "Ter-mat"
+        },
+        {
+          "dia": "Ter",
+          "horario": "11:00",
+          "horario_fim": "11:30",
+          "turno": "Ter-mat"
+        },
+        {
+          "dia": "Qui",
+          "horario": "09:30",
+          "horario_fim": "10:00",
+          "turno": "Qui-mat"
+        },
+        {
+          "dia": "Qui",
+          "horario": "10:00",
+          "horario_fim": "10:30",
+          "turno": "Qui-mat"
+        },
+        {
+          "dia": "Qui",
+          "horario": "10:30",
+          "horario_fim": "11:00",
+          "turno": "Qui-mat"
+        },
+        {
+          "dia": "Qui",
+          "horario": "11:00",
+          "horario_fim": "11:30",
+          "turno": "Qui-mat"
+        }
+      ],
+      "classe_origem": "T03",
+      "departamento": "DEPARTAMENTO DE CIÊNCIAS EXATAS",
+      "pagina_origem": "8"
+    },
+    {
+      "id": "EXA704-T03",
+      "disciplina": "EXA704",
+      "nome_disciplina": "CÁLCULO DIFERENCIAL E INTEGRAL I E",
+      "horas": 4.0,
+      "slots": [
+        {
+          "dia": "Qua",
+          "horario": "09:30",
+          "horario_fim": "10:00",
+          "turno": "Qua-mat"
+        },
+        {
+          "dia": "Qua",
+          "horario": "10:00",
+          "horario_fim": "10:30",
+          "turno": "Qua-mat"
+        },
+        {
+          "dia": "Qua",
+          "horario": "10:30",
+          "horario_fim": "11:00",
+          "turno": "Qua-mat"
+        },
+        {
+          "dia": "Qua",
+          "horario": "11:00",
+          "horario_fim": "11:30",
+          "turno": "Qua-mat"
+        },
+        {
+          "dia": "Sex",
+          "horario": "09:30",
+          "horario_fim": "10:00",
+          "turno": "Sex-mat"
+        },
+        {
+          "dia": "Sex",
+          "horario": "10:00",
+          "horario_fim": "10:30",
+          "turno": "Sex-mat"
+        },
+        {
+          "dia": "Sex",
+          "horario": "10:30",
+          "horario_fim": "11:00",
+          "turno": "Sex-mat"
+        },
+        {
+          "dia": "Sex",
+          "horario": "11:00",
+          "horario_fim": "11:30",
+          "turno": "Sex-mat"
+        }
+      ],
+      "classe_origem": "T03",
+      "departamento": "DEPARTAMENTO DE CIÊNCIAS EXATAS",
+      "pagina_origem": "8"
+    },
+    {
+      "id": "EXA704-T05",
+      "disciplina": "EXA704",
+      "nome_disciplina": "CÁLCULO DIFERENCIAL E INTEGRAL I E",
+      "horas": 4.0,
+      "slots": [
+        {
+          "dia": "Qua",
+          "horario": "07:30",
+          "horario_fim": "08:00",
+          "turno": "Qua-mat"
+        },
+        {
+          "dia": "Qua",
+          "horario": "08:00",
+          "horario_fim": "08:30",
+          "turno": "Qua-mat"
+        },
+        {
+          "dia": "Qua",
+          "horario": "08:30",
+          "horario_fim": "09:00",
+          "turno": "Qua-mat"
+        },
+        {
+          "dia": "Qua",
+          "horario": "09:00",
+          "horario_fim": "09:30",
+          "turno": "Qua-mat"
+        },
+        {
+          "dia": "Sex",
+          "horario": "07:30",
+          "horario_fim": "08:00",
+          "turno": "Sex-mat"
+        },
+        {
+          "dia": "Sex",
+          "horario": "08:00",
+          "horario_fim": "08:30",
+          "turno": "Sex-mat"
+        },
+        {
+          "dia": "Sex",
+          "horario": "08:30",
+          "horario_fim": "09:00",
+          "turno": "Sex-mat"
+        },
+        {
+          "dia": "Sex",
+          "horario": "09:00",
+          "horario_fim": "09:30",
+          "turno": "Sex-mat"
+        }
+      ],
+      "classe_origem": "T05",
+      "local": "PAT59 / UEFS",
+      "departamento": "DEPARTAMENTO DE CIÊNCIAS EXATAS",
+      "pagina_origem": "8"
+    },
+    {
+      "id": "EXA705-T03",
+      "disciplina": "EXA705",
+      "nome_disciplina": "CÁLCULO DIFERENCIAL E INTEGRAL II E",
+      "horas": 4.0,
+      "slots": [
+        {
+          "dia": "Ter",
+          "horario": "10:30",
+          "horario_fim": "11:00",
+          "turno": "Ter-mat"
+        },
+        {
+          "dia": "Ter",
+          "horario": "11:00",
+          "horario_fim": "11:30",
+          "turno": "Ter-mat"
+        },
+        {
+          "dia": "Ter",
+          "horario": "11:30",
+          "horario_fim": "12:00",
+          "turno": "Ter-mat"
+        },
+        {
+          "dia": "Ter",
+          "horario": "12:00",
+          "horario_fim": "12:30",
+          "turno": "Ter-mat"
+        },
+        {
+          "dia": "Qui",
+          "horario": "09:30",
+          "horario_fim": "10:00",
+          "turno": "Qui-mat"
+        },
+        {
+          "dia": "Qui",
+          "horario": "10:00",
+          "horario_fim": "10:30",
+          "turno": "Qui-mat"
+        },
+        {
+          "dia": "Qui",
+          "horario": "10:30",
+          "horario_fim": "11:00",
+          "turno": "Qui-mat"
+        },
+        {
+          "dia": "Qui",
+          "horario": "11:00",
+          "horario_fim": "11:30",
+          "turno": "Qui-mat"
+        }
+      ],
+      "classe_origem": "T03",
+      "departamento": "DEPARTAMENTO DE CIÊNCIAS EXATAS",
+      "pagina_origem": "8"
+    },
+    {
+      "id": "EXA705-T04",
+      "disciplina": "EXA705",
+      "nome_disciplina": "CÁLCULO DIFERENCIAL E INTEGRAL II E",
+      "horas": 4.0,
+      "slots": [
+        {
+          "dia": "Qua",
+          "horario": "13:30",
+          "horario_fim": "14:00",
+          "turno": "Qua-vesp"
+        },
+        {
+          "dia": "Qua",
+          "horario": "14:00",
+          "horario_fim": "14:30",
+          "turno": "Qua-vesp"
+        },
+        {
+          "dia": "Qua",
+          "horario": "14:30",
+          "horario_fim": "15:00",
+          "turno": "Qua-vesp"
+        },
+        {
+          "dia": "Qua",
+          "horario": "15:00",
+          "horario_fim": "15:30",
+          "turno": "Qua-vesp"
+        },
+        {
+          "dia": "Qui",
+          "horario": "09:30",
+          "horario_fim": "10:00",
+          "turno": "Qui-mat"
+        },
+        {
+          "dia": "Qui",
+          "horario": "10:00",
+          "horario_fim": "10:30",
+          "turno": "Qui-mat"
+        },
+        {
+          "dia": "Qui",
+          "horario": "10:30",
+          "horario_fim": "11:00",
+          "turno": "Qui-mat"
+        },
+        {
+          "dia": "Qui",
+          "horario": "11:00",
+          "horario_fim": "11:30",
+          "turno": "Qui-mat"
+        }
+      ],
+      "classe_origem": "T04",
+      "local": "PAT57 / UEFS",
+      "departamento": "DEPARTAMENTO DE CIÊNCIAS EXATAS",
+      "pagina_origem": "9"
+    },
+    {
+      "id": "EXA706-T03",
+      "disciplina": "EXA706",
+      "nome_disciplina": "EQUAÇÕES DIFERENCIAIS I-E",
+      "horas": 4.0,
+      "slots": [
+        {
+          "dia": "Qua",
+          "horario": "09:30",
+          "horario_fim": "10:00",
+          "turno": "Qua-mat"
+        },
+        {
+          "dia": "Qua",
+          "horario": "10:00",
+          "horario_fim": "10:30",
+          "turno": "Qua-mat"
+        },
+        {
+          "dia": "Qua",
+          "horario": "10:30",
+          "horario_fim": "11:00",
+          "turno": "Qua-mat"
+        },
+        {
+          "dia": "Qua",
+          "horario": "11:00",
+          "horario_fim": "11:30",
+          "turno": "Qua-mat"
+        },
+        {
+          "dia": "Sex",
+          "horario": "09:30",
+          "horario_fim": "10:00",
+          "turno": "Sex-mat"
+        },
+        {
+          "dia": "Sex",
+          "horario": "10:00",
+          "horario_fim": "10:30",
+          "turno": "Sex-mat"
+        },
+        {
+          "dia": "Sex",
+          "horario": "10:30",
+          "horario_fim": "11:00",
+          "turno": "Sex-mat"
+        },
+        {
+          "dia": "Sex",
+          "horario": "11:00",
+          "horario_fim": "11:30",
+          "turno": "Sex-mat"
+        }
+      ],
+      "classe_origem": "T03",
+      "departamento": "DEPARTAMENTO DE CIÊNCIAS EXATAS",
+      "pagina_origem": "9"
+    },
+    {
+      "id": "EXA709-T03",
+      "disciplina": "EXA709",
+      "nome_disciplina": "PROBABILIDADE E ESTATÍSTICA I E",
+      "horas": 4.0,
+      "slots": [
+        {
+          "dia": "Ter",
+          "horario": "07:30",
+          "horario_fim": "08:00",
+          "turno": "Ter-mat"
+        },
+        {
+          "dia": "Ter",
+          "horario": "08:00",
+          "horario_fim": "08:30",
+          "turno": "Ter-mat"
+        },
+        {
+          "dia": "Ter",
+          "horario": "08:30",
+          "horario_fim": "09:00",
+          "turno": "Ter-mat"
+        },
+        {
+          "dia": "Ter",
+          "horario": "09:00",
+          "horario_fim": "09:30",
+          "turno": "Ter-mat"
+        },
+        {
+          "dia": "Qui",
+          "horario": "07:30",
+          "horario_fim": "08:00",
+          "turno": "Qui-mat"
+        },
+        {
+          "dia": "Qui",
+          "horario": "08:00",
+          "horario_fim": "08:30",
+          "turno": "Qui-mat"
+        },
+        {
+          "dia": "Qui",
+          "horario": "08:30",
+          "horario_fim": "09:00",
+          "turno": "Qui-mat"
+        },
+        {
+          "dia": "Qui",
+          "horario": "09:00",
+          "horario_fim": "09:30",
+          "turno": "Qui-mat"
+        }
+      ],
+      "classe_origem": "T03",
+      "departamento": "DEPARTAMENTO DE CIÊNCIAS EXATAS",
+      "pagina_origem": "9"
+    },
+    {
+      "id": "EXA709-T04",
+      "disciplina": "EXA709",
+      "nome_disciplina": "PROBABILIDADE E ESTATÍSTICA I E",
+      "horas": 4.0,
+      "slots": [
+        {
+          "dia": "Ter",
+          "horario": "13:30",
+          "horario_fim": "14:00",
+          "turno": "Ter-vesp"
+        },
+        {
+          "dia": "Ter",
+          "horario": "14:00",
+          "horario_fim": "14:30",
+          "turno": "Ter-vesp"
+        },
+        {
+          "dia": "Ter",
+          "horario": "14:30",
+          "horario_fim": "15:00",
+          "turno": "Ter-vesp"
+        },
+        {
+          "dia": "Ter",
+          "horario": "15:00",
+          "horario_fim": "15:30",
+          "turno": "Ter-vesp"
+        },
+        {
+          "dia": "Qui",
+          "horario": "13:30",
+          "horario_fim": "14:00",
+          "turno": "Qui-vesp"
+        },
+        {
+          "dia": "Qui",
+          "horario": "14:00",
+          "horario_fim": "14:30",
+          "turno": "Qui-vesp"
+        },
+        {
+          "dia": "Qui",
+          "horario": "14:30",
+          "horario_fim": "15:00",
+          "turno": "Qui-vesp"
+        },
+        {
+          "dia": "Qui",
+          "horario": "15:00",
+          "horario_fim": "15:30",
+          "turno": "Qui-vesp"
+        }
+      ],
+      "classe_origem": "T04",
+      "departamento": "DEPARTAMENTO DE CIÊNCIAS EXATAS",
+      "pagina_origem": "9"
+    },
+    {
+      "id": "EXA801-T01",
+      "disciplina": "EXA801",
+      "nome_disciplina": "ALGORITMOS E PROGRAMAÇÃO I",
+      "horas": 4.0,
+      "slots": [
+        {
+          "dia": "Ter",
+          "horario": "13:30",
+          "horario_fim": "14:00",
+          "turno": "Ter-vesp"
+        },
+        {
+          "dia": "Ter",
+          "horario": "14:00",
+          "horario_fim": "14:30",
+          "turno": "Ter-vesp"
+        },
+        {
+          "dia": "Ter",
+          "horario": "14:30",
+          "horario_fim": "15:00",
+          "turno": "Ter-vesp"
+        },
+        {
+          "dia": "Ter",
+          "horario": "15:00",
+          "horario_fim": "15:30",
+          "turno": "Ter-vesp"
+        },
+        {
+          "dia": "Qui",
+          "horario": "13:30",
+          "horario_fim": "14:00",
+          "turno": "Qui-vesp"
+        },
+        {
+          "dia": "Qui",
+          "horario": "14:00",
+          "horario_fim": "14:30",
+          "turno": "Qui-vesp"
+        },
+        {
+          "dia": "Qui",
+          "horario": "14:30",
+          "horario_fim": "15:00",
+          "turno": "Qui-vesp"
+        },
+        {
+          "dia": "Qui",
+          "horario": "15:00",
+          "horario_fim": "15:30",
+          "turno": "Qui-vesp"
+        }
+      ],
+      "classe_origem": "T01",
+      "local": "PA010 / UEFS",
+      "departamento": "DEPARTAMENTO DE CIÊNCIAS EXATAS",
+      "pagina_origem": "9"
+    },
+    {
+      "id": "EXA801-T02",
+      "disciplina": "EXA801",
+      "nome_disciplina": "ALGORITMOS E PROGRAMAÇÃO I",
+      "horas": 4.0,
+      "slots": [
+        {
+          "dia": "Ter",
+          "horario": "13:30",
+          "horario_fim": "14:00",
+          "turno": "Ter-vesp"
+        },
+        {
+          "dia": "Ter",
+          "horario": "14:00",
+          "horario_fim": "14:30",
+          "turno": "Ter-vesp"
+        },
+        {
+          "dia": "Ter",
+          "horario": "14:30",
+          "horario_fim": "15:00",
+          "turno": "Ter-vesp"
+        },
+        {
+          "dia": "Ter",
+          "horario": "15:00",
+          "horario_fim": "15:30",
+          "turno": "Ter-vesp"
+        },
+        {
+          "dia": "Qui",
+          "horario": "13:30",
+          "horario_fim": "14:00",
+          "turno": "Qui-vesp"
+        },
+        {
+          "dia": "Qui",
+          "horario": "14:00",
+          "horario_fim": "14:30",
+          "turno": "Qui-vesp"
+        },
+        {
+          "dia": "Qui",
+          "horario": "14:30",
+          "horario_fim": "15:00",
+          "turno": "Qui-vesp"
+        },
+        {
+          "dia": "Qui",
+          "horario": "15:00",
+          "horario_fim": "15:30",
+          "turno": "Qui-vesp"
+        }
+      ],
+      "classe_origem": "T02",
+      "local": "PAT52 / UEFS",
+      "departamento": "DEPARTAMENTO DE CIÊNCIAS EXATAS",
+      "pagina_origem": "10"
+    },
+    {
+      "id": "EXA802-TP01",
+      "disciplina": "EXA802",
+      "nome_disciplina": "LÓGICA PARA COMPUTAÇÃO",
+      "horas": 4.0,
+      "slots": [
+        {
+          "dia": "Qua",
+          "horario": "13:30",
+          "horario_fim": "14:00",
+          "turno": "Qua-vesp"
+        },
+        {
+          "dia": "Qua",
+          "horario": "14:00",
+          "horario_fim": "14:30",
+          "turno": "Qua-vesp"
+        },
+        {
+          "dia": "Qua",
+          "horario": "14:30",
+          "horario_fim": "15:00",
+          "turno": "Qua-vesp"
+        },
+        {
+          "dia": "Qua",
+          "horario": "15:00",
+          "horario_fim": "15:30",
+          "turno": "Qua-vesp"
+        },
+        {
+          "dia": "Sex",
+          "horario": "13:30",
+          "horario_fim": "14:00",
+          "turno": "Sex-vesp"
+        },
+        {
+          "dia": "Sex",
+          "horario": "14:00",
+          "horario_fim": "14:30",
+          "turno": "Sex-vesp"
+        },
+        {
+          "dia": "Sex",
+          "horario": "14:30",
+          "horario_fim": "15:00",
+          "turno": "Sex-vesp"
+        },
+        {
+          "dia": "Sex",
+          "horario": "15:00",
+          "horario_fim": "15:30",
+          "turno": "Sex-vesp"
+        }
+      ],
+      "classe_origem": "TP01",
+      "departamento": "DEPARTAMENTO DE CIÊNCIAS EXATAS",
+      "pagina_origem": "10"
+    },
+    {
+      "id": "EXA805-T01",
+      "disciplina": "EXA805",
+      "nome_disciplina": "ALGORITMOS E PROGRAMAÇÃO II",
+      "horas": 4.0,
+      "slots": [
+        {
+          "dia": "Ter",
+          "horario": "13:30",
+          "horario_fim": "14:00",
+          "turno": "Ter-vesp"
+        },
+        {
+          "dia": "Ter",
+          "horario": "14:00",
+          "horario_fim": "14:30",
+          "turno": "Ter-vesp"
+        },
+        {
+          "dia": "Ter",
+          "horario": "14:30",
+          "horario_fim": "15:00",
+          "turno": "Ter-vesp"
+        },
+        {
+          "dia": "Ter",
+          "horario": "15:00",
+          "horario_fim": "15:30",
+          "turno": "Ter-vesp"
+        },
+        {
+          "dia": "Qui",
+          "horario": "13:30",
+          "horario_fim": "14:00",
+          "turno": "Qui-vesp"
+        },
+        {
+          "dia": "Qui",
+          "horario": "14:00",
+          "horario_fim": "14:30",
+          "turno": "Qui-vesp"
+        },
+        {
+          "dia": "Qui",
+          "horario": "14:30",
+          "horario_fim": "15:00",
+          "turno": "Qui-vesp"
+        },
+        {
+          "dia": "Qui",
+          "horario": "15:00",
+          "horario_fim": "15:30",
+          "turno": "Qui-vesp"
+        }
+      ],
+      "classe_origem": "T01",
+      "local": "PAT49 / UEFS",
+      "departamento": "DEPARTAMENTO DE CIÊNCIAS EXATAS",
+      "pagina_origem": "10"
+    },
+    {
+      "id": "EXA805-T02",
+      "disciplina": "EXA805",
+      "nome_disciplina": "ALGORITMOS E PROGRAMAÇÃO II",
+      "horas": 4.0,
+      "slots": [
+        {
+          "dia": "Ter",
+          "horario": "13:30",
+          "horario_fim": "14:00",
+          "turno": "Ter-vesp"
+        },
+        {
+          "dia": "Ter",
+          "horario": "14:00",
+          "horario_fim": "14:30",
+          "turno": "Ter-vesp"
+        },
+        {
+          "dia": "Ter",
+          "horario": "14:30",
+          "horario_fim": "15:00",
+          "turno": "Ter-vesp"
+        },
+        {
+          "dia": "Ter",
+          "horario": "15:00",
+          "horario_fim": "15:30",
+          "turno": "Ter-vesp"
+        },
+        {
+          "dia": "Qui",
+          "horario": "13:30",
+          "horario_fim": "14:00",
+          "turno": "Qui-vesp"
+        },
+        {
+          "dia": "Qui",
+          "horario": "14:00",
+          "horario_fim": "14:30",
+          "turno": "Qui-vesp"
+        },
+        {
+          "dia": "Qui",
+          "horario": "14:30",
+          "horario_fim": "15:00",
+          "turno": "Qui-vesp"
+        },
+        {
+          "dia": "Qui",
+          "horario": "15:00",
+          "horario_fim": "15:30",
+          "turno": "Qui-vesp"
+        }
+      ],
+      "classe_origem": "T02",
+      "departamento": "DEPARTAMENTO DE CIÊNCIAS EXATAS",
+      "pagina_origem": "10"
+    },
+    {
+      "id": "EXA806-T01",
+      "disciplina": "EXA806",
+      "nome_disciplina": "ESTRUTURAS DE DADOS",
+      "horas": 4.0,
+      "slots": [
+        {
+          "dia": "Ter",
+          "horario": "15:30",
+          "horario_fim": "16:00",
+          "turno": "Ter-vesp"
+        },
+        {
+          "dia": "Ter",
+          "horario": "16:00",
+          "horario_fim": "16:30",
+          "turno": "Ter-vesp"
+        },
+        {
+          "dia": "Ter",
+          "horario": "16:30",
+          "horario_fim": "17:00",
+          "turno": "Ter-vesp"
+        },
+        {
+          "dia": "Ter",
+          "horario": "17:00",
+          "horario_fim": "17:30",
+          "turno": "Ter-vesp"
+        },
+        {
+          "dia": "Qui",
+          "horario": "15:30",
+          "horario_fim": "16:00",
+          "turno": "Qui-vesp"
+        },
+        {
+          "dia": "Qui",
+          "horario": "16:00",
+          "horario_fim": "16:30",
+          "turno": "Qui-vesp"
+        },
+        {
+          "dia": "Qui",
+          "horario": "16:30",
+          "horario_fim": "17:00",
+          "turno": "Qui-vesp"
+        },
+        {
+          "dia": "Qui",
+          "horario": "17:00",
+          "horario_fim": "17:30",
+          "turno": "Qui-vesp"
+        }
+      ],
+      "classe_origem": "T01",
+      "departamento": "DEPARTAMENTO DE CIÊNCIAS EXATAS",
+      "pagina_origem": "10"
+    },
+    {
+      "id": "EXA806-T02",
+      "disciplina": "EXA806",
+      "nome_disciplina": "ESTRUTURAS DE DADOS",
+      "horas": 4.0,
+      "slots": [
+        {
+          "dia": "Ter",
+          "horario": "15:30",
+          "horario_fim": "16:00",
+          "turno": "Ter-vesp"
+        },
+        {
+          "dia": "Ter",
+          "horario": "16:00",
+          "horario_fim": "16:30",
+          "turno": "Ter-vesp"
+        },
+        {
+          "dia": "Ter",
+          "horario": "16:30",
+          "horario_fim": "17:00",
+          "turno": "Ter-vesp"
+        },
+        {
+          "dia": "Ter",
+          "horario": "17:00",
+          "horario_fim": "17:30",
+          "turno": "Ter-vesp"
+        },
+        {
+          "dia": "Qui",
+          "horario": "15:30",
+          "horario_fim": "16:00",
+          "turno": "Qui-vesp"
+        },
+        {
+          "dia": "Qui",
+          "horario": "16:00",
+          "horario_fim": "16:30",
+          "turno": "Qui-vesp"
+        },
+        {
+          "dia": "Qui",
+          "horario": "16:30",
+          "horario_fim": "17:00",
+          "turno": "Qui-vesp"
+        },
+        {
+          "dia": "Qui",
+          "horario": "17:00",
+          "horario_fim": "17:30",
+          "turno": "Qui-vesp"
+        }
+      ],
+      "classe_origem": "T02",
+      "departamento": "DEPARTAMENTO DE CIÊNCIAS EXATAS",
+      "pagina_origem": "11"
+    },
+    {
+      "id": "EXA807-T01",
+      "disciplina": "EXA807",
+      "nome_disciplina": "ESTRUTURAS DISCRETAS",
+      "horas": 4.0,
+      "slots": [
+        {
+          "dia": "Ter",
+          "horario": "07:30",
+          "horario_fim": "08:00",
+          "turno": "Ter-mat"
+        },
+        {
+          "dia": "Ter",
+          "horario": "08:00",
+          "horario_fim": "08:30",
+          "turno": "Ter-mat"
+        },
+        {
+          "dia": "Ter",
+          "horario": "08:30",
+          "horario_fim": "09:00",
+          "turno": "Ter-mat"
+        },
+        {
+          "dia": "Ter",
+          "horario": "09:00",
+          "horario_fim": "09:30",
+          "turno": "Ter-mat"
+        },
+        {
+          "dia": "Qui",
+          "horario": "07:30",
+          "horario_fim": "08:00",
+          "turno": "Qui-mat"
+        },
+        {
+          "dia": "Qui",
+          "horario": "08:00",
+          "horario_fim": "08:30",
+          "turno": "Qui-mat"
+        },
+        {
+          "dia": "Qui",
+          "horario": "08:30",
+          "horario_fim": "09:00",
+          "turno": "Qui-mat"
+        },
+        {
+          "dia": "Qui",
+          "horario": "09:00",
+          "horario_fim": "09:30",
+          "turno": "Qui-mat"
+        }
+      ],
+      "classe_origem": "T01",
+      "departamento": "DEPARTAMENTO DE CIÊNCIAS EXATAS",
+      "pagina_origem": "11"
+    },
+    {
+      "id": "EXA809-T01",
+      "disciplina": "EXA809",
+      "nome_disciplina": "ENGENHARIA DE SOFTWARE",
+      "horas": 4.0,
+      "slots": [
+        {
+          "dia": "Qua",
+          "horario": "13:30",
+          "horario_fim": "14:00",
+          "turno": "Qua-vesp"
+        },
+        {
+          "dia": "Qua",
+          "horario": "14:00",
+          "horario_fim": "14:30",
+          "turno": "Qua-vesp"
+        },
+        {
+          "dia": "Qua",
+          "horario": "14:30",
+          "horario_fim": "15:00",
+          "turno": "Qua-vesp"
+        },
+        {
+          "dia": "Qua",
+          "horario": "15:00",
+          "horario_fim": "15:30",
+          "turno": "Qua-vesp"
+        },
+        {
+          "dia": "Sex",
+          "horario": "13:30",
+          "horario_fim": "14:00",
+          "turno": "Sex-vesp"
+        },
+        {
+          "dia": "Sex",
+          "horario": "14:00",
+          "horario_fim": "14:30",
+          "turno": "Sex-vesp"
+        },
+        {
+          "dia": "Sex",
+          "horario": "14:30",
+          "horario_fim": "15:00",
+          "turno": "Sex-vesp"
+        },
+        {
+          "dia": "Sex",
+          "horario": "15:00",
+          "horario_fim": "15:30",
+          "turno": "Sex-vesp"
+        }
+      ],
+      "classe_origem": "T01",
+      "local": "PAT56 / UEFS",
+      "departamento": "DEPARTAMENTO DE CIÊNCIAS EXATAS",
+      "pagina_origem": "11"
+    },
+    {
+      "id": "EXA809-T02",
+      "disciplina": "EXA809",
+      "nome_disciplina": "ENGENHARIA DE SOFTWARE",
+      "horas": 4.0,
+      "slots": [
+        {
+          "dia": "Qua",
+          "horario": "13:30",
+          "horario_fim": "14:00",
+          "turno": "Qua-vesp"
+        },
+        {
+          "dia": "Qua",
+          "horario": "14:00",
+          "horario_fim": "14:30",
+          "turno": "Qua-vesp"
+        },
+        {
+          "dia": "Qua",
+          "horario": "14:30",
+          "horario_fim": "15:00",
+          "turno": "Qua-vesp"
+        },
+        {
+          "dia": "Qua",
+          "horario": "15:00",
+          "horario_fim": "15:30",
+          "turno": "Qua-vesp"
+        },
+        {
+          "dia": "Sex",
+          "horario": "13:30",
+          "horario_fim": "14:00",
+          "turno": "Sex-vesp"
+        },
+        {
+          "dia": "Sex",
+          "horario": "14:00",
+          "horario_fim": "14:30",
+          "turno": "Sex-vesp"
+        },
+        {
+          "dia": "Sex",
+          "horario": "14:30",
+          "horario_fim": "15:00",
+          "turno": "Sex-vesp"
+        },
+        {
+          "dia": "Sex",
+          "horario": "15:00",
+          "horario_fim": "15:30",
+          "turno": "Sex-vesp"
+        }
+      ],
+      "classe_origem": "T02",
+      "departamento": "DEPARTAMENTO DE CIÊNCIAS EXATAS",
+      "pagina_origem": "11"
+    },
+    {
+      "id": "EXA810-T01",
+      "disciplina": "EXA810",
+      "nome_disciplina": "BANCOS DE DADOS",
+      "horas": 2.0,
+      "slots": [
+        {
+          "dia": "Qua",
+          "horario": "09:30",
+          "horario_fim": "10:00",
+          "turno": "Qua-mat"
+        },
+        {
+          "dia": "Qua",
+          "horario": "10:00",
+          "horario_fim": "10:30",
+          "turno": "Qua-mat"
+        },
+        {
+          "dia": "Qua",
+          "horario": "10:30",
+          "horario_fim": "11:00",
+          "turno": "Qua-mat"
+        },
+        {
+          "dia": "Qua",
+          "horario": "11:00",
+          "horario_fim": "11:30",
+          "turno": "Qua-mat"
+        }
+      ],
+      "classe_origem": "T01",
+      "departamento": "DEPARTAMENTO DE CIÊNCIAS EXATAS",
+      "pagina_origem": "11"
+    },
+    {
+      "id": "EXA813-TP01",
+      "disciplina": "EXA813",
+      "nome_disciplina": "ANÁLISE E PROJETO DE ALGORITMOS",
+      "horas": 4.0,
+      "slots": [
+        {
+          "dia": "Ter",
+          "horario": "15:30",
+          "horario_fim": "16:00",
+          "turno": "Ter-vesp"
+        },
+        {
+          "dia": "Ter",
+          "horario": "16:00",
+          "horario_fim": "16:30",
+          "turno": "Ter-vesp"
+        },
+        {
+          "dia": "Ter",
+          "horario": "16:30",
+          "horario_fim": "17:00",
+          "turno": "Ter-vesp"
+        },
+        {
+          "dia": "Ter",
+          "horario": "17:00",
+          "horario_fim": "17:30",
+          "turno": "Ter-vesp"
+        },
+        {
+          "dia": "Qui",
+          "horario": "15:30",
+          "horario_fim": "16:00",
+          "turno": "Qui-vesp"
+        },
+        {
+          "dia": "Qui",
+          "horario": "16:00",
+          "horario_fim": "16:30",
+          "turno": "Qui-vesp"
+        },
+        {
+          "dia": "Qui",
+          "horario": "16:30",
+          "horario_fim": "17:00",
+          "turno": "Qui-vesp"
+        },
+        {
+          "dia": "Qui",
+          "horario": "17:00",
+          "horario_fim": "17:30",
+          "turno": "Qui-vesp"
+        }
+      ],
+      "classe_origem": "TP01",
+      "departamento": "DEPARTAMENTO DE CIÊNCIAS EXATAS",
+      "pagina_origem": "12"
+    },
+    {
+      "id": "EXA828-E01",
+      "disciplina": "EXA828",
+      "nome_disciplina": "ESTÁGIO",
+      "horas": 2.0,
+      "slots": [
+        {
+          "dia": "Sab",
+          "horario": "15:30",
+          "horario_fim": "16:00",
+          "turno": "Sab-vesp"
+        },
+        {
+          "dia": "Sab",
+          "horario": "16:00",
+          "horario_fim": "16:30",
+          "turno": "Sab-vesp"
+        },
+        {
+          "dia": "Sab",
+          "horario": "16:30",
+          "horario_fim": "17:00",
+          "turno": "Sab-vesp"
+        },
+        {
+          "dia": "Sab",
+          "horario": "17:00",
+          "horario_fim": "17:30",
+          "turno": "Sab-vesp"
+        }
+      ],
+      "classe_origem": "E01",
+      "departamento": "DEPARTAMENTO DE CIÊNCIAS EXATAS",
+      "pagina_origem": "12"
+    },
+    {
+      "id": "EXA854-TP01",
+      "disciplina": "EXA854",
+      "nome_disciplina": "MI - ALGORITMOS",
+      "horas": 2.0,
+      "slots": [
+        {
+          "dia": "Qua",
+          "horario": "13:30",
+          "horario_fim": "14:00",
+          "turno": "Qua-vesp"
+        },
+        {
+          "dia": "Qua",
+          "horario": "14:00",
+          "horario_fim": "14:30",
+          "turno": "Qua-vesp"
+        },
+        {
+          "dia": "Qua",
+          "horario": "14:30",
+          "horario_fim": "15:00",
+          "turno": "Qua-vesp"
+        },
+        {
+          "dia": "Qua",
+          "horario": "15:00",
+          "horario_fim": "15:30",
+          "turno": "Qua-vesp"
+        }
+      ],
+      "classe_origem": "TP01",
+      "local": "PAT53 / UEFS",
+      "departamento": "DEPARTAMENTO DE CIÊNCIAS EXATAS",
+      "pagina_origem": "12"
+    },
+    {
+      "id": "EXA854-TP02",
+      "disciplina": "EXA854",
+      "nome_disciplina": "MI - ALGORITMOS",
+      "horas": 2.0,
+      "slots": [
+        {
+          "dia": "Qua",
+          "horario": "13:30",
+          "horario_fim": "14:00",
+          "turno": "Qua-vesp"
+        },
+        {
+          "dia": "Qua",
+          "horario": "14:00",
+          "horario_fim": "14:30",
+          "turno": "Qua-vesp"
+        },
+        {
+          "dia": "Qua",
+          "horario": "14:30",
+          "horario_fim": "15:00",
+          "turno": "Qua-vesp"
+        },
+        {
+          "dia": "Qua",
+          "horario": "15:00",
+          "horario_fim": "15:30",
+          "turno": "Qua-vesp"
+        }
+      ],
+      "classe_origem": "TP02",
+      "local": "PAT59 / UEFS",
+      "departamento": "DEPARTAMENTO DE CIÊNCIAS EXATAS",
+      "pagina_origem": "12"
+    },
+    {
+      "id": "EXA854-TP03",
+      "disciplina": "EXA854",
+      "nome_disciplina": "MI - ALGORITMOS",
+      "horas": 2.0,
+      "slots": [
+        {
+          "dia": "Qua",
+          "horario": "13:30",
+          "horario_fim": "14:00",
+          "turno": "Qua-vesp"
+        },
+        {
+          "dia": "Qua",
+          "horario": "14:00",
+          "horario_fim": "14:30",
+          "turno": "Qua-vesp"
+        },
+        {
+          "dia": "Qua",
+          "horario": "14:30",
+          "horario_fim": "15:00",
+          "turno": "Qua-vesp"
+        },
+        {
+          "dia": "Qua",
+          "horario": "15:00",
+          "horario_fim": "15:30",
+          "turno": "Qua-vesp"
+        }
+      ],
+      "classe_origem": "TP03",
+      "local": "PAT50 / UEFS",
+      "departamento": "DEPARTAMENTO DE CIÊNCIAS EXATAS",
+      "pagina_origem": "12"
+    },
+    {
+      "id": "EXA854-TP04",
+      "disciplina": "EXA854",
+      "nome_disciplina": "MI - ALGORITMOS",
+      "horas": 2.0,
+      "slots": [
+        {
+          "dia": "Qua",
+          "horario": "13:30",
+          "horario_fim": "14:00",
+          "turno": "Qua-vesp"
+        },
+        {
+          "dia": "Qua",
+          "horario": "14:00",
+          "horario_fim": "14:30",
+          "turno": "Qua-vesp"
+        },
+        {
+          "dia": "Qua",
+          "horario": "14:30",
+          "horario_fim": "15:00",
+          "turno": "Qua-vesp"
+        },
+        {
+          "dia": "Qua",
+          "horario": "15:00",
+          "horario_fim": "15:30",
+          "turno": "Qua-vesp"
+        }
+      ],
+      "classe_origem": "TP04",
+      "local": "PAT49 / UEFS",
+      "departamento": "DEPARTAMENTO DE CIÊNCIAS EXATAS",
+      "pagina_origem": "12"
+    },
+    {
+      "id": "EXA854-TP05",
+      "disciplina": "EXA854",
+      "nome_disciplina": "MI - ALGORITMOS",
+      "horas": 2.0,
+      "slots": [
+        {
+          "dia": "Qua",
+          "horario": "13:30",
+          "horario_fim": "14:00",
+          "turno": "Qua-vesp"
+        },
+        {
+          "dia": "Qua",
+          "horario": "14:00",
+          "horario_fim": "14:30",
+          "turno": "Qua-vesp"
+        },
+        {
+          "dia": "Qua",
+          "horario": "14:30",
+          "horario_fim": "15:00",
+          "turno": "Qua-vesp"
+        },
+        {
+          "dia": "Qua",
+          "horario": "15:00",
+          "horario_fim": "15:30",
+          "turno": "Qua-vesp"
+        }
+      ],
+      "classe_origem": "TP05",
+      "local": "PAT47 / UEFS",
+      "departamento": "DEPARTAMENTO DE CIÊNCIAS EXATAS",
+      "pagina_origem": "12"
+    },
+    {
+      "id": "EXA861-T01",
+      "disciplina": "EXA861",
+      "nome_disciplina": "INTRODUÇÃO À ENGENHARIA DE COMPUTAÇÃO",
+      "horas": 2.0,
+      "slots": [
+        {
+          "dia": "Qua",
+          "horario": "15:30",
+          "horario_fim": "16:00",
+          "turno": "Qua-vesp"
+        },
+        {
+          "dia": "Qua",
+          "horario": "16:00",
+          "horario_fim": "16:30",
+          "turno": "Qua-vesp"
+        },
+        {
+          "dia": "Qua",
+          "horario": "16:30",
+          "horario_fim": "17:00",
+          "turno": "Qua-vesp"
+        },
+        {
+          "dia": "Qua",
+          "horario": "17:00",
+          "horario_fim": "17:30",
+          "turno": "Qua-vesp"
+        }
+      ],
+      "classe_origem": "T01",
+      "local": "PAT59 / UEFS",
+      "departamento": "DEPARTAMENTO DE CIÊNCIAS EXATAS",
+      "pagina_origem": "13"
+    },
+    {
+      "id": "EXA863-TP01",
+      "disciplina": "EXA863",
+      "nome_disciplina": "MI - PROGRAMAÇÃO",
+      "horas": 2.0,
+      "slots": [
+        {
+          "dia": "Ter",
+          "horario": "15:30",
+          "horario_fim": "16:00",
+          "turno": "Ter-vesp"
+        },
+        {
+          "dia": "Ter",
+          "horario": "16:00",
+          "horario_fim": "16:30",
+          "turno": "Ter-vesp"
+        },
+        {
+          "dia": "Ter",
+          "horario": "16:30",
+          "horario_fim": "17:00",
+          "turno": "Ter-vesp"
+        },
+        {
+          "dia": "Ter",
+          "horario": "17:00",
+          "horario_fim": "17:30",
+          "turno": "Ter-vesp"
+        }
+      ],
+      "classe_origem": "TP01",
+      "departamento": "DEPARTAMENTO DE CIÊNCIAS EXATAS",
+      "pagina_origem": "13"
+    },
+    {
+      "id": "EXA863-TP02",
+      "disciplina": "EXA863",
+      "nome_disciplina": "MI - PROGRAMAÇÃO",
+      "horas": 2.0,
+      "slots": [
+        {
+          "dia": "Ter",
+          "horario": "15:30",
+          "horario_fim": "16:00",
+          "turno": "Ter-vesp"
+        },
+        {
+          "dia": "Ter",
+          "horario": "16:00",
+          "horario_fim": "16:30",
+          "turno": "Ter-vesp"
+        },
+        {
+          "dia": "Ter",
+          "horario": "16:30",
+          "horario_fim": "17:00",
+          "turno": "Ter-vesp"
+        },
+        {
+          "dia": "Ter",
+          "horario": "17:00",
+          "horario_fim": "17:30",
+          "turno": "Ter-vesp"
+        }
+      ],
+      "classe_origem": "TP02",
+      "departamento": "DEPARTAMENTO DE CIÊNCIAS EXATAS",
+      "pagina_origem": "13"
+    },
+    {
+      "id": "EXA863-TP03",
+      "disciplina": "EXA863",
+      "nome_disciplina": "MI - PROGRAMAÇÃO",
+      "horas": 2.0,
+      "slots": [
+        {
+          "dia": "Ter",
+          "horario": "15:30",
+          "horario_fim": "16:00",
+          "turno": "Ter-vesp"
+        },
+        {
+          "dia": "Ter",
+          "horario": "16:00",
+          "horario_fim": "16:30",
+          "turno": "Ter-vesp"
+        },
+        {
+          "dia": "Ter",
+          "horario": "16:30",
+          "horario_fim": "17:00",
+          "turno": "Ter-vesp"
+        },
+        {
+          "dia": "Ter",
+          "horario": "17:00",
+          "horario_fim": "17:30",
+          "turno": "Ter-vesp"
+        }
+      ],
+      "classe_origem": "TP03",
+      "departamento": "DEPARTAMENTO DE CIÊNCIAS EXATAS",
+      "pagina_origem": "13"
+    },
+    {
+      "id": "EXA863-TP04",
+      "disciplina": "EXA863",
+      "nome_disciplina": "MI - PROGRAMAÇÃO",
+      "horas": 2.0,
+      "slots": [
+        {
+          "dia": "Ter",
+          "horario": "15:30",
+          "horario_fim": "16:00",
+          "turno": "Ter-vesp"
+        },
+        {
+          "dia": "Ter",
+          "horario": "16:00",
+          "horario_fim": "16:30",
+          "turno": "Ter-vesp"
+        },
+        {
+          "dia": "Ter",
+          "horario": "16:30",
+          "horario_fim": "17:00",
+          "turno": "Ter-vesp"
+        },
+        {
+          "dia": "Ter",
+          "horario": "17:00",
+          "horario_fim": "17:30",
+          "turno": "Ter-vesp"
+        }
+      ],
+      "classe_origem": "TP04",
+      "departamento": "DEPARTAMENTO DE CIÊNCIAS EXATAS",
+      "pagina_origem": "13"
+    },
+    {
+      "id": "EXA863-TP05",
+      "disciplina": "EXA863",
+      "nome_disciplina": "MI - PROGRAMAÇÃO",
+      "horas": 2.0,
+      "slots": [
+        {
+          "dia": "Ter",
+          "horario": "15:30",
+          "horario_fim": "16:00",
+          "turno": "Ter-vesp"
+        },
+        {
+          "dia": "Ter",
+          "horario": "16:00",
+          "horario_fim": "16:30",
+          "turno": "Ter-vesp"
+        },
+        {
+          "dia": "Ter",
+          "horario": "16:30",
+          "horario_fim": "17:00",
+          "turno": "Ter-vesp"
+        },
+        {
+          "dia": "Ter",
+          "horario": "17:00",
+          "horario_fim": "17:30",
+          "turno": "Ter-vesp"
+        }
+      ],
+      "classe_origem": "TP05",
+      "departamento": "DEPARTAMENTO DE CIÊNCIAS EXATAS",
+      "pagina_origem": "13"
+    },
+    {
+      "id": "EXA871-TP01",
+      "disciplina": "EXA871",
+      "nome_disciplina": "ARQUITETURA E DESIGN DE SOFTWARE",
+      "horas": 4.0,
+      "slots": [
+        {
+          "dia": "Ter",
+          "horario": "15:30",
+          "horario_fim": "16:00",
+          "turno": "Ter-vesp"
+        },
+        {
+          "dia": "Ter",
+          "horario": "16:00",
+          "horario_fim": "16:30",
+          "turno": "Ter-vesp"
+        },
+        {
+          "dia": "Ter",
+          "horario": "16:30",
+          "horario_fim": "17:00",
+          "turno": "Ter-vesp"
+        },
+        {
+          "dia": "Ter",
+          "horario": "17:00",
+          "horario_fim": "17:30",
+          "turno": "Ter-vesp"
+        },
+        {
+          "dia": "Qui",
+          "horario": "15:30",
+          "horario_fim": "16:00",
+          "turno": "Qui-vesp"
+        },
+        {
+          "dia": "Qui",
+          "horario": "16:00",
+          "horario_fim": "16:30",
+          "turno": "Qui-vesp"
+        },
+        {
+          "dia": "Qui",
+          "horario": "16:30",
+          "horario_fim": "17:00",
+          "turno": "Qui-vesp"
+        },
+        {
+          "dia": "Qui",
+          "horario": "17:00",
+          "horario_fim": "17:30",
+          "turno": "Qui-vesp"
+        }
+      ],
+      "classe_origem": "TP01",
+      "departamento": "DEPARTAMENTO DE CIÊNCIAS EXATAS",
+      "pagina_origem": "13"
+    },
+    {
+      "id": "FIS155-T04",
+      "disciplina": "FIS155",
+      "nome_disciplina": "FÍSICA I",
+      "horas": 4.0,
+      "slots": [
+        {
+          "dia": "Ter",
+          "horario": "07:30",
+          "horario_fim": "08:00",
+          "turno": "Ter-mat"
+        },
+        {
+          "dia": "Ter",
+          "horario": "08:00",
+          "horario_fim": "08:30",
+          "turno": "Ter-mat"
+        },
+        {
+          "dia": "Ter",
+          "horario": "08:30",
+          "horario_fim": "09:00",
+          "turno": "Ter-mat"
+        },
+        {
+          "dia": "Ter",
+          "horario": "09:00",
+          "horario_fim": "09:30",
+          "turno": "Ter-mat"
+        },
+        {
+          "dia": "Qui",
+          "horario": "07:30",
+          "horario_fim": "08:00",
+          "turno": "Qui-mat"
+        },
+        {
+          "dia": "Qui",
+          "horario": "08:00",
+          "horario_fim": "08:30",
+          "turno": "Qui-mat"
+        },
+        {
+          "dia": "Qui",
+          "horario": "08:30",
+          "horario_fim": "09:00",
+          "turno": "Qui-mat"
+        },
+        {
+          "dia": "Qui",
+          "horario": "09:00",
+          "horario_fim": "09:30",
+          "turno": "Qui-mat"
+        }
+      ],
+      "classe_origem": "T04",
+      "departamento": "DEPARTAMENTO DE FÍSICA",
+      "pagina_origem": "14"
+    },
+    {
+      "id": "FIS156-P04",
+      "disciplina": "FIS156",
+      "nome_disciplina": "FÍSICA EXPERIMENTAL I",
+      "horas": 2.0,
+      "slots": [
+        {
+          "dia": "Ter",
+          "horario": "10:30",
+          "horario_fim": "11:00",
+          "turno": "Ter-mat"
+        },
+        {
+          "dia": "Ter",
+          "horario": "11:00",
+          "horario_fim": "11:30",
+          "turno": "Ter-mat"
+        },
+        {
+          "dia": "Ter",
+          "horario": "11:30",
+          "horario_fim": "12:00",
+          "turno": "Ter-mat"
+        },
+        {
+          "dia": "Ter",
+          "horario": "12:00",
+          "horario_fim": "12:30",
+          "turno": "Ter-mat"
+        }
+      ],
+      "classe_origem": "P04",
+      "local": "MP43 / UEFS",
+      "departamento": "DEPARTAMENTO DE FÍSICA",
+      "pagina_origem": "14"
+    },
+    {
+      "id": "FIS156-P05",
+      "disciplina": "FIS156",
+      "nome_disciplina": "FÍSICA EXPERIMENTAL I",
+      "horas": 2.0,
+      "slots": [
+        {
+          "dia": "Qui",
+          "horario": "09:30",
+          "horario_fim": "10:00",
+          "turno": "Qui-mat"
+        },
+        {
+          "dia": "Qui",
+          "horario": "10:00",
+          "horario_fim": "10:30",
+          "turno": "Qui-mat"
+        },
+        {
+          "dia": "Qui",
+          "horario": "10:30",
+          "horario_fim": "11:00",
+          "turno": "Qui-mat"
+        },
+        {
+          "dia": "Qui",
+          "horario": "11:00",
+          "horario_fim": "11:30",
+          "turno": "Qui-mat"
+        }
+      ],
+      "classe_origem": "P05",
+      "local": "MP43 / UEFS",
+      "departamento": "DEPARTAMENTO DE FÍSICA",
+      "pagina_origem": "14"
+    },
+    {
+      "id": "FIS156-P06",
+      "disciplina": "FIS156",
+      "nome_disciplina": "FÍSICA EXPERIMENTAL I",
+      "horas": 2.0,
+      "slots": [
+        {
+          "dia": "Qua",
+          "horario": "07:30",
+          "horario_fim": "08:00",
+          "turno": "Qua-mat"
+        },
+        {
+          "dia": "Qua",
+          "horario": "08:00",
+          "horario_fim": "08:30",
+          "turno": "Qua-mat"
+        },
+        {
+          "dia": "Qua",
+          "horario": "08:30",
+          "horario_fim": "09:00",
+          "turno": "Qua-mat"
+        },
+        {
+          "dia": "Qua",
+          "horario": "09:00",
+          "horario_fim": "09:30",
+          "turno": "Qua-mat"
+        }
+      ],
+      "classe_origem": "P06",
+      "local": "MP43 / UEFS",
+      "departamento": "DEPARTAMENTO DE FÍSICA",
+      "pagina_origem": "14"
+    },
+    {
+      "id": "FIS160-T02",
+      "disciplina": "FIS160",
+      "nome_disciplina": "FÍSICA III",
+      "horas": 4.0,
+      "slots": [
+        {
+          "dia": "Qua",
+          "horario": "07:30",
+          "horario_fim": "08:00",
+          "turno": "Qua-mat"
+        },
+        {
+          "dia": "Qua",
+          "horario": "08:00",
+          "horario_fim": "08:30",
+          "turno": "Qua-mat"
+        },
+        {
+          "dia": "Qua",
+          "horario": "08:30",
+          "horario_fim": "09:00",
+          "turno": "Qua-mat"
+        },
+        {
+          "dia": "Qua",
+          "horario": "09:00",
+          "horario_fim": "09:30",
+          "turno": "Qua-mat"
+        },
+        {
+          "dia": "Sex",
+          "horario": "07:30",
+          "horario_fim": "08:00",
+          "turno": "Sex-mat"
+        },
+        {
+          "dia": "Sex",
+          "horario": "08:00",
+          "horario_fim": "08:30",
+          "turno": "Sex-mat"
+        },
+        {
+          "dia": "Sex",
+          "horario": "08:30",
+          "horario_fim": "09:00",
+          "turno": "Sex-mat"
+        },
+        {
+          "dia": "Sex",
+          "horario": "09:00",
+          "horario_fim": "09:30",
+          "turno": "Sex-mat"
+        }
+      ],
+      "classe_origem": "T02",
+      "departamento": "DEPARTAMENTO DE FÍSICA",
+      "pagina_origem": "14"
+    },
+    {
+      "id": "FIS161-P0301",
+      "disciplina": "FIS161",
+      "nome_disciplina": "FÍSICA EXPERIMENTAL III",
+      "horas": 2.0,
+      "slots": [
+        {
+          "dia": "Qua",
+          "horario": "09:30",
+          "horario_fim": "10:00",
+          "turno": "Qua-mat"
+        },
+        {
+          "dia": "Qua",
+          "horario": "10:00",
+          "horario_fim": "10:30",
+          "turno": "Qua-mat"
+        },
+        {
+          "dia": "Qua",
+          "horario": "10:30",
+          "horario_fim": "11:00",
+          "turno": "Qua-mat"
+        },
+        {
+          "dia": "Qua",
+          "horario": "11:00",
+          "horario_fim": "11:30",
+          "turno": "Qua-mat"
+        }
+      ],
+      "classe_origem": "P0301",
+      "local": "MP42 / UEFS",
+      "departamento": "DEPARTAMENTO DE FÍSICA",
+      "pagina_origem": "14"
+    },
+    {
+      "id": "FIS161-P0302",
+      "disciplina": "FIS161",
+      "nome_disciplina": "FÍSICA EXPERIMENTAL III",
+      "horas": 2.0,
+      "slots": [
+        {
+          "dia": "Sex",
+          "horario": "09:30",
+          "horario_fim": "10:00",
+          "turno": "Sex-mat"
+        },
+        {
+          "dia": "Sex",
+          "horario": "10:00",
+          "horario_fim": "10:30",
+          "turno": "Sex-mat"
+        },
+        {
+          "dia": "Sex",
+          "horario": "10:30",
+          "horario_fim": "11:00",
+          "turno": "Sex-mat"
+        },
+        {
+          "dia": "Sex",
+          "horario": "11:00",
+          "horario_fim": "11:30",
+          "turno": "Sex-mat"
+        }
+      ],
+      "classe_origem": "P0302",
+      "local": "MP42 / UEFS",
+      "departamento": "DEPARTAMENTO DE FÍSICA",
+      "pagina_origem": "14"
+    },
+    {
+      "id": "LET808-T09",
+      "disciplina": "LET808",
+      "nome_disciplina": "LIBRAS: NOÇÕES BÁSICAS",
+      "horas": 3.0,
+      "slots": [
+        {
+          "dia": "Qui",
+          "horario": "19:00",
+          "horario_fim": "19:30",
+          "turno": "Qui-not"
+        },
+        {
+          "dia": "Qui",
+          "horario": "19:30",
+          "horario_fim": "20:00",
+          "turno": "Qui-not"
+        },
+        {
+          "dia": "Qui",
+          "horario": "20:00",
+          "horario_fim": "20:30",
+          "turno": "Qui-not"
+        },
+        {
+          "dia": "Qui",
+          "horario": "20:30",
+          "horario_fim": "21:00",
+          "turno": "Qui-not"
+        },
+        {
+          "dia": "Qui",
+          "horario": "21:00",
+          "horario_fim": "21:30",
+          "turno": "Qui-not"
+        },
+        {
+          "dia": "Qui",
+          "horario": "21:30",
+          "horario_fim": "22:00",
+          "turno": "Qui-not"
+        }
+      ],
+      "classe_origem": "T09",
+      "local": "PAT75 / UEFS",
+      "departamento": "DEPARTAMENTO DE LETRAS E ARTES",
+      "pagina_origem": "15"
+    },
+    {
+      "id": "TEC167-TP01",
+      "disciplina": "TEC167",
+      "nome_disciplina": "CIÊNCIAS DO AMBIENTE - E",
+      "horas": 3.0,
+      "slots": [
+        {
+          "dia": "Qua",
+          "horario": "09:30",
+          "horario_fim": "10:00",
+          "turno": "Qua-mat"
+        },
+        {
+          "dia": "Qua",
+          "horario": "10:00",
+          "horario_fim": "10:30",
+          "turno": "Qua-mat"
+        },
+        {
+          "dia": "Qua",
+          "horario": "10:30",
+          "horario_fim": "11:00",
+          "turno": "Qua-mat"
+        },
+        {
+          "dia": "Qua",
+          "horario": "11:00",
+          "horario_fim": "11:30",
+          "turno": "Qua-mat"
+        },
+        {
+          "dia": "Qua",
+          "horario": "11:30",
+          "horario_fim": "12:00",
+          "turno": "Qua-mat"
+        },
+        {
+          "dia": "Qua",
+          "horario": "12:00",
+          "horario_fim": "12:30",
+          "turno": "Qua-mat"
+        }
+      ],
+      "classe_origem": "TP01",
+      "local": "PAT30 / UEFS",
+      "departamento": "DEPARTAMENTO DE TECNOLOGIA",
+      "pagina_origem": "15"
+    },
+    {
+      "id": "TEC217-TP01",
+      "disciplina": "TEC217",
+      "nome_disciplina": "MÉTODOS COMPUTACIONAIS",
+      "horas": 4.0,
+      "slots": [
+        {
+          "dia": "Ter",
+          "horario": "15:30",
+          "horario_fim": "16:00",
+          "turno": "Ter-vesp"
+        },
+        {
+          "dia": "Ter",
+          "horario": "16:00",
+          "horario_fim": "16:30",
+          "turno": "Ter-vesp"
+        },
+        {
+          "dia": "Ter",
+          "horario": "16:30",
+          "horario_fim": "17:00",
+          "turno": "Ter-vesp"
+        },
+        {
+          "dia": "Ter",
+          "horario": "17:00",
+          "horario_fim": "17:30",
+          "turno": "Ter-vesp"
+        },
+        {
+          "dia": "Qui",
+          "horario": "15:30",
+          "horario_fim": "16:00",
+          "turno": "Qui-vesp"
+        },
+        {
+          "dia": "Qui",
+          "horario": "16:00",
+          "horario_fim": "16:30",
+          "turno": "Qui-vesp"
+        },
+        {
+          "dia": "Qui",
+          "horario": "16:30",
+          "horario_fim": "17:00",
+          "turno": "Qui-vesp"
+        },
+        {
+          "dia": "Qui",
+          "horario": "17:00",
+          "horario_fim": "17:30",
+          "turno": "Qui-vesp"
+        }
+      ],
+      "classe_origem": "TP01",
+      "local": "38 / NUCAE",
+      "departamento": "DEPARTAMENTO DE TECNOLOGIA",
+      "pagina_origem": "15"
+    },
+    {
+      "id": "TEC217-TP02",
+      "disciplina": "TEC217",
+      "nome_disciplina": "MÉTODOS COMPUTACIONAIS",
+      "horas": 4.0,
+      "slots": [
+        {
+          "dia": "Seg",
+          "horario": "15:30",
+          "horario_fim": "16:00",
+          "turno": "Seg-vesp"
+        },
+        {
+          "dia": "Seg",
+          "horario": "16:00",
+          "horario_fim": "16:30",
+          "turno": "Seg-vesp"
+        },
+        {
+          "dia": "Seg",
+          "horario": "16:30",
+          "horario_fim": "17:00",
+          "turno": "Seg-vesp"
+        },
+        {
+          "dia": "Seg",
+          "horario": "17:00",
+          "horario_fim": "17:30",
+          "turno": "Seg-vesp"
+        },
+        {
+          "dia": "Qua",
+          "horario": "15:30",
+          "horario_fim": "16:00",
+          "turno": "Qua-vesp"
+        },
+        {
+          "dia": "Qua",
+          "horario": "16:00",
+          "horario_fim": "16:30",
+          "turno": "Qua-vesp"
+        },
+        {
+          "dia": "Qua",
+          "horario": "16:30",
+          "horario_fim": "17:00",
+          "turno": "Qua-vesp"
+        },
+        {
+          "dia": "Qua",
+          "horario": "17:00",
+          "horario_fim": "17:30",
+          "turno": "Qua-vesp"
+        }
+      ],
+      "classe_origem": "TP02",
+      "local": "38 / NUCAE",
+      "departamento": "DEPARTAMENTO DE TECNOLOGIA",
+      "pagina_origem": "15"
+    },
+    {
+      "id": "TEC218-T01",
+      "disciplina": "TEC218",
+      "nome_disciplina": "CIRCUITOS ELÉTRICOS",
+      "horas": 4.0,
+      "slots": [
+        {
+          "dia": "Ter",
+          "horario": "13:30",
+          "horario_fim": "14:00",
+          "turno": "Ter-vesp"
+        },
+        {
+          "dia": "Ter",
+          "horario": "14:00",
+          "horario_fim": "14:30",
+          "turno": "Ter-vesp"
+        },
+        {
+          "dia": "Ter",
+          "horario": "14:30",
+          "horario_fim": "15:00",
+          "turno": "Ter-vesp"
+        },
+        {
+          "dia": "Ter",
+          "horario": "15:00",
+          "horario_fim": "15:30",
+          "turno": "Ter-vesp"
+        },
+        {
+          "dia": "Qui",
+          "horario": "13:30",
+          "horario_fim": "14:00",
+          "turno": "Qui-vesp"
+        },
+        {
+          "dia": "Qui",
+          "horario": "14:00",
+          "horario_fim": "14:30",
+          "turno": "Qui-vesp"
+        },
+        {
+          "dia": "Qui",
+          "horario": "14:30",
+          "horario_fim": "15:00",
+          "turno": "Qui-vesp"
+        },
+        {
+          "dia": "Qui",
+          "horario": "15:00",
+          "horario_fim": "15:30",
+          "turno": "Qui-vesp"
+        }
+      ],
+      "classe_origem": "T01",
+      "local": "MT38 / UEFS",
+      "departamento": "DEPARTAMENTO DE TECNOLOGIA",
+      "pagina_origem": "15"
+    },
+    {
+      "id": "TEC218-T02",
+      "disciplina": "TEC218",
+      "nome_disciplina": "CIRCUITOS ELÉTRICOS",
+      "horas": 4.0,
+      "slots": [
+        {
+          "dia": "Ter",
+          "horario": "13:30",
+          "horario_fim": "14:00",
+          "turno": "Ter-vesp"
+        },
+        {
+          "dia": "Ter",
+          "horario": "14:00",
+          "horario_fim": "14:30",
+          "turno": "Ter-vesp"
+        },
+        {
+          "dia": "Ter",
+          "horario": "14:30",
+          "horario_fim": "15:00",
+          "turno": "Ter-vesp"
+        },
+        {
+          "dia": "Ter",
+          "horario": "15:00",
+          "horario_fim": "15:30",
+          "turno": "Ter-vesp"
+        },
+        {
+          "dia": "Qui",
+          "horario": "13:30",
+          "horario_fim": "14:00",
+          "turno": "Qui-vesp"
+        },
+        {
+          "dia": "Qui",
+          "horario": "14:00",
+          "horario_fim": "14:30",
+          "turno": "Qui-vesp"
+        },
+        {
+          "dia": "Qui",
+          "horario": "14:30",
+          "horario_fim": "15:00",
+          "turno": "Qui-vesp"
+        },
+        {
+          "dia": "Qui",
+          "horario": "15:00",
+          "horario_fim": "15:30",
+          "turno": "Qui-vesp"
+        }
+      ],
+      "classe_origem": "T02",
+      "local": "I-2 / LABOTEC 3",
+      "departamento": "DEPARTAMENTO DE TECNOLOGIA",
+      "pagina_origem": "15"
+    },
+    {
+      "id": "TEC218-T03",
+      "disciplina": "TEC218",
+      "nome_disciplina": "CIRCUITOS ELÉTRICOS",
+      "horas": 4.0,
+      "slots": [
+        {
+          "dia": "Ter",
+          "horario": "13:30",
+          "horario_fim": "14:00",
+          "turno": "Ter-vesp"
+        },
+        {
+          "dia": "Ter",
+          "horario": "14:00",
+          "horario_fim": "14:30",
+          "turno": "Ter-vesp"
+        },
+        {
+          "dia": "Ter",
+          "horario": "14:30",
+          "horario_fim": "15:00",
+          "turno": "Ter-vesp"
+        },
+        {
+          "dia": "Ter",
+          "horario": "15:00",
+          "horario_fim": "15:30",
+          "turno": "Ter-vesp"
+        },
+        {
+          "dia": "Qui",
+          "horario": "13:30",
+          "horario_fim": "14:00",
+          "turno": "Qui-vesp"
+        },
+        {
+          "dia": "Qui",
+          "horario": "14:00",
+          "horario_fim": "14:30",
+          "turno": "Qui-vesp"
+        },
+        {
+          "dia": "Qui",
+          "horario": "14:30",
+          "horario_fim": "15:00",
+          "turno": "Qui-vesp"
+        },
+        {
+          "dia": "Qui",
+          "horario": "15:00",
+          "horario_fim": "15:30",
+          "turno": "Qui-vesp"
+        }
+      ],
+      "classe_origem": "T03",
+      "local": "38 / NUCAE",
+      "departamento": "DEPARTAMENTO DE TECNOLOGIA",
+      "pagina_origem": "16"
+    },
+    {
+      "id": "TEC218-T04",
+      "disciplina": "TEC218",
+      "nome_disciplina": "CIRCUITOS ELÉTRICOS",
+      "horas": 4.0,
+      "slots": [
+        {
+          "dia": "Ter",
+          "horario": "09:30",
+          "horario_fim": "10:00",
+          "turno": "Ter-mat"
+        },
+        {
+          "dia": "Ter",
+          "horario": "10:00",
+          "horario_fim": "10:30",
+          "turno": "Ter-mat"
+        },
+        {
+          "dia": "Ter",
+          "horario": "10:30",
+          "horario_fim": "11:00",
+          "turno": "Ter-mat"
+        },
+        {
+          "dia": "Ter",
+          "horario": "11:00",
+          "horario_fim": "11:30",
+          "turno": "Ter-mat"
+        },
+        {
+          "dia": "Qui",
+          "horario": "09:30",
+          "horario_fim": "10:00",
+          "turno": "Qui-mat"
+        },
+        {
+          "dia": "Qui",
+          "horario": "10:00",
+          "horario_fim": "10:30",
+          "turno": "Qui-mat"
+        },
+        {
+          "dia": "Qui",
+          "horario": "10:30",
+          "horario_fim": "11:00",
+          "turno": "Qui-mat"
+        },
+        {
+          "dia": "Qui",
+          "horario": "11:00",
+          "horario_fim": "11:30",
+          "turno": "Qui-mat"
+        }
+      ],
+      "classe_origem": "T04",
+      "local": "MT38A / UEFS",
+      "departamento": "DEPARTAMENTO DE TECNOLOGIA",
+      "pagina_origem": "16"
+    },
+    {
+      "id": "TEC219-T01",
+      "disciplina": "TEC219",
+      "nome_disciplina": "ELETRÔNICA GERAL",
+      "horas": 2.0,
+      "slots": [
+        {
+          "dia": "Seg",
+          "horario": "13:30",
+          "horario_fim": "14:00",
+          "turno": "Seg-vesp"
+        },
+        {
+          "dia": "Seg",
+          "horario": "14:00",
+          "horario_fim": "14:30",
+          "turno": "Seg-vesp"
+        },
+        {
+          "dia": "Seg",
+          "horario": "14:30",
+          "horario_fim": "15:00",
+          "turno": "Seg-vesp"
+        },
+        {
+          "dia": "Seg",
+          "horario": "15:00",
+          "horario_fim": "15:30",
+          "turno": "Seg-vesp"
+        }
+      ],
+      "classe_origem": "T01",
+      "local": "PAT38 / UEFS",
+      "departamento": "DEPARTAMENTO DE TECNOLOGIA",
+      "pagina_origem": "16"
+    },
+    {
+      "id": "TEC220-TP01",
+      "disciplina": "TEC220",
+      "nome_disciplina": "SISTEMAS ROBÓTICOS AUTÔNOMOS",
+      "horas": 4.0,
+      "slots": [
+        {
+          "dia": "Ter",
+          "horario": "13:30",
+          "horario_fim": "14:00",
+          "turno": "Ter-vesp"
+        },
+        {
+          "dia": "Ter",
+          "horario": "14:00",
+          "horario_fim": "14:30",
+          "turno": "Ter-vesp"
+        },
+        {
+          "dia": "Ter",
+          "horario": "14:30",
+          "horario_fim": "15:00",
+          "turno": "Ter-vesp"
+        },
+        {
+          "dia": "Ter",
+          "horario": "15:00",
+          "horario_fim": "15:30",
+          "turno": "Ter-vesp"
+        },
+        {
+          "dia": "Qui",
+          "horario": "13:30",
+          "horario_fim": "14:00",
+          "turno": "Qui-vesp"
+        },
+        {
+          "dia": "Qui",
+          "horario": "14:00",
+          "horario_fim": "14:30",
+          "turno": "Qui-vesp"
+        },
+        {
+          "dia": "Qui",
+          "horario": "14:30",
+          "horario_fim": "15:00",
+          "turno": "Qui-vesp"
+        },
+        {
+          "dia": "Qui",
+          "horario": "15:00",
+          "horario_fim": "15:30",
+          "turno": "Qui-vesp"
+        }
+      ],
+      "classe_origem": "TP01",
+      "local": "MT38B / UEFS",
+      "departamento": "DEPARTAMENTO DE TECNOLOGIA",
+      "pagina_origem": "16"
+    },
+    {
+      "id": "TEC221-TP01",
+      "disciplina": "TEC221",
+      "nome_disciplina": "TÓPICOS DE FORMAÇÃO COMPLEMENTAR",
+      "horas": 4.0,
+      "slots": [
+        {
+          "dia": "Ter",
+          "horario": "09:30",
+          "horario_fim": "10:00",
+          "turno": "Ter-mat"
+        },
+        {
+          "dia": "Ter",
+          "horario": "10:00",
+          "horario_fim": "10:30",
+          "turno": "Ter-mat"
+        },
+        {
+          "dia": "Ter",
+          "horario": "10:30",
+          "horario_fim": "11:00",
+          "turno": "Ter-mat"
+        },
+        {
+          "dia": "Ter",
+          "horario": "11:00",
+          "horario_fim": "11:30",
+          "turno": "Ter-mat"
+        },
+        {
+          "dia": "Qui",
+          "horario": "09:30",
+          "horario_fim": "10:00",
+          "turno": "Qui-mat"
+        },
+        {
+          "dia": "Qui",
+          "horario": "10:00",
+          "horario_fim": "10:30",
+          "turno": "Qui-mat"
+        },
+        {
+          "dia": "Qui",
+          "horario": "10:30",
+          "horario_fim": "11:00",
+          "turno": "Qui-mat"
+        },
+        {
+          "dia": "Qui",
+          "horario": "11:00",
+          "horario_fim": "11:30",
+          "turno": "Qui-mat"
+        }
+      ],
+      "classe_origem": "TP01",
+      "local": "PAT30 / UEFS",
+      "departamento": "DEPARTAMENTO DE TECNOLOGIA",
+      "pagina_origem": "16"
+    },
+    {
+      "id": "TEC222-TP01",
+      "disciplina": "TEC222",
+      "nome_disciplina": "TRABALHO DE CONCLUSÃO DE CURSO II",
+      "horas": 2.0,
+      "slots": [
+        {
+          "dia": "Sab",
+          "horario": "15:30",
+          "horario_fim": "16:00",
+          "turno": "Sab-vesp"
+        },
+        {
+          "dia": "Sab",
+          "horario": "16:00",
+          "horario_fim": "16:30",
+          "turno": "Sab-vesp"
+        },
+        {
+          "dia": "Sab",
+          "horario": "16:30",
+          "horario_fim": "17:00",
+          "turno": "Sab-vesp"
+        },
+        {
+          "dia": "Sab",
+          "horario": "17:00",
+          "horario_fim": "17:30",
+          "turno": "Sab-vesp"
+        }
+      ],
+      "classe_origem": "TP01",
+      "local": "PAT39 / UEFS",
+      "departamento": "DEPARTAMENTO DE TECNOLOGIA",
+      "pagina_origem": "17"
+    },
+    {
+      "id": "TEC224-TP01",
+      "disciplina": "TEC224",
+      "nome_disciplina": "EXTENSÃO EM COMPUTAÇÃO II",
+      "horas": 6.0,
+      "slots": [
+        {
+          "dia": "Seg",
+          "horario": "13:30",
+          "horario_fim": "14:00",
+          "turno": "Seg-vesp"
+        },
+        {
+          "dia": "Seg",
+          "horario": "14:00",
+          "horario_fim": "14:30",
+          "turno": "Seg-vesp"
+        },
+        {
+          "dia": "Seg",
+          "horario": "14:30",
+          "horario_fim": "15:00",
+          "turno": "Seg-vesp"
+        },
+        {
+          "dia": "Seg",
+          "horario": "15:00",
+          "horario_fim": "15:30",
+          "turno": "Seg-vesp"
+        },
+        {
+          "dia": "Seg",
+          "horario": "15:30",
+          "horario_fim": "16:00",
+          "turno": "Seg-vesp"
+        },
+        {
+          "dia": "Seg",
+          "horario": "16:00",
+          "horario_fim": "16:30",
+          "turno": "Seg-vesp"
+        },
+        {
+          "dia": "Qua",
+          "horario": "13:30",
+          "horario_fim": "14:00",
+          "turno": "Qua-vesp"
+        },
+        {
+          "dia": "Qua",
+          "horario": "14:00",
+          "horario_fim": "14:30",
+          "turno": "Qua-vesp"
+        },
+        {
+          "dia": "Qua",
+          "horario": "14:30",
+          "horario_fim": "15:00",
+          "turno": "Qua-vesp"
+        },
+        {
+          "dia": "Qua",
+          "horario": "15:00",
+          "horario_fim": "15:30",
+          "turno": "Qua-vesp"
+        },
+        {
+          "dia": "Qua",
+          "horario": "15:30",
+          "horario_fim": "16:00",
+          "turno": "Qua-vesp"
+        },
+        {
+          "dia": "Qua",
+          "horario": "16:00",
+          "horario_fim": "16:30",
+          "turno": "Qua-vesp"
+        }
+      ],
+      "classe_origem": "TP01",
+      "local": "PAT32 / UEFS",
+      "departamento": "DEPARTAMENTO DE TECNOLOGIA",
+      "pagina_origem": "17"
+    },
+    {
+      "id": "TEC401-T01",
+      "disciplina": "TEC401",
+      "nome_disciplina": "CIRCUITOS DIGITAIS",
+      "horas": 2.0,
+      "slots": [
+        {
+          "dia": "Qua",
+          "horario": "15:30",
+          "horario_fim": "16:00",
+          "turno": "Qua-vesp"
+        },
+        {
+          "dia": "Qua",
+          "horario": "16:00",
+          "horario_fim": "16:30",
+          "turno": "Qua-vesp"
+        },
+        {
+          "dia": "Qua",
+          "horario": "16:30",
+          "horario_fim": "17:00",
+          "turno": "Qua-vesp"
+        },
+        {
+          "dia": "Qua",
+          "horario": "17:00",
+          "horario_fim": "17:30",
+          "turno": "Qua-vesp"
+        }
+      ],
+      "classe_origem": "T01",
+      "local": "PAT38 / UEFS",
+      "departamento": "DEPARTAMENTO DE TECNOLOGIA",
+      "pagina_origem": "17"
+    },
+    {
+      "id": "TEC402-T01",
+      "disciplina": "TEC402",
+      "nome_disciplina": "ARQUITETURA DE COMPUTADORES",
+      "horas": 4.0,
+      "slots": [
+        {
+          "dia": "Qua",
+          "horario": "07:30",
+          "horario_fim": "08:00",
+          "turno": "Qua-mat"
+        },
+        {
+          "dia": "Qua",
+          "horario": "08:00",
+          "horario_fim": "08:30",
+          "turno": "Qua-mat"
+        },
+        {
+          "dia": "Qua",
+          "horario": "08:30",
+          "horario_fim": "09:00",
+          "turno": "Qua-mat"
+        },
+        {
+          "dia": "Qua",
+          "horario": "09:00",
+          "horario_fim": "09:30",
+          "turno": "Qua-mat"
+        },
+        {
+          "dia": "Sex",
+          "horario": "07:30",
+          "horario_fim": "08:00",
+          "turno": "Sex-mat"
+        },
+        {
+          "dia": "Sex",
+          "horario": "08:00",
+          "horario_fim": "08:30",
+          "turno": "Sex-mat"
+        },
+        {
+          "dia": "Sex",
+          "horario": "08:30",
+          "horario_fim": "09:00",
+          "turno": "Sex-mat"
+        },
+        {
+          "dia": "Sex",
+          "horario": "09:00",
+          "horario_fim": "09:30",
+          "turno": "Sex-mat"
+        }
+      ],
+      "classe_origem": "T01",
+      "local": "PAT30 / UEFS",
+      "departamento": "DEPARTAMENTO DE TECNOLOGIA",
+      "pagina_origem": "17"
+    },
+    {
+      "id": "TEC408-T01",
+      "disciplina": "TEC408",
+      "nome_disciplina": "SISTEMAS OPERACIONAIS",
+      "horas": 4.0,
+      "slots": [
+        {
+          "dia": "Ter",
+          "horario": "13:30",
+          "horario_fim": "14:00",
+          "turno": "Ter-vesp"
+        },
+        {
+          "dia": "Ter",
+          "horario": "14:00",
+          "horario_fim": "14:30",
+          "turno": "Ter-vesp"
+        },
+        {
+          "dia": "Ter",
+          "horario": "14:30",
+          "horario_fim": "15:00",
+          "turno": "Ter-vesp"
+        },
+        {
+          "dia": "Ter",
+          "horario": "15:00",
+          "horario_fim": "15:30",
+          "turno": "Ter-vesp"
+        },
+        {
+          "dia": "Qui",
+          "horario": "13:30",
+          "horario_fim": "14:00",
+          "turno": "Qui-vesp"
+        },
+        {
+          "dia": "Qui",
+          "horario": "14:00",
+          "horario_fim": "14:30",
+          "turno": "Qui-vesp"
+        },
+        {
+          "dia": "Qui",
+          "horario": "14:30",
+          "horario_fim": "15:00",
+          "turno": "Qui-vesp"
+        },
+        {
+          "dia": "Qui",
+          "horario": "15:00",
+          "horario_fim": "15:30",
+          "turno": "Qui-vesp"
+        }
+      ],
+      "classe_origem": "T01",
+      "local": "PAT32 / UEFS",
+      "departamento": "DEPARTAMENTO DE TECNOLOGIA",
+      "pagina_origem": "17"
+    },
+    {
+      "id": "TEC408-T02",
+      "disciplina": "TEC408",
+      "nome_disciplina": "SISTEMAS OPERACIONAIS",
+      "horas": 4.0,
+      "slots": [
+        {
+          "dia": "Ter",
+          "horario": "13:30",
+          "horario_fim": "14:00",
+          "turno": "Ter-vesp"
+        },
+        {
+          "dia": "Ter",
+          "horario": "14:00",
+          "horario_fim": "14:30",
+          "turno": "Ter-vesp"
+        },
+        {
+          "dia": "Ter",
+          "horario": "14:30",
+          "horario_fim": "15:00",
+          "turno": "Ter-vesp"
+        },
+        {
+          "dia": "Ter",
+          "horario": "15:00",
+          "horario_fim": "15:30",
+          "turno": "Ter-vesp"
+        },
+        {
+          "dia": "Qui",
+          "horario": "13:30",
+          "horario_fim": "14:00",
+          "turno": "Qui-vesp"
+        },
+        {
+          "dia": "Qui",
+          "horario": "14:00",
+          "horario_fim": "14:30",
+          "turno": "Qui-vesp"
+        },
+        {
+          "dia": "Qui",
+          "horario": "14:30",
+          "horario_fim": "15:00",
+          "turno": "Qui-vesp"
+        },
+        {
+          "dia": "Qui",
+          "horario": "15:00",
+          "horario_fim": "15:30",
+          "turno": "Qui-vesp"
+        }
+      ],
+      "classe_origem": "T02",
+      "local": "PAT33 / UEFS",
+      "departamento": "DEPARTAMENTO DE TECNOLOGIA",
+      "pagina_origem": "18"
+    },
+    {
+      "id": "TEC409-T01",
+      "disciplina": "TEC409",
+      "nome_disciplina": "REDES DE COMPUTADORES",
+      "horas": 4.0,
+      "slots": [
+        {
+          "dia": "Ter",
+          "horario": "13:30",
+          "horario_fim": "14:00",
+          "turno": "Ter-vesp"
+        },
+        {
+          "dia": "Ter",
+          "horario": "14:00",
+          "horario_fim": "14:30",
+          "turno": "Ter-vesp"
+        },
+        {
+          "dia": "Ter",
+          "horario": "14:30",
+          "horario_fim": "15:00",
+          "turno": "Ter-vesp"
+        },
+        {
+          "dia": "Ter",
+          "horario": "15:00",
+          "horario_fim": "15:30",
+          "turno": "Ter-vesp"
+        },
+        {
+          "dia": "Qui",
+          "horario": "13:30",
+          "horario_fim": "14:00",
+          "turno": "Qui-vesp"
+        },
+        {
+          "dia": "Qui",
+          "horario": "14:00",
+          "horario_fim": "14:30",
+          "turno": "Qui-vesp"
+        },
+        {
+          "dia": "Qui",
+          "horario": "14:30",
+          "horario_fim": "15:00",
+          "turno": "Qui-vesp"
+        },
+        {
+          "dia": "Qui",
+          "horario": "15:00",
+          "horario_fim": "15:30",
+          "turno": "Qui-vesp"
+        }
+      ],
+      "classe_origem": "T01",
+      "local": "PAT34 / UEFS",
+      "departamento": "DEPARTAMENTO DE TECNOLOGIA",
+      "pagina_origem": "18"
+    },
+    {
+      "id": "TEC409-T02",
+      "disciplina": "TEC409",
+      "nome_disciplina": "REDES DE COMPUTADORES",
+      "horas": 4.0,
+      "slots": [
+        {
+          "dia": "Ter",
+          "horario": "13:30",
+          "horario_fim": "14:00",
+          "turno": "Ter-vesp"
+        },
+        {
+          "dia": "Ter",
+          "horario": "14:00",
+          "horario_fim": "14:30",
+          "turno": "Ter-vesp"
+        },
+        {
+          "dia": "Ter",
+          "horario": "14:30",
+          "horario_fim": "15:00",
+          "turno": "Ter-vesp"
+        },
+        {
+          "dia": "Ter",
+          "horario": "15:00",
+          "horario_fim": "15:30",
+          "turno": "Ter-vesp"
+        },
+        {
+          "dia": "Qui",
+          "horario": "13:30",
+          "horario_fim": "14:00",
+          "turno": "Qui-vesp"
+        },
+        {
+          "dia": "Qui",
+          "horario": "14:00",
+          "horario_fim": "14:30",
+          "turno": "Qui-vesp"
+        },
+        {
+          "dia": "Qui",
+          "horario": "14:30",
+          "horario_fim": "15:00",
+          "turno": "Qui-vesp"
+        },
+        {
+          "dia": "Qui",
+          "horario": "15:00",
+          "horario_fim": "15:30",
+          "turno": "Qui-vesp"
+        }
+      ],
+      "classe_origem": "T02",
+      "local": "PAT38 / UEFS",
+      "departamento": "DEPARTAMENTO DE TECNOLOGIA",
+      "pagina_origem": "18"
+    },
+    {
+      "id": "TEC412-T01",
+      "disciplina": "TEC412",
+      "nome_disciplina": "SINAIS E SISTEMAS",
+      "horas": 4.0,
+      "slots": [
+        {
+          "dia": "Ter",
+          "horario": "15:30",
+          "horario_fim": "16:00",
+          "turno": "Ter-vesp"
+        },
+        {
+          "dia": "Ter",
+          "horario": "16:00",
+          "horario_fim": "16:30",
+          "turno": "Ter-vesp"
+        },
+        {
+          "dia": "Ter",
+          "horario": "16:30",
+          "horario_fim": "17:00",
+          "turno": "Ter-vesp"
+        },
+        {
+          "dia": "Ter",
+          "horario": "17:00",
+          "horario_fim": "17:30",
+          "turno": "Ter-vesp"
+        },
+        {
+          "dia": "Qui",
+          "horario": "15:30",
+          "horario_fim": "16:00",
+          "turno": "Qui-vesp"
+        },
+        {
+          "dia": "Qui",
+          "horario": "16:00",
+          "horario_fim": "16:30",
+          "turno": "Qui-vesp"
+        },
+        {
+          "dia": "Qui",
+          "horario": "16:30",
+          "horario_fim": "17:00",
+          "turno": "Qui-vesp"
+        },
+        {
+          "dia": "Qui",
+          "horario": "17:00",
+          "horario_fim": "17:30",
+          "turno": "Qui-vesp"
+        }
+      ],
+      "classe_origem": "T01",
+      "local": "PAT38 / UEFS",
+      "departamento": "DEPARTAMENTO DE TECNOLOGIA",
+      "pagina_origem": "18"
+    },
+    {
+      "id": "TEC430-T01",
+      "disciplina": "TEC430",
+      "nome_disciplina": "PROCESSAMENTO DIGITAL DE SINAIS",
+      "horas": 2.0,
+      "slots": [
+        {
+          "dia": "Qua",
+          "horario": "15:30",
+          "horario_fim": "16:00",
+          "turno": "Qua-vesp"
+        },
+        {
+          "dia": "Qua",
+          "horario": "16:00",
+          "horario_fim": "16:30",
+          "turno": "Qua-vesp"
+        },
+        {
+          "dia": "Qua",
+          "horario": "16:30",
+          "horario_fim": "17:00",
+          "turno": "Qua-vesp"
+        },
+        {
+          "dia": "Qua",
+          "horario": "17:00",
+          "horario_fim": "17:30",
+          "turno": "Qua-vesp"
+        }
+      ],
+      "classe_origem": "T01",
+      "local": "PAT31 / UEFS",
+      "departamento": "DEPARTAMENTO DE TECNOLOGIA",
+      "pagina_origem": "18"
+    },
+    {
+      "id": "TEC434-TP01",
+      "disciplina": "TEC434",
+      "nome_disciplina": "COMPUTAÇÃO VISUAL",
+      "horas": 4.0,
+      "slots": [
+        {
+          "dia": "Seg",
+          "horario": "15:30",
+          "horario_fim": "16:00",
+          "turno": "Seg-vesp"
+        },
+        {
+          "dia": "Seg",
+          "horario": "16:00",
+          "horario_fim": "16:30",
+          "turno": "Seg-vesp"
+        },
+        {
+          "dia": "Seg",
+          "horario": "16:30",
+          "horario_fim": "17:00",
+          "turno": "Seg-vesp"
+        },
+        {
+          "dia": "Seg",
+          "horario": "17:00",
+          "horario_fim": "17:30",
+          "turno": "Seg-vesp"
+        },
+        {
+          "dia": "Sex",
+          "horario": "15:30",
+          "horario_fim": "16:00",
+          "turno": "Sex-vesp"
+        },
+        {
+          "dia": "Sex",
+          "horario": "16:00",
+          "horario_fim": "16:30",
+          "turno": "Sex-vesp"
+        },
+        {
+          "dia": "Sex",
+          "horario": "16:30",
+          "horario_fim": "17:00",
+          "turno": "Sex-vesp"
+        },
+        {
+          "dia": "Sex",
+          "horario": "17:00",
+          "horario_fim": "17:30",
+          "turno": "Sex-vesp"
+        }
+      ],
+      "classe_origem": "TP01",
+      "local": "PAT31 / UEFS",
+      "departamento": "DEPARTAMENTO DE TECNOLOGIA",
+      "pagina_origem": "19"
+    },
+    {
+      "id": "TEC497-P01",
+      "disciplina": "TEC497",
+      "nome_disciplina": "INTRODUÇÃO A ELETRÔNICA",
+      "horas": 2.0,
+      "slots": [
+        {
+          "dia": "Ter",
+          "horario": "15:30",
+          "horario_fim": "16:00",
+          "turno": "Ter-vesp"
+        },
+        {
+          "dia": "Ter",
+          "horario": "16:00",
+          "horario_fim": "16:30",
+          "turno": "Ter-vesp"
+        },
+        {
+          "dia": "Ter",
+          "horario": "16:30",
+          "horario_fim": "17:00",
+          "turno": "Ter-vesp"
+        },
+        {
+          "dia": "Ter",
+          "horario": "17:00",
+          "horario_fim": "17:30",
+          "turno": "Ter-vesp"
+        }
+      ],
+      "classe_origem": "P01",
+      "local": "LEI31 / UEFS",
+      "departamento": "DEPARTAMENTO DE TECNOLOGIA",
+      "pagina_origem": "19"
+    },
+    {
+      "id": "TEC497-P02",
+      "disciplina": "TEC497",
+      "nome_disciplina": "INTRODUÇÃO A ELETRÔNICA",
+      "horas": 2.0,
+      "slots": [
+        {
+          "dia": "Qui",
+          "horario": "15:30",
+          "horario_fim": "16:00",
+          "turno": "Qui-vesp"
+        },
+        {
+          "dia": "Qui",
+          "horario": "16:00",
+          "horario_fim": "16:30",
+          "turno": "Qui-vesp"
+        },
+        {
+          "dia": "Qui",
+          "horario": "16:30",
+          "horario_fim": "17:00",
+          "turno": "Qui-vesp"
+        },
+        {
+          "dia": "Qui",
+          "horario": "17:00",
+          "horario_fim": "17:30",
+          "turno": "Qui-vesp"
+        }
+      ],
+      "classe_origem": "P02",
+      "local": "LEI31 / UEFS",
+      "departamento": "DEPARTAMENTO DE TECNOLOGIA",
+      "pagina_origem": "19"
+    },
+    {
+      "id": "TEC497-P03",
+      "disciplina": "TEC497",
+      "nome_disciplina": "INTRODUÇÃO A ELETRÔNICA",
+      "horas": 2.0,
+      "slots": [
+        {
+          "dia": "Seg",
+          "horario": "13:30",
+          "horario_fim": "14:00",
+          "turno": "Seg-vesp"
+        },
+        {
+          "dia": "Seg",
+          "horario": "14:00",
+          "horario_fim": "14:30",
+          "turno": "Seg-vesp"
+        },
+        {
+          "dia": "Seg",
+          "horario": "14:30",
+          "horario_fim": "15:00",
+          "turno": "Seg-vesp"
+        },
+        {
+          "dia": "Seg",
+          "horario": "15:00",
+          "horario_fim": "15:30",
+          "turno": "Seg-vesp"
+        }
+      ],
+      "classe_origem": "P03",
+      "local": "LEI31 / UEFS",
+      "departamento": "DEPARTAMENTO DE TECNOLOGIA",
+      "pagina_origem": "19"
+    },
+    {
+      "id": "TEC497-P04",
+      "disciplina": "TEC497",
+      "nome_disciplina": "INTRODUÇÃO A ELETRÔNICA",
+      "horas": 2.0,
+      "slots": [
+        {
+          "dia": "Sex",
+          "horario": "13:30",
+          "horario_fim": "14:00",
+          "turno": "Sex-vesp"
+        },
+        {
+          "dia": "Sex",
+          "horario": "14:00",
+          "horario_fim": "14:30",
+          "turno": "Sex-vesp"
+        },
+        {
+          "dia": "Sex",
+          "horario": "14:30",
+          "horario_fim": "15:00",
+          "turno": "Sex-vesp"
+        },
+        {
+          "dia": "Sex",
+          "horario": "15:00",
+          "horario_fim": "15:30",
+          "turno": "Sex-vesp"
+        }
+      ],
+      "classe_origem": "P04",
+      "departamento": "DEPARTAMENTO DE TECNOLOGIA",
+      "pagina_origem": "19"
+    },
+    {
+      "id": "TEC498-TP01",
+      "disciplina": "TEC498",
+      "nome_disciplina": "MI - PROJETO DE CIRCUITOS DIGITAIS",
+      "horas": 4.0,
+      "slots": [
+        {
+          "dia": "Qua",
+          "horario": "09:30",
+          "horario_fim": "10:00",
+          "turno": "Qua-mat"
+        },
+        {
+          "dia": "Qua",
+          "horario": "10:00",
+          "horario_fim": "10:30",
+          "turno": "Qua-mat"
+        },
+        {
+          "dia": "Qua",
+          "horario": "10:30",
+          "horario_fim": "11:00",
+          "turno": "Qua-mat"
+        },
+        {
+          "dia": "Qua",
+          "horario": "11:00",
+          "horario_fim": "11:30",
+          "turno": "Qua-mat"
+        },
+        {
+          "dia": "Sex",
+          "horario": "09:30",
+          "horario_fim": "10:00",
+          "turno": "Sex-mat"
+        },
+        {
+          "dia": "Sex",
+          "horario": "10:00",
+          "horario_fim": "10:30",
+          "turno": "Sex-mat"
+        },
+        {
+          "dia": "Sex",
+          "horario": "10:30",
+          "horario_fim": "11:00",
+          "turno": "Sex-mat"
+        },
+        {
+          "dia": "Sex",
+          "horario": "11:00",
+          "horario_fim": "11:30",
+          "turno": "Sex-mat"
+        }
+      ],
+      "classe_origem": "TP01",
+      "local": "LED32 / UEFS",
+      "departamento": "DEPARTAMENTO DE TECNOLOGIA",
+      "pagina_origem": "20"
+    },
+    {
+      "id": "TEC498-TP01-2",
+      "disciplina": "TEC498",
+      "nome_disciplina": "MI - PROJETO DE CIRCUITOS DIGITAIS",
+      "horas": 4.0,
+      "slots": [
+        {
+          "dia": "Qua",
+          "horario": "13:30",
+          "horario_fim": "14:00",
+          "turno": "Qua-vesp"
+        },
+        {
+          "dia": "Qua",
+          "horario": "14:00",
+          "horario_fim": "14:30",
+          "turno": "Qua-vesp"
+        },
+        {
+          "dia": "Qua",
+          "horario": "14:30",
+          "horario_fim": "15:00",
+          "turno": "Qua-vesp"
+        },
+        {
+          "dia": "Qua",
+          "horario": "15:00",
+          "horario_fim": "15:30",
+          "turno": "Qua-vesp"
+        },
+        {
+          "dia": "Sex",
+          "horario": "13:30",
+          "horario_fim": "14:00",
+          "turno": "Sex-vesp"
+        },
+        {
+          "dia": "Sex",
+          "horario": "14:00",
+          "horario_fim": "14:30",
+          "turno": "Sex-vesp"
+        },
+        {
+          "dia": "Sex",
+          "horario": "14:30",
+          "horario_fim": "15:00",
+          "turno": "Sex-vesp"
+        },
+        {
+          "dia": "Sex",
+          "horario": "15:00",
+          "horario_fim": "15:30",
+          "turno": "Sex-vesp"
+        }
+      ],
+      "classe_origem": "TP01",
+      "local": "LED32 / UEFS",
+      "departamento": "DEPARTAMENTO DE TECNOLOGIA",
+      "pagina_origem": "20"
+    },
+    {
+      "id": "TEC498-TP03",
+      "disciplina": "TEC498",
+      "nome_disciplina": "MI - PROJETO DE CIRCUITOS DIGITAIS",
+      "horas": 4.0,
+      "slots": [
+        {
+          "dia": "Seg",
+          "horario": "13:30",
+          "horario_fim": "14:00",
+          "turno": "Seg-vesp"
+        },
+        {
+          "dia": "Seg",
+          "horario": "14:00",
+          "horario_fim": "14:30",
+          "turno": "Seg-vesp"
+        },
+        {
+          "dia": "Seg",
+          "horario": "14:30",
+          "horario_fim": "15:00",
+          "turno": "Seg-vesp"
+        },
+        {
+          "dia": "Seg",
+          "horario": "15:00",
+          "horario_fim": "15:30",
+          "turno": "Seg-vesp"
+        },
+        {
+          "dia": "Sex",
+          "horario": "13:30",
+          "horario_fim": "14:00",
+          "turno": "Sex-vesp"
+        },
+        {
+          "dia": "Sex",
+          "horario": "14:00",
+          "horario_fim": "14:30",
+          "turno": "Sex-vesp"
+        },
+        {
+          "dia": "Sex",
+          "horario": "14:30",
+          "horario_fim": "15:00",
+          "turno": "Sex-vesp"
+        },
+        {
+          "dia": "Sex",
+          "horario": "15:00",
+          "horario_fim": "15:30",
+          "turno": "Sex-vesp"
+        }
+      ],
+      "classe_origem": "TP03",
+      "local": "LED32 / UEFS",
+      "departamento": "DEPARTAMENTO DE TECNOLOGIA",
+      "pagina_origem": "20"
+    },
+    {
+      "id": "TEC498-TP04",
+      "disciplina": "TEC498",
+      "nome_disciplina": "MI - PROJETO DE CIRCUITOS DIGITAIS",
+      "horas": 4.0,
+      "slots": [
+        {
+          "dia": "Qua",
+          "horario": "09:30",
+          "horario_fim": "10:00",
+          "turno": "Qua-mat"
+        },
+        {
+          "dia": "Qua",
+          "horario": "10:00",
+          "horario_fim": "10:30",
+          "turno": "Qua-mat"
+        },
+        {
+          "dia": "Qua",
+          "horario": "10:30",
+          "horario_fim": "11:00",
+          "turno": "Qua-mat"
+        },
+        {
+          "dia": "Qua",
+          "horario": "11:00",
+          "horario_fim": "11:30",
+          "turno": "Qua-mat"
+        },
+        {
+          "dia": "Sex",
+          "horario": "09:30",
+          "horario_fim": "10:00",
+          "turno": "Sex-mat"
+        },
+        {
+          "dia": "Sex",
+          "horario": "10:00",
+          "horario_fim": "10:30",
+          "turno": "Sex-mat"
+        },
+        {
+          "dia": "Sex",
+          "horario": "10:30",
+          "horario_fim": "11:00",
+          "turno": "Sex-mat"
+        },
+        {
+          "dia": "Sex",
+          "horario": "11:00",
+          "horario_fim": "11:30",
+          "turno": "Sex-mat"
+        }
+      ],
+      "classe_origem": "TP04",
+      "local": "LEI31 / UEFS",
+      "departamento": "DEPARTAMENTO DE TECNOLOGIA",
+      "pagina_origem": "20"
+    },
+    {
+      "id": "TEC499-TP01",
+      "disciplina": "TEC499",
+      "nome_disciplina": "MI - SISTEMAS DIGITAIS",
+      "horas": 4.0,
+      "slots": [
+        {
+          "dia": "Qua",
+          "horario": "13:30",
+          "horario_fim": "14:00",
+          "turno": "Qua-vesp"
+        },
+        {
+          "dia": "Qua",
+          "horario": "14:00",
+          "horario_fim": "14:30",
+          "turno": "Qua-vesp"
+        },
+        {
+          "dia": "Qua",
+          "horario": "14:30",
+          "horario_fim": "15:00",
+          "turno": "Qua-vesp"
+        },
+        {
+          "dia": "Qua",
+          "horario": "15:00",
+          "horario_fim": "15:30",
+          "turno": "Qua-vesp"
+        },
+        {
+          "dia": "Sex",
+          "horario": "13:30",
+          "horario_fim": "14:00",
+          "turno": "Sex-vesp"
+        },
+        {
+          "dia": "Sex",
+          "horario": "14:00",
+          "horario_fim": "14:30",
+          "turno": "Sex-vesp"
+        },
+        {
+          "dia": "Sex",
+          "horario": "14:30",
+          "horario_fim": "15:00",
+          "turno": "Sex-vesp"
+        },
+        {
+          "dia": "Sex",
+          "horario": "15:00",
+          "horario_fim": "15:30",
+          "turno": "Sex-vesp"
+        }
+      ],
+      "classe_origem": "TP01",
+      "local": "MT38A / UEFS",
+      "departamento": "DEPARTAMENTO DE TECNOLOGIA",
+      "pagina_origem": "20"
+    },
+    {
+      "id": "TEC499-TP02",
+      "disciplina": "TEC499",
+      "nome_disciplina": "MI - SISTEMAS DIGITAIS",
+      "horas": 4.0,
+      "slots": [
+        {
+          "dia": "Qua",
+          "horario": "13:30",
+          "horario_fim": "14:00",
+          "turno": "Qua-vesp"
+        },
+        {
+          "dia": "Qua",
+          "horario": "14:00",
+          "horario_fim": "14:30",
+          "turno": "Qua-vesp"
+        },
+        {
+          "dia": "Qua",
+          "horario": "14:30",
+          "horario_fim": "15:00",
+          "turno": "Qua-vesp"
+        },
+        {
+          "dia": "Qua",
+          "horario": "15:00",
+          "horario_fim": "15:30",
+          "turno": "Qua-vesp"
+        },
+        {
+          "dia": "Sex",
+          "horario": "13:30",
+          "horario_fim": "14:00",
+          "turno": "Sex-vesp"
+        },
+        {
+          "dia": "Sex",
+          "horario": "14:00",
+          "horario_fim": "14:30",
+          "turno": "Sex-vesp"
+        },
+        {
+          "dia": "Sex",
+          "horario": "14:30",
+          "horario_fim": "15:00",
+          "turno": "Sex-vesp"
+        },
+        {
+          "dia": "Sex",
+          "horario": "15:00",
+          "horario_fim": "15:30",
+          "turno": "Sex-vesp"
+        }
+      ],
+      "classe_origem": "TP02",
+      "local": "MT38B / UEFS",
+      "departamento": "DEPARTAMENTO DE TECNOLOGIA",
+      "pagina_origem": "20"
+    },
+    {
+      "id": "TEC499-TP03",
+      "disciplina": "TEC499",
+      "nome_disciplina": "MI - SISTEMAS DIGITAIS",
+      "horas": 4.0,
+      "slots": [
+        {
+          "dia": "Qua",
+          "horario": "15:30",
+          "horario_fim": "16:00",
+          "turno": "Qua-vesp"
+        },
+        {
+          "dia": "Qua",
+          "horario": "16:00",
+          "horario_fim": "16:30",
+          "turno": "Qua-vesp"
+        },
+        {
+          "dia": "Qua",
+          "horario": "16:30",
+          "horario_fim": "17:00",
+          "turno": "Qua-vesp"
+        },
+        {
+          "dia": "Qua",
+          "horario": "17:00",
+          "horario_fim": "17:30",
+          "turno": "Qua-vesp"
+        },
+        {
+          "dia": "Sex",
+          "horario": "15:30",
+          "horario_fim": "16:00",
+          "turno": "Sex-vesp"
+        },
+        {
+          "dia": "Sex",
+          "horario": "16:00",
+          "horario_fim": "16:30",
+          "turno": "Sex-vesp"
+        },
+        {
+          "dia": "Sex",
+          "horario": "16:30",
+          "horario_fim": "17:00",
+          "turno": "Sex-vesp"
+        },
+        {
+          "dia": "Sex",
+          "horario": "17:00",
+          "horario_fim": "17:30",
+          "turno": "Sex-vesp"
+        }
+      ],
+      "classe_origem": "TP03",
+      "local": "LED32 / UEFS",
+      "departamento": "DEPARTAMENTO DE TECNOLOGIA",
+      "pagina_origem": "21"
+    },
+    {
+      "id": "TEC501-T01",
+      "disciplina": "TEC501",
+      "nome_disciplina": "ELETRÔNICA PARA PROCESSAMENTO DIGITAL DE SINAIS",
+      "horas": 2.0,
+      "slots": [
+        {
+          "dia": "Sex",
+          "horario": "15:30",
+          "horario_fim": "16:00",
+          "turno": "Sex-vesp"
+        },
+        {
+          "dia": "Sex",
+          "horario": "16:00",
+          "horario_fim": "16:30",
+          "turno": "Sex-vesp"
+        },
+        {
+          "dia": "Sex",
+          "horario": "16:30",
+          "horario_fim": "17:00",
+          "turno": "Sex-vesp"
+        },
+        {
+          "dia": "Sex",
+          "horario": "17:00",
+          "horario_fim": "17:30",
+          "turno": "Sex-vesp"
+        }
+      ],
+      "classe_origem": "T01",
+      "local": "PAT38 / UEFS",
+      "departamento": "DEPARTAMENTO DE TECNOLOGIA",
+      "pagina_origem": "21"
+    },
+    {
+      "id": "TEC502-TP01",
+      "disciplina": "TEC502",
+      "nome_disciplina": "MI - CONCORRÊNCIA E CONECTIVIDADE",
+      "horas": 4.0,
+      "slots": [
+        {
+          "dia": "Ter",
+          "horario": "15:30",
+          "horario_fim": "16:00",
+          "turno": "Ter-vesp"
+        },
+        {
+          "dia": "Ter",
+          "horario": "16:00",
+          "horario_fim": "16:30",
+          "turno": "Ter-vesp"
+        },
+        {
+          "dia": "Ter",
+          "horario": "16:30",
+          "horario_fim": "17:00",
+          "turno": "Ter-vesp"
+        },
+        {
+          "dia": "Ter",
+          "horario": "17:00",
+          "horario_fim": "17:30",
+          "turno": "Ter-vesp"
+        },
+        {
+          "dia": "Qui",
+          "horario": "15:30",
+          "horario_fim": "16:00",
+          "turno": "Qui-vesp"
+        },
+        {
+          "dia": "Qui",
+          "horario": "16:00",
+          "horario_fim": "16:30",
+          "turno": "Qui-vesp"
+        },
+        {
+          "dia": "Qui",
+          "horario": "16:30",
+          "horario_fim": "17:00",
+          "turno": "Qui-vesp"
+        },
+        {
+          "dia": "Qui",
+          "horario": "17:00",
+          "horario_fim": "17:30",
+          "turno": "Qui-vesp"
+        }
+      ],
+      "classe_origem": "TP01",
+      "local": "I-3 / LABOTEC 3",
+      "departamento": "DEPARTAMENTO DE TECNOLOGIA",
+      "pagina_origem": "21"
+    },
+    {
+      "id": "TEC502-TP02",
+      "disciplina": "TEC502",
+      "nome_disciplina": "MI - CONCORRÊNCIA E CONECTIVIDADE",
+      "horas": 4.0,
+      "slots": [
+        {
+          "dia": "Ter",
+          "horario": "15:30",
+          "horario_fim": "16:00",
+          "turno": "Ter-vesp"
+        },
+        {
+          "dia": "Ter",
+          "horario": "16:00",
+          "horario_fim": "16:30",
+          "turno": "Ter-vesp"
+        },
+        {
+          "dia": "Ter",
+          "horario": "16:30",
+          "horario_fim": "17:00",
+          "turno": "Ter-vesp"
+        },
+        {
+          "dia": "Ter",
+          "horario": "17:00",
+          "horario_fim": "17:30",
+          "turno": "Ter-vesp"
+        },
+        {
+          "dia": "Qui",
+          "horario": "15:30",
+          "horario_fim": "16:00",
+          "turno": "Qui-vesp"
+        },
+        {
+          "dia": "Qui",
+          "horario": "16:00",
+          "horario_fim": "16:30",
+          "turno": "Qui-vesp"
+        },
+        {
+          "dia": "Qui",
+          "horario": "16:30",
+          "horario_fim": "17:00",
+          "turno": "Qui-vesp"
+        },
+        {
+          "dia": "Qui",
+          "horario": "17:00",
+          "horario_fim": "17:30",
+          "turno": "Qui-vesp"
+        }
+      ],
+      "classe_origem": "TP02",
+      "local": "MP33A / UEFS",
+      "departamento": "DEPARTAMENTO DE TECNOLOGIA",
+      "pagina_origem": "21"
+    },
+    {
+      "id": "TEC502-TP03",
+      "disciplina": "TEC502",
+      "nome_disciplina": "MI - CONCORRÊNCIA E CONECTIVIDADE",
+      "horas": 4.0,
+      "slots": [
+        {
+          "dia": "Ter",
+          "horario": "15:30",
+          "horario_fim": "16:00",
+          "turno": "Ter-vesp"
+        },
+        {
+          "dia": "Ter",
+          "horario": "16:00",
+          "horario_fim": "16:30",
+          "turno": "Ter-vesp"
+        },
+        {
+          "dia": "Ter",
+          "horario": "16:30",
+          "horario_fim": "17:00",
+          "turno": "Ter-vesp"
+        },
+        {
+          "dia": "Ter",
+          "horario": "17:00",
+          "horario_fim": "17:30",
+          "turno": "Ter-vesp"
+        },
+        {
+          "dia": "Qui",
+          "horario": "15:30",
+          "horario_fim": "16:00",
+          "turno": "Qui-vesp"
+        },
+        {
+          "dia": "Qui",
+          "horario": "16:00",
+          "horario_fim": "16:30",
+          "turno": "Qui-vesp"
+        },
+        {
+          "dia": "Qui",
+          "horario": "16:30",
+          "horario_fim": "17:00",
+          "turno": "Qui-vesp"
+        },
+        {
+          "dia": "Qui",
+          "horario": "17:00",
+          "horario_fim": "17:30",
+          "turno": "Qui-vesp"
+        }
+      ],
+      "classe_origem": "TP03",
+      "local": "MT38A / UEFS",
+      "departamento": "DEPARTAMENTO DE TECNOLOGIA",
+      "pagina_origem": "21"
+    },
+    {
+      "id": "TEC502-TP04",
+      "disciplina": "TEC502",
+      "nome_disciplina": "MI - CONCORRÊNCIA E CONECTIVIDADE",
+      "horas": 4.0,
+      "slots": [
+        {
+          "dia": "Ter",
+          "horario": "15:30",
+          "horario_fim": "16:00",
+          "turno": "Ter-vesp"
+        },
+        {
+          "dia": "Ter",
+          "horario": "16:00",
+          "horario_fim": "16:30",
+          "turno": "Ter-vesp"
+        },
+        {
+          "dia": "Ter",
+          "horario": "16:30",
+          "horario_fim": "17:00",
+          "turno": "Ter-vesp"
+        },
+        {
+          "dia": "Ter",
+          "horario": "17:00",
+          "horario_fim": "17:30",
+          "turno": "Ter-vesp"
+        },
+        {
+          "dia": "Qui",
+          "horario": "15:30",
+          "horario_fim": "16:00",
+          "turno": "Qui-vesp"
+        },
+        {
+          "dia": "Qui",
+          "horario": "16:00",
+          "horario_fim": "16:30",
+          "turno": "Qui-vesp"
+        },
+        {
+          "dia": "Qui",
+          "horario": "16:30",
+          "horario_fim": "17:00",
+          "turno": "Qui-vesp"
+        },
+        {
+          "dia": "Qui",
+          "horario": "17:00",
+          "horario_fim": "17:30",
+          "turno": "Qui-vesp"
+        }
+      ],
+      "classe_origem": "TP04",
+      "local": "MT38B / UEFS",
+      "departamento": "DEPARTAMENTO DE TECNOLOGIA",
+      "pagina_origem": "21"
+    },
+    {
+      "id": "TEC503-TP01",
+      "disciplina": "TEC503",
+      "nome_disciplina": "PRODUÇÃO DE TEXTOS TÉCNICOS E ACADÊMICOS",
+      "horas": 2.0,
+      "slots": [
+        {
+          "dia": "Ter",
+          "horario": "07:30",
+          "horario_fim": "08:00",
+          "turno": "Ter-mat"
+        },
+        {
+          "dia": "Ter",
+          "horario": "08:00",
+          "horario_fim": "08:30",
+          "turno": "Ter-mat"
+        },
+        {
+          "dia": "Ter",
+          "horario": "08:30",
+          "horario_fim": "09:00",
+          "turno": "Ter-mat"
+        },
+        {
+          "dia": "Ter",
+          "horario": "09:00",
+          "horario_fim": "09:30",
+          "turno": "Ter-mat"
+        }
+      ],
+      "classe_origem": "TP01",
+      "local": "38 / NUCAE",
+      "departamento": "DEPARTAMENTO DE TECNOLOGIA",
+      "pagina_origem": "22"
+    },
+    {
+      "id": "TEC503-TP02",
+      "disciplina": "TEC503",
+      "nome_disciplina": "PRODUÇÃO DE TEXTOS TÉCNICOS E ACADÊMICOS",
+      "horas": 2.0,
+      "slots": [
+        {
+          "dia": "Sex",
+          "horario": "15:30",
+          "horario_fim": "16:00",
+          "turno": "Sex-vesp"
+        },
+        {
+          "dia": "Sex",
+          "horario": "16:00",
+          "horario_fim": "16:30",
+          "turno": "Sex-vesp"
+        },
+        {
+          "dia": "Sex",
+          "horario": "16:30",
+          "horario_fim": "17:00",
+          "turno": "Sex-vesp"
+        },
+        {
+          "dia": "Sex",
+          "horario": "17:00",
+          "horario_fim": "17:30",
+          "turno": "Sex-vesp"
+        }
+      ],
+      "classe_origem": "TP02",
+      "local": "NCA39 / UEFS",
+      "departamento": "DEPARTAMENTO DE TECNOLOGIA",
+      "pagina_origem": "22"
+    },
+    {
+      "id": "TEC506-TP01",
+      "disciplina": "TEC506",
+      "nome_disciplina": "MI - PROJETOS DE CIRCUITOS ELETRÔNICOS",
+      "horas": 2.0,
+      "slots": [
+        {
+          "dia": "Seg",
+          "horario": "15:30",
+          "horario_fim": "16:00",
+          "turno": "Seg-vesp"
+        },
+        {
+          "dia": "Seg",
+          "horario": "16:00",
+          "horario_fim": "16:30",
+          "turno": "Seg-vesp"
+        },
+        {
+          "dia": "Seg",
+          "horario": "16:30",
+          "horario_fim": "17:00",
+          "turno": "Seg-vesp"
+        },
+        {
+          "dia": "Seg",
+          "horario": "17:00",
+          "horario_fim": "17:30",
+          "turno": "Seg-vesp"
+        }
+      ],
+      "classe_origem": "TP01",
+      "local": "MT38A / UEFS",
+      "departamento": "DEPARTAMENTO DE TECNOLOGIA",
+      "pagina_origem": "22"
+    },
+    {
+      "id": "TEC506-TP02",
+      "disciplina": "TEC506",
+      "nome_disciplina": "MI - PROJETOS DE CIRCUITOS ELETRÔNICOS",
+      "horas": 2.0,
+      "slots": [
+        {
+          "dia": "Seg",
+          "horario": "15:30",
+          "horario_fim": "16:00",
+          "turno": "Seg-vesp"
+        },
+        {
+          "dia": "Seg",
+          "horario": "16:00",
+          "horario_fim": "16:30",
+          "turno": "Seg-vesp"
+        },
+        {
+          "dia": "Seg",
+          "horario": "16:30",
+          "horario_fim": "17:00",
+          "turno": "Seg-vesp"
+        },
+        {
+          "dia": "Seg",
+          "horario": "17:00",
+          "horario_fim": "17:30",
+          "turno": "Seg-vesp"
+        }
+      ],
+      "classe_origem": "TP02",
+      "local": "MT38B / UEFS",
+      "departamento": "DEPARTAMENTO DE TECNOLOGIA",
+      "pagina_origem": "22"
+    },
+    {
+      "id": "TEC507-TP01",
+      "disciplina": "TEC507",
+      "nome_disciplina": "SISTEMAS DISTRIBUÍDOS AVANÇADOS",
+      "horas": 4.0,
+      "slots": [
+        {
+          "dia": "Qua",
+          "horario": "09:30",
+          "horario_fim": "10:00",
+          "turno": "Qua-mat"
+        },
+        {
+          "dia": "Qua",
+          "horario": "10:00",
+          "horario_fim": "10:30",
+          "turno": "Qua-mat"
+        },
+        {
+          "dia": "Qua",
+          "horario": "10:30",
+          "horario_fim": "11:00",
+          "turno": "Qua-mat"
+        },
+        {
+          "dia": "Qua",
+          "horario": "11:00",
+          "horario_fim": "11:30",
+          "turno": "Qua-mat"
+        },
+        {
+          "dia": "Sex",
+          "horario": "09:30",
+          "horario_fim": "10:00",
+          "turno": "Sex-mat"
+        },
+        {
+          "dia": "Sex",
+          "horario": "10:00",
+          "horario_fim": "10:30",
+          "turno": "Sex-mat"
+        },
+        {
+          "dia": "Sex",
+          "horario": "10:30",
+          "horario_fim": "11:00",
+          "turno": "Sex-mat"
+        },
+        {
+          "dia": "Sex",
+          "horario": "11:00",
+          "horario_fim": "11:30",
+          "turno": "Sex-mat"
+        }
+      ],
+      "classe_origem": "TP01",
+      "local": "I-3 / LABOTEC 3",
+      "departamento": "DEPARTAMENTO DE TECNOLOGIA",
+      "pagina_origem": "22"
+    },
+    {
+      "id": "TEC508-TP01",
+      "disciplina": "TEC508",
+      "nome_disciplina": "COMPUTAÇÃO DE ALTO DESEMPENHO",
+      "horas": 4.0,
+      "slots": [
+        {
+          "dia": "Qua",
+          "horario": "09:30",
+          "horario_fim": "10:00",
+          "turno": "Qua-mat"
+        },
+        {
+          "dia": "Qua",
+          "horario": "10:00",
+          "horario_fim": "10:30",
+          "turno": "Qua-mat"
+        },
+        {
+          "dia": "Qua",
+          "horario": "10:30",
+          "horario_fim": "11:00",
+          "turno": "Qua-mat"
+        },
+        {
+          "dia": "Qua",
+          "horario": "11:00",
+          "horario_fim": "11:30",
+          "turno": "Qua-mat"
+        },
+        {
+          "dia": "Sex",
+          "horario": "09:30",
+          "horario_fim": "10:00",
+          "turno": "Sex-mat"
+        },
+        {
+          "dia": "Sex",
+          "horario": "10:00",
+          "horario_fim": "10:30",
+          "turno": "Sex-mat"
+        },
+        {
+          "dia": "Sex",
+          "horario": "10:30",
+          "horario_fim": "11:00",
+          "turno": "Sex-mat"
+        },
+        {
+          "dia": "Sex",
+          "horario": "11:00",
+          "horario_fim": "11:30",
+          "turno": "Sex-mat"
+        }
+      ],
+      "classe_origem": "TP01",
+      "local": "LAD3 / UEFS",
+      "departamento": "DEPARTAMENTO DE TECNOLOGIA",
+      "pagina_origem": "22"
+    },
+    {
+      "id": "TEC513-TP01",
+      "disciplina": "TEC513",
+      "nome_disciplina": "MI - PROCESSAMENTO DIGITAL DE SINAIS",
+      "horas": 4.0,
+      "slots": [
+        {
+          "dia": "Qua",
+          "horario": "13:30",
+          "horario_fim": "14:00",
+          "turno": "Qua-vesp"
+        },
+        {
+          "dia": "Qua",
+          "horario": "14:00",
+          "horario_fim": "14:30",
+          "turno": "Qua-vesp"
+        },
+        {
+          "dia": "Qua",
+          "horario": "14:30",
+          "horario_fim": "15:00",
+          "turno": "Qua-vesp"
+        },
+        {
+          "dia": "Qua",
+          "horario": "15:00",
+          "horario_fim": "15:30",
+          "turno": "Qua-vesp"
+        },
+        {
+          "dia": "Sex",
+          "horario": "13:30",
+          "horario_fim": "14:00",
+          "turno": "Sex-vesp"
+        },
+        {
+          "dia": "Sex",
+          "horario": "14:00",
+          "horario_fim": "14:30",
+          "turno": "Sex-vesp"
+        },
+        {
+          "dia": "Sex",
+          "horario": "14:30",
+          "horario_fim": "15:00",
+          "turno": "Sex-vesp"
+        },
+        {
+          "dia": "Sex",
+          "horario": "15:00",
+          "horario_fim": "15:30",
+          "turno": "Sex-vesp"
+        }
+      ],
+      "classe_origem": "TP01",
+      "local": "I-1 / LABOTEC 3",
+      "departamento": "DEPARTAMENTO DE TECNOLOGIA",
+      "pagina_origem": "23"
+    },
+    {
+      "id": "TEC513-TP02",
+      "disciplina": "TEC513",
+      "nome_disciplina": "MI - PROCESSAMENTO DIGITAL DE SINAIS",
+      "horas": 4.0,
+      "slots": [
+        {
+          "dia": "Qua",
+          "horario": "13:30",
+          "horario_fim": "14:00",
+          "turno": "Qua-vesp"
+        },
+        {
+          "dia": "Qua",
+          "horario": "14:00",
+          "horario_fim": "14:30",
+          "turno": "Qua-vesp"
+        },
+        {
+          "dia": "Qua",
+          "horario": "14:30",
+          "horario_fim": "15:00",
+          "turno": "Qua-vesp"
+        },
+        {
+          "dia": "Qua",
+          "horario": "15:00",
+          "horario_fim": "15:30",
+          "turno": "Qua-vesp"
+        },
+        {
+          "dia": "Sex",
+          "horario": "13:30",
+          "horario_fim": "14:00",
+          "turno": "Sex-vesp"
+        },
+        {
+          "dia": "Sex",
+          "horario": "14:00",
+          "horario_fim": "14:30",
+          "turno": "Sex-vesp"
+        },
+        {
+          "dia": "Sex",
+          "horario": "14:30",
+          "horario_fim": "15:00",
+          "turno": "Sex-vesp"
+        },
+        {
+          "dia": "Sex",
+          "horario": "15:00",
+          "horario_fim": "15:30",
+          "turno": "Sex-vesp"
+        }
+      ],
+      "classe_origem": "TP02",
+      "local": "MP33A / UEFS",
+      "departamento": "DEPARTAMENTO DE TECNOLOGIA",
+      "pagina_origem": "23"
+    },
+    {
+      "id": "TEC517-T01",
+      "disciplina": "TEC517",
+      "nome_disciplina": "METODOLOGIA DA PESQUISA E DESENVOLVIMENTO EM ENGENHARIA DE COMPUTAÇÃO",
+      "horas": 2.0,
+      "slots": [
+        {
+          "dia": "Qui",
+          "horario": "07:30",
+          "horario_fim": "08:00",
+          "turno": "Qui-mat"
+        },
+        {
+          "dia": "Qui",
+          "horario": "08:00",
+          "horario_fim": "08:30",
+          "turno": "Qui-mat"
+        },
+        {
+          "dia": "Qui",
+          "horario": "08:30",
+          "horario_fim": "09:00",
+          "turno": "Qui-mat"
+        },
+        {
+          "dia": "Qui",
+          "horario": "09:00",
+          "horario_fim": "09:30",
+          "turno": "Qui-mat"
+        }
+      ],
+      "classe_origem": "T01",
+      "local": "PAT36 / UEFS",
+      "departamento": "DEPARTAMENTO DE TECNOLOGIA",
+      "pagina_origem": "23"
+    },
+    {
+      "id": "TEC518-TP01",
+      "disciplina": "TEC518",
+      "nome_disciplina": "TRABALHO DE CONCLUSÃO DE CURSO I",
+      "horas": 2.0,
+      "slots": [
+        {
+          "dia": "Sab",
+          "horario": "09:30",
+          "horario_fim": "10:00",
+          "turno": "Sab-mat"
+        },
+        {
+          "dia": "Sab",
+          "horario": "10:00",
+          "horario_fim": "10:30",
+          "turno": "Sab-mat"
+        },
+        {
+          "dia": "Sab",
+          "horario": "10:30",
+          "horario_fim": "11:00",
+          "turno": "Sab-mat"
+        },
+        {
+          "dia": "Sab",
+          "horario": "11:00",
+          "horario_fim": "11:30",
+          "turno": "Sab-mat"
+        }
+      ],
+      "classe_origem": "TP01",
+      "local": "PAT30 / UEFS",
+      "departamento": "DEPARTAMENTO DE TECNOLOGIA",
+      "pagina_origem": "23"
+    },
+    {
+      "id": "TEC519-TP01",
+      "disciplina": "TEC519",
+      "nome_disciplina": "TRABALHO DE CONCLUSÃO DE CURSO II",
+      "horas": 2.0,
+      "slots": [
+        {
+          "dia": "Sab",
+          "horario": "09:30",
+          "horario_fim": "10:00",
+          "turno": "Sab-mat"
+        },
+        {
+          "dia": "Sab",
+          "horario": "10:00",
+          "horario_fim": "10:30",
+          "turno": "Sab-mat"
+        },
+        {
+          "dia": "Sab",
+          "horario": "10:30",
+          "horario_fim": "11:00",
+          "turno": "Sab-mat"
+        },
+        {
+          "dia": "Sab",
+          "horario": "11:00",
+          "horario_fim": "11:30",
+          "turno": "Sab-mat"
+        }
+      ],
+      "classe_origem": "TP01",
+      "local": "PAT39 / UEFS",
+      "departamento": "DEPARTAMENTO DE TECNOLOGIA",
+      "pagina_origem": "23"
+    }
+  ],
+  "pares_professor_turma": [
+    {
+      "professor": "P001",
+      "turma": "BIO606-TP01",
+      "qualificado": false,
+      "disponivel": true,
+      "preferencia": 0
+    },
+    {
+      "professor": "P001",
+      "turma": "CHF400-T03",
+      "qualificado": false,
+      "disponivel": true,
+      "preferencia": 0
+    },
+    {
+      "professor": "P001",
+      "turma": "CHF510-T01",
+      "qualificado": false,
+      "disponivel": true,
+      "preferencia": 0
+    },
+    {
+      "professor": "P001",
+      "turma": "CIS107-T02",
+      "qualificado": false,
+      "disponivel": false,
+      "preferencia": 0
+    },
+    {
+      "professor": "P001",
+      "turma": "CIS186-TP02",
+      "qualificado": false,
+      "disponivel": false,
+      "preferencia": 0
+    },
+    {
+      "professor": "P001",
+      "turma": "CIS199-TP02",
+      "qualificado": false,
+      "disponivel": true,
+      "preferencia": 0
+    },
+    {
+      "professor": "P001",
+      "turma": "CIS248-T02",
+      "qualificado": false,
+      "disponivel": true,
+      "preferencia": 0
+    },
+    {
+      "professor": "P001",
+      "turma": "CIS301-T02",
+      "qualificado": false,
+      "disponivel": false,
+      "preferencia": 0
+    },
+    {
+      "professor": "P001",
+      "turma": "CIS301-T03",
+      "qualificado": false,
+      "disponivel": true,
+      "preferencia": 0
+    },
+    {
+      "professor": "P001",
+      "turma": "CIS381-02",
+      "qualificado": true,
+      "disponivel": false,
+      "preferencia": 2
+    },
+    {
+      "professor": "P001",
+      "turma": "CIS382-T01",
+      "qualificado": false,
+      "disponivel": false,
+      "preferencia": 0
+    },
+    {
+      "professor": "P001",
+      "turma": "CIS385-T01",
+      "qualificado": false,
+      "disponivel": true,
+      "preferencia": 0
+    },
+    {
+      "professor": "P001",
+      "turma": "CIS425-TP01",
+      "qualificado": false,
+      "disponivel": true,
+      "preferencia": 0
+    },
+    {
+      "professor": "P001",
+      "turma": "CIS457-T01",
+      "qualificado": false,
+      "disponivel": false,
+      "preferencia": 0
+    },
+    {
+      "professor": "P001",
+      "turma": "EDU113-TP05",
+      "qualificado": false,
+      "disponivel": true,
+      "preferencia": 0
+    },
+    {
+      "professor": "P001",
+      "turma": "EDU311-TP03",
+      "qualificado": true,
+      "disponivel": true,
+      "preferencia": 3
+    },
+    {
+      "professor": "P001",
+      "turma": "EXA085-TP01",
+      "qualificado": true,
+      "disponivel": false,
+      "preferencia": 2
+    },
+    {
+      "professor": "P001",
+      "turma": "EXA417-T0P01",
+      "qualificado": true,
+      "disponivel": true,
+      "preferencia": 1
+    },
+    {
+      "professor": "P001",
+      "turma": "EXA543-T01",
+      "qualificado": true,
+      "disponivel": true,
+      "preferencia": 4
+    },
+    {
+      "professor": "P001",
+      "turma": "EXA544-T01",
+      "qualificado": true,
+      "disponivel": true,
+      "preferencia": 2
+    },
+    {
+      "professor": "P001",
+      "turma": "EXA545-TP01",
+      "qualificado": true,
+      "disponivel": true,
+      "preferencia": 4
+    },
+    {
+      "professor": "P001",
+      "turma": "EXA612-E01",
+      "qualificado": true,
+      "disponivel": false,
+      "preferencia": 2
+    },
+    {
+      "professor": "P001",
+      "turma": "EXA613-TP01",
+      "qualificado": true,
+      "disponivel": true,
+      "preferencia": 3
+    },
+    {
+      "professor": "P001",
+      "turma": "EXA613-TP02",
+      "qualificado": true,
+      "disponivel": true,
+      "preferencia": 3
+    },
+    {
+      "professor": "P001",
+      "turma": "EXA613-TP03",
+      "qualificado": true,
+      "disponivel": true,
+      "preferencia": 3
+    },
+    {
+      "professor": "P001",
+      "turma": "EXA613-TP04",
+      "qualificado": true,
+      "disponivel": true,
+      "preferencia": 3
+    },
+    {
+      "professor": "P001",
+      "turma": "EXA614-TP01",
+      "qualificado": false,
+      "disponivel": false,
+      "preferencia": 0
+    },
+    {
+      "professor": "P001",
+      "turma": "EXA615-TP01",
+      "qualificado": true,
+      "disponivel": false,
+      "preferencia": 3
+    },
+    {
+      "professor": "P001",
+      "turma": "EXA616-TP01",
+      "qualificado": false,
+      "disponivel": false,
+      "preferencia": 0
+    },
+    {
+      "professor": "P001",
+      "turma": "EXA619-TP01",
+      "qualificado": true,
+      "disponivel": true,
+      "preferencia": 3
+    },
+    {
+      "professor": "P001",
+      "turma": "EXA620-TP01",
+      "qualificado": true,
+      "disponivel": false,
+      "preferencia": 5
+    },
+    {
+      "professor": "P001",
+      "turma": "EXA622-TP01",
+      "qualificado": true,
+      "disponivel": false,
+      "preferencia": 4
+    },
+    {
+      "professor": "P001",
+      "turma": "EXA623-TP01",
+      "qualificado": false,
+      "disponivel": true,
+      "preferencia": 0
+    },
+    {
+      "professor": "P001",
+      "turma": "EXA702-T03",
+      "qualificado": true,
+      "disponivel": true,
+      "preferencia": 5
+    },
+    {
+      "professor": "P001",
+      "turma": "EXA702-T04",
+      "qualificado": true,
+      "disponivel": true,
+      "preferencia": 5
+    },
+    {
+      "professor": "P001",
+      "turma": "EXA703-T03",
+      "qualificado": true,
+      "disponivel": false,
+      "preferencia": 5
+    },
+    {
+      "professor": "P001",
+      "turma": "EXA704-T03",
+      "qualificado": true,
+      "disponivel": true,
+      "preferencia": 5
+    },
+    {
+      "professor": "P001",
+      "turma": "EXA704-T05",
+      "qualificado": true,
+      "disponivel": true,
+      "preferencia": 5
+    },
+    {
+      "professor": "P001",
+      "turma": "EXA705-T03",
+      "qualificado": true,
+      "disponivel": false,
+      "preferencia": 5
+    },
+    {
+      "professor": "P001",
+      "turma": "EXA705-T04",
+      "qualificado": true,
+      "disponivel": false,
+      "preferencia": 5
+    },
+    {
+      "professor": "P001",
+      "turma": "EXA706-T03",
+      "qualificado": true,
+      "disponivel": true,
+      "preferencia": 4
+    },
+    {
+      "professor": "P001",
+      "turma": "EXA709-T03",
+      "qualificado": true,
+      "disponivel": false,
+      "preferencia": 5
+    },
+    {
+      "professor": "P001",
+      "turma": "EXA709-T04",
+      "qualificado": true,
+      "disponivel": true,
+      "preferencia": 5
+    },
+    {
+      "professor": "P001",
+      "turma": "EXA801-T01",
+      "qualificado": true,
+      "disponivel": true,
+      "preferencia": 5
+    },
+    {
+      "professor": "P001",
+      "turma": "EXA801-T02",
+      "qualificado": true,
+      "disponivel": true,
+      "preferencia": 5
+    },
+    {
+      "professor": "P001",
+      "turma": "EXA802-TP01",
+      "qualificado": true,
+      "disponivel": true,
+      "preferencia": 5
+    },
+    {
+      "professor": "P001",
+      "turma": "EXA805-T01",
+      "qualificado": true,
+      "disponivel": true,
+      "preferencia": 4
+    },
+    {
+      "professor": "P001",
+      "turma": "EXA805-T02",
+      "qualificado": true,
+      "disponivel": true,
+      "preferencia": 4
+    },
+    {
+      "professor": "P001",
+      "turma": "EXA806-T01",
+      "qualificado": true,
+      "disponivel": true,
+      "preferencia": 5
+    },
+    {
+      "professor": "P001",
+      "turma": "EXA806-T02",
+      "qualificado": true,
+      "disponivel": true,
+      "preferencia": 5
+    },
+    {
+      "professor": "P001",
+      "turma": "EXA807-T01",
+      "qualificado": true,
+      "disponivel": false,
+      "preferencia": 4
+    },
+    {
+      "professor": "P001",
+      "turma": "EXA809-T01",
+      "qualificado": true,
+      "disponivel": true,
+      "preferencia": 2
+    },
+    {
+      "professor": "P001",
+      "turma": "EXA809-T02",
+      "qualificado": true,
+      "disponivel": true,
+      "preferencia": 2
+    },
+    {
+      "professor": "P001",
+      "turma": "EXA810-T01",
+      "qualificado": true,
+      "disponivel": true,
+      "preferencia": 3
+    },
+    {
+      "professor": "P001",
+      "turma": "EXA813-TP01",
+      "qualificado": true,
+      "disponivel": true,
+      "preferencia": 3
+    },
+    {
+      "professor": "P001",
+      "turma": "EXA828-E01",
+      "qualificado": true,
+      "disponivel": false,
+      "preferencia": 3
+    },
+    {
+      "professor": "P001",
+      "turma": "EXA854-TP01",
+      "qualificado": true,
+      "disponivel": true,
+      "preferencia": 3
+    },
+    {
+      "professor": "P001",
+      "turma": "EXA854-TP02",
+      "qualificado": true,
+      "disponivel": true,
+      "preferencia": 3
+    },
+    {
+      "professor": "P001",
+      "turma": "EXA854-TP03",
+      "qualificado": true,
+      "disponivel": true,
+      "preferencia": 3
+    },
+    {
+      "professor": "P001",
+      "turma": "EXA854-TP04",
+      "qualificado": true,
+      "disponivel": true,
+      "preferencia": 3
+    },
+    {
+      "professor": "P001",
+      "turma": "EXA854-TP05",
+      "qualificado": true,
+      "disponivel": true,
+      "preferencia": 3
+    },
+    {
+      "professor": "P001",
+      "turma": "EXA861-T01",
+      "qualificado": true,
+      "disponivel": true,
+      "preferencia": 4
+    },
+    {
+      "professor": "P001",
+      "turma": "EXA863-TP01",
+      "qualificado": true,
+      "disponivel": true,
+      "preferencia": 3
+    },
+    {
+      "professor": "P001",
+      "turma": "EXA863-TP02",
+      "qualificado": true,
+      "disponivel": true,
+      "preferencia": 3
+    },
+    {
+      "professor": "P001",
+      "turma": "EXA863-TP03",
+      "qualificado": true,
+      "disponivel": true,
+      "preferencia": 3
+    },
+    {
+      "professor": "P001",
+      "turma": "EXA863-TP04",
+      "qualificado": true,
+      "disponivel": true,
+      "preferencia": 3
+    },
+    {
+      "professor": "P001",
+      "turma": "EXA863-TP05",
+      "qualificado": true,
+      "disponivel": true,
+      "preferencia": 3
+    },
+    {
+      "professor": "P001",
+      "turma": "EXA871-TP01",
+      "qualificado": true,
+      "disponivel": true,
+      "preferencia": 5
+    },
+    {
+      "professor": "P001",
+      "turma": "FIS155-T04",
+      "qualificado": true,
+      "disponivel": false,
+      "preferencia": 2
+    },
+    {
+      "professor": "P001",
+      "turma": "FIS156-P04",
+      "qualificado": true,
+      "disponivel": true,
+      "preferencia": 2
+    },
+    {
+      "professor": "P001",
+      "turma": "FIS156-P05",
+      "qualificado": true,
+      "disponivel": false,
+      "preferencia": 2
+    },
+    {
+      "professor": "P001",
+      "turma": "FIS156-P06",
+      "qualificado": true,
+      "disponivel": true,
+      "preferencia": 2
+    },
+    {
+      "professor": "P001",
+      "turma": "FIS160-T02",
+      "qualificado": false,
+      "disponivel": true,
+      "preferencia": 0
+    },
+    {
+      "professor": "P001",
+      "turma": "FIS161-P0301",
+      "qualificado": false,
+      "disponivel": true,
+      "preferencia": 0
+    },
+    {
+      "professor": "P001",
+      "turma": "FIS161-P0302",
+      "qualificado": false,
+      "disponivel": true,
+      "preferencia": 0
+    },
+    {
+      "professor": "P001",
+      "turma": "LET808-T09",
+      "qualificado": false,
+      "disponivel": true,
+      "preferencia": 0
+    },
+    {
+      "professor": "P001",
+      "turma": "TEC167-TP01",
+      "qualificado": false,
+      "disponivel": true,
+      "preferencia": 0
+    },
+    {
+      "professor": "P001",
+      "turma": "TEC217-TP01",
+      "qualificado": true,
+      "disponivel": true,
+      "preferencia": 5
+    },
+    {
+      "professor": "P001",
+      "turma": "TEC217-TP02",
+      "qualificado": true,
+      "disponivel": false,
+      "preferencia": 5
+    },
+    {
+      "professor": "P001",
+      "turma": "TEC218-T01",
+      "qualificado": true,
+      "disponivel": true,
+      "preferencia": 4
+    },
+    {
+      "professor": "P001",
+      "turma": "TEC218-T02",
+      "qualificado": true,
+      "disponivel": true,
+      "preferencia": 4
+    },
+    {
+      "professor": "P001",
+      "turma": "TEC218-T03",
+      "qualificado": true,
+      "disponivel": true,
+      "preferencia": 4
+    },
+    {
+      "professor": "P001",
+      "turma": "TEC218-T04",
+      "qualificado": true,
+      "disponivel": false,
+      "preferencia": 4
+    },
+    {
+      "professor": "P001",
+      "turma": "TEC219-T01",
+      "qualificado": true,
+      "disponivel": false,
+      "preferencia": 4
+    },
+    {
+      "professor": "P001",
+      "turma": "TEC220-TP01",
+      "qualificado": true,
+      "disponivel": true,
+      "preferencia": 4
+    },
+    {
+      "professor": "P001",
+      "turma": "TEC221-TP01",
+      "qualificado": false,
+      "disponivel": false,
+      "preferencia": 0
+    },
+    {
+      "professor": "P001",
+      "turma": "TEC222-TP01",
+      "qualificado": true,
+      "disponivel": false,
+      "preferencia": 5
+    },
+    {
+      "professor": "P001",
+      "turma": "TEC224-TP01",
+      "qualificado": true,
+      "disponivel": false,
+      "preferencia": 5
+    },
+    {
+      "professor": "P001",
+      "turma": "TEC401-T01",
+      "qualificado": true,
+      "disponivel": true,
+      "preferencia": 5
+    },
+    {
+      "professor": "P001",
+      "turma": "TEC402-T01",
+      "qualificado": true,
+      "disponivel": true,
+      "preferencia": 5
+    },
+    {
+      "professor": "P001",
+      "turma": "TEC408-T01",
+      "qualificado": true,
+      "disponivel": true,
+      "preferencia": 5
+    },
+    {
+      "professor": "P001",
+      "turma": "TEC408-T02",
+      "qualificado": true,
+      "disponivel": true,
+      "preferencia": 5
+    },
+    {
+      "professor": "P001",
+      "turma": "TEC409-T01",
+      "qualificado": true,
+      "disponivel": true,
+      "preferencia": 5
+    },
+    {
+      "professor": "P001",
+      "turma": "TEC409-T02",
+      "qualificado": true,
+      "disponivel": true,
+      "preferencia": 5
+    },
+    {
+      "professor": "P001",
+      "turma": "TEC412-T01",
+      "qualificado": true,
+      "disponivel": true,
+      "preferencia": 5
+    },
+    {
+      "professor": "P001",
+      "turma": "TEC430-T01",
+      "qualificado": true,
+      "disponivel": true,
+      "preferencia": 5
+    },
+    {
+      "professor": "P001",
+      "turma": "TEC434-TP01",
+      "qualificado": true,
+      "disponivel": false,
+      "preferencia": 5
+    },
+    {
+      "professor": "P001",
+      "turma": "TEC497-P01",
+      "qualificado": true,
+      "disponivel": true,
+      "preferencia": 5
+    },
+    {
+      "professor": "P001",
+      "turma": "TEC497-P02",
+      "qualificado": true,
+      "disponivel": true,
+      "preferencia": 5
+    },
+    {
+      "professor": "P001",
+      "turma": "TEC497-P03",
+      "qualificado": true,
+      "disponivel": false,
+      "preferencia": 5
+    },
+    {
+      "professor": "P001",
+      "turma": "TEC497-P04",
+      "qualificado": true,
+      "disponivel": true,
+      "preferencia": 5
+    },
+    {
+      "professor": "P001",
+      "turma": "TEC498-TP01",
+      "qualificado": true,
+      "disponivel": true,
+      "preferencia": 5
+    },
+    {
+      "professor": "P001",
+      "turma": "TEC498-TP01-2",
+      "qualificado": true,
+      "disponivel": true,
+      "preferencia": 5
+    },
+    {
+      "professor": "P001",
+      "turma": "TEC498-TP03",
+      "qualificado": true,
+      "disponivel": false,
+      "preferencia": 5
+    },
+    {
+      "professor": "P001",
+      "turma": "TEC498-TP04",
+      "qualificado": true,
+      "disponivel": true,
+      "preferencia": 5
+    },
+    {
+      "professor": "P001",
+      "turma": "TEC499-TP01",
+      "qualificado": true,
+      "disponivel": true,
+      "preferencia": 5
+    },
+    {
+      "professor": "P001",
+      "turma": "TEC499-TP02",
+      "qualificado": true,
+      "disponivel": true,
+      "preferencia": 5
+    },
+    {
+      "professor": "P001",
+      "turma": "TEC499-TP03",
+      "qualificado": true,
+      "disponivel": true,
+      "preferencia": 5
+    },
+    {
+      "professor": "P001",
+      "turma": "TEC501-T01",
+      "qualificado": true,
+      "disponivel": true,
+      "preferencia": 5
+    },
+    {
+      "professor": "P001",
+      "turma": "TEC502-TP01",
+      "qualificado": true,
+      "disponivel": true,
+      "preferencia": 4
+    },
+    {
+      "professor": "P001",
+      "turma": "TEC502-TP02",
+      "qualificado": true,
+      "disponivel": true,
+      "preferencia": 4
+    },
+    {
+      "professor": "P001",
+      "turma": "TEC502-TP03",
+      "qualificado": true,
+      "disponivel": true,
+      "preferencia": 4
+    },
+    {
+      "professor": "P001",
+      "turma": "TEC502-TP04",
+      "qualificado": true,
+      "disponivel": true,
+      "preferencia": 4
+    },
+    {
+      "professor": "P001",
+      "turma": "TEC503-TP01",
+      "qualificado": true,
+      "disponivel": true,
+      "preferencia": 4
+    },
+    {
+      "professor": "P001",
+      "turma": "TEC503-TP02",
+      "qualificado": true,
+      "disponivel": true,
+      "preferencia": 4
+    },
+    {
+      "professor": "P001",
+      "turma": "TEC506-TP01",
+      "qualificado": true,
+      "disponivel": false,
+      "preferencia": 4
+    },
+    {
+      "professor": "P001",
+      "turma": "TEC506-TP02",
+      "qualificado": true,
+      "disponivel": false,
+      "preferencia": 4
+    },
+    {
+      "professor": "P001",
+      "turma": "TEC507-TP01",
+      "qualificado": true,
+      "disponivel": true,
+      "preferencia": 4
+    },
+    {
+      "professor": "P001",
+      "turma": "TEC508-TP01",
+      "qualificado": true,
+      "disponivel": true,
+      "preferencia": 5
+    },
+    {
+      "professor": "P001",
+      "turma": "TEC513-TP01",
+      "qualificado": true,
+      "disponivel": true,
+      "preferencia": 3
+    },
+    {
+      "professor": "P001",
+      "turma": "TEC513-TP02",
+      "qualificado": true,
+      "disponivel": true,
+      "preferencia": 3
+    },
+    {
+      "professor": "P001",
+      "turma": "TEC517-T01",
+      "qualificado": true,
+      "disponivel": false,
+      "preferencia": 3
+    },
+    {
+      "professor": "P001",
+      "turma": "TEC518-TP01",
+      "qualificado": true,
+      "disponivel": false,
+      "preferencia": 3
+    },
+    {
+      "professor": "P001",
+      "turma": "TEC519-TP01",
+      "qualificado": true,
+      "disponivel": false,
+      "preferencia": 3
+    }
+  ],
+  "resumo_conversao": {
+    "arquivo_forms": "respostas_formulario_ppta_teste.csv",
+    "arquivo_oferta": "oferta_turmas.csv",
+    "quantidade_professores": 1,
+    "quantidade_turmas": 124,
+    "quantidade_disciplinas": 81,
+    "quantidade_slots": 842,
+    "quantidade_turnos": 17,
+    "quantidade_pares_professor_turma": 124,
+    "quantidade_pares_nao_qualificados": 23,
+    "quantidade_pares_indisponiveis": 35,
+    "regra_qualificacao": "qualificado quando preferência > 0",
+    "regra_disponibilidade": "disponível quando nenhum slot da turma se sobrepõe a uma faixa marcada como indisponível",
+    "regra_limites_carga": "resposta Sim: utiliza mínimo e máximo informados; resposta Não: utiliza os limites padrão configurados",
+    "limite_minimo_padrao": 0.0,
+    "limite_maximo_padrao": 12.0,
+    "professores_na_oferta": "não utilizado; professores vêm exclusivamente do Forms"
+  }
+}
